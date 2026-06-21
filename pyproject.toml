@@ -1,0 +1,24 @@
+[project]
+name = "lagomy"
+version = "0.1.0"
+description = "lagomy using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]==1.14.7"
+]
+
+[project.scripts]
+lagomy = "lagomy.main:run"
+run_crew = "lagomy.main:run"
+train = "lagomy.main:train"
+replay = "lagomy.main:replay"
+test = "lagomy.main:test"
+run_with_trigger = "lagomy.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
