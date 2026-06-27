@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Point at the test image
-IMAGE_PATH = "test_images/vitabiotics_ultrairon.jpg"
+IMAGE_PATH = "test_images/sisterly_theelevator.jpg"
 
 # Read the image file and encode it as base64 (how the API expects images)
 with open(IMAGE_PATH, "rb") as f:
@@ -32,8 +32,8 @@ message = client.messages.create(
                     },
                 },
                 {
-                    "type": "text",
-                    "text": "Read this supplement label. List exactly what is printed: the product name, each active ingredient with its dose, the form (tablet, capsule, sachet, etc.), and the directions for use. Record only what is visible. Do not add advice, warnings, or commentary.",
+                   "type": "text",
+                    "text": """Read this supplement label and return ONLY a JSON object, with no other text, no markdown, and no code fences. Use exactly this structure: {"product_name": string, "form": string, "directions": string, "ingredients": [{"name": string, "amount": string, "unit": string}]}. Record only what is visible on the label. If a field is not present, use an empty string. Do not add advice, warnings, or commentary.""",
                 },
             ],
         }
