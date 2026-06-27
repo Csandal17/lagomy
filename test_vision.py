@@ -1,4 +1,5 @@
 import base64
+import json
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
@@ -40,5 +41,17 @@ message = client.messages.create(
     ],
 )
 
-# Print what Claude read back
-print(message.content[0].text)
+# Get the raw text Claude returned
+raw_text = message.content[0].text
+
+# Parse the JSON text into a real Python dictionary
+data = json.loads(raw_text)
+
+# Now Python understands it as data — let's prove it by reaching into the pieces
+print("PRODUCT:", data["product_name"])
+print("FORM:", data["form"])
+print("DIRECTIONS:", data["directions"])
+print()
+print("INGREDIENTS:")
+for item in data["ingredients"]:
+    print("  -", item["name"], "|", item["amount"], item["unit"])
