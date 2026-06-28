@@ -55,3 +55,24 @@ print()
 print("INGREDIENTS:")
 for item in data["ingredients"]:
     print("  -", item["name"], "|", item["amount"], item["unit"])
+
+# --- Save this entry to a log file so it persists ---
+
+LOG_FILE = "log.json"
+
+# Try to load any existing log; if there's none yet, start an empty list
+try:
+    with open(LOG_FILE, "r") as f:
+        log = json.load(f)
+except FileNotFoundError:
+    log = []
+
+# Add this supplement to the log
+log.append(data)
+
+# Write the whole log back to the file
+with open(LOG_FILE, "w") as f:
+    json.dump(log, f, indent=2)
+
+print()
+print(f"Saved! The log now contains {len(log)} entry/entries.")
