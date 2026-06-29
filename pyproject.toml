@@ -7,6 +7,7 @@ requires-python = ">=3.10,<3.14"
 dependencies = [
     "anthropic>=0.112.0",
     "crewai[tools]==1.14.7",
+    "fpdf2>=2.8.7",
 ]
 
 [project.scripts]
