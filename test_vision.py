@@ -34,7 +34,7 @@ message = client.messages.create(
                 },
                 {
                    "type": "text",
-                    "text": """Read this supplement label and return ONLY a JSON object, with no other text, no markdown, and no code fences. Use exactly this structure: {"product_name": string, "form": string, "directions": string, "ingredients": [{"name": string, "amount": string, "unit": string}]}. Record only what is visible on the label. If a field is not present, use an empty string. Do not add advice, warnings, or commentary.""",
+                   "text": """Read this supplement label and return ONLY a JSON object, with no other text, no markdown, and no code fences. Use exactly this structure: {"product_name": string, "form": string, "directions": string, "ingredients": [{"name": string, "canonical_name": string, "amount": string, "unit": string}]}. Record only what is visible on the label. If a field is not present, use an empty string. For canonical_name, give the single most standard common name for the ingredient (for example, "Methylcobalamin" or "Cobalamin" both become "Vitamin B12"; "Folic Acid" becomes "Folate"; "Thiamine" becomes "Vitamin B1"). Keep the original printed name in the name field unchanged. Do not add advice, warnings, or commentary.""",
                 },
             ],
         }
