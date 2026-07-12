@@ -8,6 +8,7 @@ dependencies = [
     "anthropic>=0.112.0",
     "crewai[tools]==1.14.7",
     "fpdf2>=2.8.7",
+    "tavily-python>=0.7.26",
 ]
 
 [project.scripts]
