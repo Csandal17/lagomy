@@ -2,6 +2,8 @@ from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 
+from lagomy.tools.uk_evidence_search import UKEvidenceSearchTool
+
 
 @CrewBase
 class Lagomy():
@@ -11,30 +13,24 @@ class Lagomy():
     tasks: list[Task]
 
     @agent
-    def researcher(self) -> Agent:
+    def intake_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['researcher'], # type: ignore[index]
+            config=self.agents_config['intake_agent'],  # type: ignore[index]
             verbose=True
         )
 
     @agent
-    def reporting_analyst(self) -> Agent:
+    def evidence_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['reporting_analyst'], # type: ignore[index]
+            config=self.agents_config['evidence_agent'],  # type: ignore[index]
+            tools=[UKEvidenceSearchTool()],
             verbose=True
         )
 
     @task
-    def research_task(self) -> Task:
+    def evidence_task(self) -> Task:
         return Task(
-            config=self.tasks_config['research_task'], # type: ignore[index]
-        )
-
-    @task
-    def reporting_task(self) -> Task:
-        return Task(
-            config=self.tasks_config['reporting_task'], # type: ignore[index]
-            output_file='report.md'
+            config=self.tasks_config['evidence_task'],  # type: ignore[index]
         )
 
     @crew
