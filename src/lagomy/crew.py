@@ -27,6 +27,13 @@ class Lagomy():
             verbose=True
         )
 
+    @agent
+    def synthesis_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['synthesis_agent'],  # type: ignore[index]
+            verbose=True
+        )
+    
     @task
     def evidence_task(self) -> Task:
         return Task(
@@ -41,4 +48,10 @@ class Lagomy():
             tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
+        )
+    
+    @task
+    def synthesis_task(self) -> Task:
+        return Task(
+            config=self.tasks_config['synthesis_task'],  # type: ignore[index]
         )
