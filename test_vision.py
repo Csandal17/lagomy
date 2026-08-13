@@ -19,7 +19,7 @@ client = Anthropic()
 # Ask Claude to read the label
 message = client.messages.create(
     model="claude-sonnet-4-6",
-    max_tokens=1024,
+    max_tokens=4096,
     messages=[
         {
             "role": "user",
@@ -34,7 +34,7 @@ message = client.messages.create(
                 },
                 {
                    "type": "text",
-                   "text": """Read this supplement label and return ONLY a JSON object, with no other text, no markdown, and no code fences. Use exactly this structure: {"product_name": string, "form": string, "directions": string, "ingredients": [{"name": string, "canonical_name": string, "amount": string, "unit": string}]}. Record only what is visible on the label. If a field is not present, use an empty string. For canonical_name, give the single most standard common name for the ingredient (for example, "Methylcobalamin" or "Cobalamin" both become "Vitamin B12"; "Folic Acid" becomes "Folate"; "Thiamine" becomes "Vitamin B1"). Keep the original printed name in the name field unchanged. Do not add advice, warnings, or commentary.""",
+                   "text": """Read this supplement label and return ONLY a JSON object, with no other text, no markdown, and no code fences. Use exactly this structure: {"product_name": string, "form": string, "directions": string, "ingredients": [{"name": string, "canonical_name": string, "amount": string, "unit": string}], "needs_review": [string]}. Record only what is visible on the label. If a field is not present or cannot be read with confidence, use an empty string for it and add a short plain-English note to needs_review saying which field is unclear and why (for example, "dose for Vitamin D3 is blurred" or "no 'Av. per' header visible, so it is unclear whether amounts are per tablet or per serving"). Never guess a value to fill a gap. For canonical_name, give the single most standard common name for the ingredient (for example, "Methylcobalamin" or "Cobalamin" both become "Vitamin B12"; "Folic Acid" becomes "Folate"; "Thiamine" becomes "Vitamin B1"). Keep the original printed name in the name field unchanged. Do not merge different chemical forms of the same nutrient. Do not add advice, warnings, or commentary.""",
                 },
             ],
         }
