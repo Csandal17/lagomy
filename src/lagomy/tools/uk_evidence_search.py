@@ -16,11 +16,13 @@ class UKEvidenceSearchTool(BaseTool):
         results = client.search(
             query=query,
             include_domains=["nhs.uk", "nice.org.uk", "bnf.nice.org.uk"],
-            max_results=5,
+            max_results=3,
         )
         formatted = []
         for r in results["results"]:
+            snippet = r["content"][:600]
             formatted.append(
-                f"TITLE: {r['title']}\nURL: {r['url']}\nCONTENT: {r['content']}\n"
+                f"TITLE: {r['title']}\nURL: {r['url']}\nCONTENT: {snippet}\n"
             )
         return "\n".join(formatted) if formatted else "No results found from UK sources."
+    

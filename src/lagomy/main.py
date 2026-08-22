@@ -13,10 +13,11 @@ def run():
     """
     Run the crew.
     """
-    inputs = {
-        'ingredient': 'Vitamin B12'
+    inputs = inputs = {
+        'ingredient': 'Vitamin B12',
+        'probe': 'What do published UK sources say about this ingredient?'
     }
-
+    
     try:
         Lagomy().crew().kickoff(inputs=inputs)
     except Exception as e:
