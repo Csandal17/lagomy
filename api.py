@@ -6,6 +6,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 from lagomy.crew import Lagomy
+from guardrails import find_banned_phrases
 
 load_dotenv()
 
@@ -78,8 +79,14 @@ def evidence(request: EvidenceRequest):
 
     prose = text.split("```json")[0].strip()
 
+    hits = find_banned_phrases(prose)
+    if hits:
+        print(f"GUARDRAIL: prose withheld, matched {hits}")
+        prose = None
+
     return EvidenceResponse(
         ingredient=request.ingredient,
         evidence=IngredientEvidence(**data),
         prose=prose,
+        guardrail_triggered=bool(hits),
     )
