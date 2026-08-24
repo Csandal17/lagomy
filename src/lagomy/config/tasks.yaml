@@ -57,13 +57,16 @@ synthesis_task:
     after it:
     {
       "canonical_name": "the ingredient's standard name",
-      "role": "what the nutrient does, attributed, or empty string",
-      "food_sources": "foods containing it, or empty string",
-      "reference_intake": "UK adult reference intake with unit, or empty string",
-      "upper_limit": "published maximum, or empty string",
-      "regulatory_flags": "UK regulatory notes, or empty string",
-      "sources": ["url1", "url2"]
+      "role": [{"text": "what the nutrient does", "source_url": "the URL", "source_authority": "NHS or NICE or BNF"}],
+      "food_sources": [{"text": "foods containing it", "source_url": "the URL", "source_authority": "NHS or NICE or BNF"}],
+      "reference_intake": [{"text": "UK adult reference intake with unit", "source_url": "the URL", "source_authority": "NHS or NICE or BNF"}],
+      "upper_limit": [{"text": "published maximum", "source_url": "the URL", "source_authority": "NHS or NICE or BNF"}],
+      "regulatory_flags": [{"text": "UK regulatory note", "source_url": "the URL", "source_authority": "NHS or NICE or BNF"}]
     }
-    Every non-empty field must be traceable to a source in the evidence.
-    Use empty strings for fields with no UK source. Do not invent values.
+    Each of the five fields is a LIST of statement objects. A field may contain
+    several statements if several sources support it. Use an EMPTY LIST [] for
+    any field with no UK source — never a placeholder statement.
+    Every statement must carry the exact source_url it came from, and
+    source_authority must be one of NHS, NICE, or BNF.
+    Do not put URLs inside the text field. Do not invent values.
   agent: synthesis_agent

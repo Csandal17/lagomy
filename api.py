@@ -1,6 +1,13 @@
-from datetime import date, datetime
+import json
+import re
+from datetime import date
+from dotenv import load_dotenv
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from fastapi import FastAPI
+
+from lagomy.crew import Lagomy
+
+load_dotenv()
 
 class EvidenceRequest(BaseModel):
     """What a caller sends us."""
@@ -43,21 +50,36 @@ app = FastAPI(
 def health():
     return {"status": "ok"}
 
+def extract_json(text: str) -> dict:
+    """Pull the JSON object out of the crew's prose + JSON output."""
+    match = re.search(r"```json\s*(\{.*?\})\s*```", text, re.DOTALL)
+    if not match:
+        match = re.search(r"(\{.*\})", text, re.DOTALL)
+    if not match:
+        raise HTTPException(status_code=502, detail="Crew returned no JSON block")
+    return json.loads(match.group(1))
+
+
 @app.post("/evidence", response_model=EvidenceResponse)
 def evidence(request: EvidenceRequest):
-    """Placeholder: returns a hand-built response so the schema can be seen."""
+    """Run the crew for one ingredient and return sourced evidence."""
+    result = Lagomy().crew().kickoff(inputs={
+        "ingredient": request.ingredient,
+        "probe": request.probe,
+    })
+    text = str(result)
+    data = extract_json(text)
+
+    today = date.today()
+    for field in ["role", "food_sources", "reference_intake",
+                  "upper_limit", "regulatory_flags"]:
+        for statement in data.get(field, []):
+            statement["retrieval_date"] = today
+
+    prose = text.split("```json")[0].strip()
+
     return EvidenceResponse(
         ingredient=request.ingredient,
-        evidence=IngredientEvidence(
-            canonical_name=request.ingredient,
-            reference_intake=[
-                EvidenceStatement(
-                    text="Adults aged 19 to 64 need about 1.5 micrograms a day of vitamin B12.",
-                    source_url="https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
-                    source_authority="NHS",
-                    retrieval_date=date.today(),
-                )
-            ],
-        ),
-        prose="Placeholder prose. The crew is not wired in yet.",
+        evidence=IngredientEvidence(**data),
+        prose=prose,
     )
