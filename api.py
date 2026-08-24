@@ -42,3 +42,22 @@ app = FastAPI(
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+@app.post("/evidence", response_model=EvidenceResponse)
+def evidence(request: EvidenceRequest):
+    """Placeholder: returns a hand-built response so the schema can be seen."""
+    return EvidenceResponse(
+        ingredient=request.ingredient,
+        evidence=IngredientEvidence(
+            canonical_name=request.ingredient,
+            reference_intake=[
+                EvidenceStatement(
+                    text="Adults aged 19 to 64 need about 1.5 micrograms a day of vitamin B12.",
+                    source_url="https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+                    source_authority="NHS",
+                    retrieval_date=date.today(),
+                )
+            ],
+        ),
+        prose="Placeholder prose. The crew is not wired in yet.",
+    )
