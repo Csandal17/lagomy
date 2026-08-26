@@ -52,3 +52,11 @@ For support, questions, or feedback regarding the Lagomy Crew or crewAI.
 - [Chat with our docs](https://chatg.pt/DWjSBZn)
 
 Let's create wonders together with the power and simplicity of crewAI.
+
+## Licence
+
+The code in this repository is MIT licensed — see [LICENSE](LICENSE).
+
+The Lagomy UK Supplements dataset is published separately on
+[Hugging Face](https://huggingface.co/datasets/Csandal17/lagomy-uk-supplements)
+under CC BY-NC 4.0. The MIT licence above does not cover the dataset.
