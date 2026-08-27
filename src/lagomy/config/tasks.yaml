@@ -56,7 +56,7 @@ synthesis_task:
     Then, on a new line, a JSON object with EXACTLY this structure and nothing
     after it:
     {
-      "canonical_name": "the ingredient's standard name",
+      "canonical_name": "the ingredient's standard name only, with no bracketed alternatives or synonyms (for example 'Vitamin B12', never 'Vitamin B12 (Cobalamin)')",
       "role": [{"text": "what the nutrient does", "source_url": "the URL", "source_authority": "NHS or NICE or BNF"}],
       "food_sources": [{"text": "foods containing it", "source_url": "the URL", "source_authority": "NHS or NICE or BNF"}],
       "reference_intake": [{"text": "UK adult reference intake with unit", "source_url": "the URL", "source_authority": "NHS or NICE or BNF"}],
