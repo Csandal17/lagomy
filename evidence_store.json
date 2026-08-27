@@ -1,0 +1,225 @@
+{
+  "Vitamin B12": {
+    "evidence": {
+      "canonical_name": "Vitamin B12",
+      "role": [
+        {
+          "text": "Used to make red blood cells and keep the nervous system healthy; having enough allows the body to make red blood cells that work properly to carry oxygen around the body.",
+          "source_url": "https://www.nhs.uk/medicines/cyanocobalamin/common-questions-about-cyanocobalamin",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Helps the body make red blood cells and maintains the nervous system.",
+          "source_url": "https://www.nice.org.uk/guidance/ng239/informationforpublic",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Listed among the B vitamins that help the body make red blood cells and is involved in maintaining the nervous system.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources include meat, fish, milk, cheese, eggs, and some fortified breakfast cereals.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "For those who do not eat meat, fish, or dairy products, sources may include yeast extract spreads and foods and drinks fortified with Vitamin B12, such as some breakfast cereals.",
+          "source_url": "https://www.nice.org.uk/guidance/ng239/resources/vitamin-b12-deficiency-in-over-16s-diagnosis-and-management-pdf-66143904531397",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults aged 19 to 64 need about 1.5 micrograms a day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "There is not enough evidence to show the effects of taking high doses of Vitamin B12 supplements each day. Taking 2 mg or less a day in supplements is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Cyanocobalamin is a manufactured form of Vitamin B12 available to buy from pharmacies and shops. The injectable form generally prescribed on the NHS is hydroxocobalamin rather than cyanocobalamin.",
+          "source_url": "https://www.nhs.uk/medicines/cyanocobalamin/about-cyanocobalamin",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Cyanocobalamin solution and Cytamen\u00ae injections are not prescribable in NHS primary care. Hydroxocobalamin has completely replaced cyanocobalamin as the form of Vitamin B12 of choice for therapy.",
+          "source_url": "https://swlimo.southwestlondon.icb.nhs.uk/clinical-guidance/nutrition-and-blood/vitamin-deficiency/vitamin-b12",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ]
+    },
+    "prose": "## Vitamin B12 \u2014 Evidence Summary\n\nAccording to the NHS, Vitamin B12 is used by the body to make red blood cells and to keep the nervous system healthy; the NHS notes that having enough Vitamin B12 allows the body to make red blood cells that work properly to carry oxygen around the body (https://www.nhs.uk/medicines/cyanocobalamin/common-questions-about-cyanocobalamin). NICE, in the public information accompanying guideline NG239, similarly states that Vitamin B12 helps the body make red blood cells and maintains the nervous system (https://www.nice.org.uk/guidance/ng239/informationforpublic).\n\nThe NHS lists good dietary sources as meat, fish, milk, cheese, eggs, and some fortified breakfast cereals (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b). NICE additionally notes, in the full NG239 guidance, that yeast extract spreads and foods and drinks fortified with Vitamin B12 may serve as sources for those who do not eat meat, fish, or dairy products (https://www.nice.org.uk/guidance/ng239/resources/vitamin-b12-deficiency-in-over-16s-diagnosis-and-management-pdf-66143904531397).\n\nThe NHS states that adults aged 19 to 64 need about 1.5 micrograms of Vitamin B12 per day (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b). On the question of upper limits, the NHS states that there is not enough evidence to show the effects of taking high doses of Vitamin B12 supplements each day, and that taking 2 mg or less a day in supplements is unlikely to cause any harm (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b).\n\nRegarding regulatory status, the NHS notes that cyanocobalamin, a manufactured form of Vitamin B12, is available to buy from pharmacies and shops, and that the injectable form generally prescribed on the NHS is hydroxocobalamin rather than cyanocobalamin (https://www.nhs.uk/medicines/cyanocobalamin/about-cyanocobalamin). NHS South West London ICB states that cyanocobalamin solution and Cytamen\u00ae injections are not prescribable in NHS primary care (https://swlimo.southwestlondon.icb.nhs.uk/clinical-guidance/nutrition-and-blood/vitamin-deficiency/vitamin-b12).\n\n---",
+    "computed_on": "2026-08-27"
+  },
+  "Vitamin D": {
+    "evidence": {
+      "canonical_name": "Vitamin D",
+      "role": [
+        {
+          "text": "Vitamin D helps regulate the amount of calcium and phosphate in the body. These nutrients are needed to keep bones, teeth and muscles healthy.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Vitamin D (specifically Vitamin D3) increases the body's ability to absorb calcium, and is described as an important factor in ensuring muscles, heart, lungs and brain work well and in helping the body fight infection.",
+          "source_url": "https://www.wihb.scot.nhs.uk/are-you-getting-enough-the-importance-of-vitamin-d",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Vitamin D works with calcium and phosphorus for healthy bones, muscles and teeth.",
+          "source_url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Patient%20Information%20Leaflets/Integrated%20and%20Community%20Care%20Services/Dietetics/Vitamin-d-food-fact-sheet.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Oily fish (such as salmon, sardines, trout, herring or mackerel), red meat, egg yolks, and fortified foods such as some fat spreads and breakfast cereals. UK cows' milk is generally not a good source because it is not fortified.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Good food sources include oily fish such as salmon, sardines and mackerel, egg yolks, and fortified foods such as some fat spreads and breakfast cereals. The vegan diet contains little, if any, vitamin D without fortified foods or supplements.",
+          "source_url": "https://www.nhs.uk/live-well/bone-health/food-for-strong-bones",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Natural food sources are very limited and are mostly of animal origin (such as oily fish, red meat and egg yolk). Fortified foods include formula milks for infants and toddlers, some breakfast cereals and fat spreads (margarines). Some (but not all) brands of malted milk drinks contain added vitamin D.",
+          "source_url": "https://northeast.devonformularyguidance.nhs.uk/formulary/chapters/9-blood-and-nutrition/management-of-vitamin-d-deficiency",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Children from the age of 1 year and adults need 10 micrograms (mcg) of vitamin D a day. This includes pregnant and breastfeeding women and people at risk of vitamin D deficiency.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "The reference nutrient intake is 10 micrograms per day (equivalent to 400 IU) for everyone in the general population aged 4 years and older, throughout the year.",
+          "source_url": "https://www.nice.org.uk/guidance/ph56/chapter/glossary",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Adults, including pregnant and breastfeeding women and the elderly, and children aged 11 to 17 years should not take more than 100 micrograms (4,000 IU) of vitamin D a day. Children aged 1 to 10 years should not have more than 50 micrograms (2,000 IU) a day. Infants under 12 months should not have more than 25 micrograms (1,000 IU) a day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "SACN has accepted the European Food Safety Authority recommendations of a safe upper limit of 1,000 IU/day for infants up to 1 year of age, 2,000 IU/day for children aged 1\u201310 years, and 4,000 IU/day for those aged 11 years and over.",
+          "source_url": "https://www.rnoh.nhs.uk/services/ChildrenandYoungPeoplesOrthopaedicandLimbReconstruction/vitamin-d-children",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Vitamin D \u2014 UK Published Sources Summary\n\nAccording to the NHS, vitamin D helps regulate the amount of calcium and phosphate in the body, nutrients described as needed to keep bones, teeth and muscles healthy (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d). NHS Western Isles additionally states that vitamin D \u2014 specifically vitamin D3 \u2014 increases the body's ability to absorb calcium, and describes it as an important factor in ensuring muscles, heart, lungs and brain work well, and in helping the body fight infection (https://www.wihb.scot.nhs.uk/are-you-getting-enough-the-importance-of-vitamin-d). The NHS lists food sources as oily fish (such as salmon, sardines, trout, herring and mackerel), red meat, egg yolks, and fortified foods such as some fat spreads and breakfast cereals; it also notes that UK cows' milk is generally not a good source because it is not fortified (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d). The NHS states that children from the age of one year and adults need 10 micrograms (mcg) of vitamin D a day (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d), a figure consistent with the NICE reference nutrient intake of 10 micrograms per day (equivalent to 400 IU) for everyone in the general population aged four years and older (https://www.nice.org.uk/guidance/ph56/chapter/glossary). The NHS states that adults, including pregnant and breastfeeding women and the elderly, and children aged 11 to 17 years, should not take more than 100 micrograms (4,000 IU) per day (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d). No accessible UK source retrieved for this report explicitly states the full regulatory or legal classification of vitamin D supplements; the BNF monograph, which would typically contain this information, was not accessible via the search tool used.",
+    "computed_on": "2026-08-27"
+  },
+  "Iron": {
+    "evidence": {
+      "canonical_name": "Iron",
+      "role": [
+        {
+          "text": "Iron is essential for making haemoglobin, a substance in red blood cells that transports oxygen around the body. Iron also plays an important role in other reactions in the body including the immune system.",
+          "source_url": "https://www.mkuh.nhs.uk/patient-information-leaflet/good-sources-of-iron",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Iron is needed to make haemoglobin, which is found in red blood cells and carries oxygen around the body. Iron is also important for building and maintaining healthy muscles and for many of the body's functions and reactions.",
+          "source_url": "https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/iron-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Iron is a mineral that has many different roles in the body. Iron is especially important in making a component of red blood cells called haemoglobin, which transports oxygen around the body.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/inflammatory-bowel-disease-and-iron-deficiency",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Iron is an important component of haemoglobin, where it helps transport oxygen in the blood, and myoglobin, a muscle protein.",
+          "source_url": "https://www.nice.org.uk/guidance/ng154/evidence/glossary-and-abbreviations-pdf-7084675982",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Animal-based sources of iron include liver, kidney, red meat (beef, lamb, mutton, pork), game meats (venison, duck, goose), chicken and turkey, oily fish, sardines, pilchards, anchovies, tuna, whitebait, shellfish (crab, prawns, cockles, mussels, winkles), black pudding, and p\u00e2t\u00e9.",
+          "source_url": "https://www.mkuh.nhs.uk/patient-information-leaflet/good-sources-of-iron",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Plant-based sources of iron include fortified breakfast cereals and fortified bread, wholegrain cereals, wholemeal flour products, dark green leafy vegetables (broccoli, spinach, watercress, kale), pulses and lentils, dried fruit, nuts and seeds, eggs, tofu, and soya products.",
+          "source_url": "https://www.mkuh.nhs.uk/patient-information-leaflet/good-sources-of-iron",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Good sources of iron include red meat, liver, kidney, beans, nuts, dried fruit, fortified breakfast cereals, soybean flour, and dark green leafy vegetables.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iron",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "The UK reference nutrient intake for iron is 8.7 mg per day for men aged 19 and over, 14.8 mg per day for women aged 19 to 49, and 8.7 mg per day for women aged 50 and over.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iron",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 17 mg or less per day of iron supplements is unlikely to cause any harm. Side effects of taking high doses (over 20 mg) include constipation, feeling sick, being sick, and stomach pain.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iron",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Taking 17 mg or less per day of iron supplements is unlikely to cause any harm.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Iron \u2014 Evidence Summary\n\nAccording to multiple NHS sources, iron is a mineral that is essential for making haemoglobin, the substance in red blood cells that transports oxygen around the body. The NHS (Milton Keynes University Hospital) states that iron also plays an important role in other reactions in the body, including the immune system. The NHS (Kingston and Richmond NHS Foundation Trust) additionally notes that iron is important for building and maintaining healthy muscles and for many of the body's functions and reactions. NICE, in the supplementary glossary to neonatal parenteral nutrition guideline NG154, records that iron is an important component of both haemoglobin and myoglobin, a muscle protein.\n\nNHS sources identify two broad categories of dietary iron. Animal-based (haem) sources listed by NHS trust patient information pages include liver, kidney, red meat, game meats, poultry, oily fish, shellfish, and black pudding. Plant-based (non-haem) sources include fortified breakfast cereals and bread, wholegrain cereals, dark green leafy vegetables (such as broccoli, spinach, and kale), pulses and lentils, dried fruit, nuts and seeds, eggs, and tofu and soya products.\n\nThe NHS (nhs.uk) states that the Reference Nutrient Intake for iron is 8.7 mg per day for men aged 19 and over, 14.8 mg per day for women aged 19 to 49, and 8.7 mg per day for women aged 50 and over. The same page states that taking 17 mg or less per day from supplements is unlikely to cause harm, and that side effects have been associated with doses over 20 mg per day.\n\nNo extractable regulatory or prescribing-classification statement for iron supplements was available from the NHS, NICE, or BNF sources retrieved.\n\n---",
+    "computed_on": "2026-08-27"
+  }
+}
