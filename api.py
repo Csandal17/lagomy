@@ -4,6 +4,7 @@ from datetime import date
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from pathlib import Path
 
 from lagomy.crew import Lagomy
 from guardrails import find_banned_phrases
@@ -60,11 +61,36 @@ def extract_json(text: str) -> dict:
         raise HTTPException(status_code=502, detail="Crew returned no JSON block")
     return json.loads(match.group(1))
 
+STORE = Path("evidence_store.json")
+
+def lookup_store(ingredient: str) -> dict | None:
+    """Return a precomputed entry if we have one."""
+    try:
+        store = json.loads(STORE.read_text())
+    except FileNotFoundError:
+        return None
+    return store.get(ingredient)
 
 @app.post("/evidence", response_model=EvidenceResponse)
 def evidence(request: EvidenceRequest):
-    """Run the crew for one ingredient and return sourced evidence."""
-    result = Lagomy().crew().kickoff(inputs={
+    """Return stored evidence if we have it, otherwise run the crew."""
+    default_probe = EvidenceRequest.model_fields["probe"].default
+    if request.probe == default_probe:
+        stored = lookup_store(request.ingredient)
+        if stored:
+            print(f"STORE HIT: {request.ingredient} — no crew run")
+            stored_prose = stored["prose"]
+            hits = find_banned_phrases(stored_prose)
+            if hits:
+                stored_prose = None
+            return EvidenceResponse(
+                ingredient=request.ingredient,
+                evidence=IngredientEvidence(**stored["evidence"]),
+                prose=stored_prose,
+                guardrail_triggered=bool(hits),
+            )
+
+        result = Lagomy().crew().kickoff(inputs={
         "ingredient": request.ingredient,
         "probe": request.probe,
     })
