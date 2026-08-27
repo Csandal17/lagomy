@@ -24,7 +24,7 @@ class Lagomy():
         return Agent(
             config=self.agents_config['evidence_agent'],  # type: ignore[index]
             tools=[UKEvidenceSearchTool()],
-            max_iter=8,
+            max_iter=5,
             verbose=True
         )
 

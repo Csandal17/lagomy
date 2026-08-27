@@ -221,5 +221,51 @@
     },
     "prose": "## Iron \u2014 Evidence Summary\n\nAccording to multiple NHS sources, iron is a mineral that is essential for making haemoglobin, the substance in red blood cells that transports oxygen around the body. The NHS (Milton Keynes University Hospital) states that iron also plays an important role in other reactions in the body, including the immune system. The NHS (Kingston and Richmond NHS Foundation Trust) additionally notes that iron is important for building and maintaining healthy muscles and for many of the body's functions and reactions. NICE, in the supplementary glossary to neonatal parenteral nutrition guideline NG154, records that iron is an important component of both haemoglobin and myoglobin, a muscle protein.\n\nNHS sources identify two broad categories of dietary iron. Animal-based (haem) sources listed by NHS trust patient information pages include liver, kidney, red meat, game meats, poultry, oily fish, shellfish, and black pudding. Plant-based (non-haem) sources include fortified breakfast cereals and bread, wholegrain cereals, dark green leafy vegetables (such as broccoli, spinach, and kale), pulses and lentils, dried fruit, nuts and seeds, eggs, and tofu and soya products.\n\nThe NHS (nhs.uk) states that the Reference Nutrient Intake for iron is 8.7 mg per day for men aged 19 and over, 14.8 mg per day for women aged 19 to 49, and 8.7 mg per day for women aged 50 and over. The same page states that taking 17 mg or less per day from supplements is unlikely to cause harm, and that side effects have been associated with doses over 20 mg per day.\n\nNo extractable regulatory or prescribing-classification statement for iron supplements was available from the NHS, NICE, or BNF sources retrieved.\n\n---",
     "computed_on": "2026-08-27"
+  },
+  "Zinc": {
+    "evidence": {
+      "canonical_name": "Zinc",
+      "role": [
+        {
+          "text": "Zinc helps with making new cells and enzymes, processing carbohydrate, fat and protein in food, and wound healing.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources of zinc include meat, shellfish, dairy foods such as cheese, bread, and cereal products.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Men aged 19\u201364 need 9.5 mg of zinc per day; women aged 19\u201364 need 7.0 mg per day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Do not take more than 25 mg of zinc supplements a day unless advised to by a doctor.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Taking too much zinc from supplements could be harmful.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Zinc: Summary from UK Published Sources\n\nAccording to the NHS, zinc contributes to making new cells and enzymes, processing carbohydrate, fat and protein in food, and wound healing. The NHS identifies good sources of zinc as meat, shellfish, dairy foods such as cheese, bread, and cereal products. In terms of daily intake, the NHS states that men aged 19\u201364 need 9.5 mg per day and women aged 19\u201364 need 7.0 mg per day. NHS 111 Wales states that more than 25 mg of zinc supplements per day should not be taken unless a doctor has advised it, and the NHS England vitamins and minerals page notes that taking too much zinc could be harmful. The BNF via NICE carries a monograph entry for zinc sulfate, though the full content of those pages is access-restricted to eligible UK users and could not be retrieved.",
+    "computed_on": "2026-08-27"
   }
 }

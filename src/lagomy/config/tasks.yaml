@@ -16,10 +16,13 @@ evidence_task:
     Report only what the sources actually state, and attribute every piece
     of information to its source with its URL. If you cannot find UK-source
     information for a field, state "No UK source found." for that field.
-    Do not use general knowledge to fill gaps. Do not give advice,
-    recommendations, warnings, or conclusions. Deficiency and treatment
-    information is out of scope unless it is the only content available
-    for a field.
+    Do not use general knowledge to fill gaps. Aim for one search per field, 
+    six searches in total at most. Prefer a smaller number of well-chosen 
+    searches over exhaustive coverage;
+    stop searching once you have a usable source for each field. Do not
+    give advice, recommendations, warnings, or conclusions. Deficiency
+    and treatment information is out of scope unless it is the only
+    content available for a field.
   expected_output: >
     A field-by-field evidence report for "{ingredient}":
     - Role/function: attributed statements with URLs

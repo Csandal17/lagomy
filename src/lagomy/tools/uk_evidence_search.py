@@ -15,7 +15,7 @@ class UKEvidenceSearchTool(BaseTool):
         client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
         results = client.search(
             query=query,
-            include_domains=["nhs.uk", "nice.org.uk", "bnf.nice.org.uk"],
+            include_domains=["www.nhs.uk", "www.nice.org.uk", "bnf.nice.org.uk", "cks.nice.org.uk", "111.wales.nhs.uk"],
             max_results=3,
         )
         formatted = []
