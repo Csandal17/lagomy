@@ -267,5 +267,918 @@
     },
     "prose": "## Zinc: Summary from UK Published Sources\n\nAccording to the NHS, zinc contributes to making new cells and enzymes, processing carbohydrate, fat and protein in food, and wound healing. The NHS identifies good sources of zinc as meat, shellfish, dairy foods such as cheese, bread, and cereal products. In terms of daily intake, the NHS states that men aged 19\u201364 need 9.5 mg per day and women aged 19\u201364 need 7.0 mg per day. NHS 111 Wales states that more than 25 mg of zinc supplements per day should not be taken unless a doctor has advised it, and the NHS England vitamins and minerals page notes that taking too much zinc could be harmful. The BNF via NICE carries a monograph entry for zinc sulfate, though the full content of those pages is access-restricted to eligible UK users and could not be retrieved.",
     "computed_on": "2026-08-27"
+  },
+  "Vitamin C": {
+    "evidence": {
+      "canonical_name": "Vitamin C",
+      "role": [
+        {
+          "text": "Helping to protect cells and keeping them healthy; maintaining healthy skin, blood vessels, bones and cartilage; helping with wound healing.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Vitamin C is found in a wide variety of fruit and vegetables, including citrus fruit (such as oranges and orange juice), peppers, strawberries, blackcurrants, broccoli, Brussels sprouts, and potatoes.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "In the UK, a significant amount of vitamin C intake comes from potatoes, which typically contain around 7 to 9 mg of vitamin C per 100 g of boiled potatoes.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/5-a-day/5-a-day-what-counts",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults aged 19 to 64 need 40 mg of vitamin C a day. Vitamin C cannot be stored in the body, so it is needed in the diet every day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking large amounts (more than 1,000 mg per day) of vitamin C can cause stomach pain, diarrhoea, and flatulence. Taking less than 1,000 mg of vitamin C supplements a day is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Vitamin C / Ascorbic Acid is listed as a prescribable medicine under section 09.06.03 of the Cambridgeshire and Peterborough NHS Formulary, with a reference to the adult BNF entry and Summary of Product Characteristics.",
+          "source_url": "https://www.cambridgeshireandpeterboroughformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100&FC=1",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ]
+    },
+    "prose": "According to the NHS, Vitamin C (ascorbic acid) has several important functions, including helping to protect cells and keeping them healthy, maintaining healthy skin, blood vessels, bones and cartilage, and helping with wound healing (https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-c). The NHS states that Vitamin C is found in a wide variety of fruit and vegetables, including citrus fruit, peppers, strawberries, blackcurrants, broccoli, Brussels sprouts, and potatoes. The NHS also notes that Vitamin C cannot be stored in the body, and that adults aged 19 to 64 need 40 mg per day. The NHS further states that taking more than 1,000 mg per day can cause stomach pain, diarrhoea, and flatulence, and that taking less than 1,000 mg of Vitamin C supplements a day is unlikely to cause any harm. The Cambridgeshire and Peterborough NHS Formulary lists Vitamin C / Ascorbic Acid as a prescribable medicine under section 09.06.03.",
+    "computed_on": "2026-08-27"
+  },
+  "Folate": {
+    "evidence": {
+      "canonical_name": "Folate",
+      "role": [
+        {
+          "text": "The NHS states that folate helps the body make healthy red blood cells.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "The NHS states that vitamin B12 and folate perform several important functions in the body, including keeping the nervous system healthy.",
+          "source_url": "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "The NHS states that good sources of folate include broccoli, Brussels sprouts, asparagus, peas, chickpeas and brown rice.",
+          "source_url": "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/causes",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults need 200 micrograms of folate a day.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "The NHS states that taking 1 mg or less a day of folic acid supplements is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Folic acid is listed in the BNF with a dedicated drug monograph.",
+          "source_url": "https://bnf.nice.org.uk/drugs/folic-acid",
+          "source_authority": "BNF",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "The Bedfordshire and Luton Joint Formulary lists folic acid 400 microgram tablets under Self Care for routine supplementation in pregnancy.",
+          "source_url": "https://www.bedsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09.01&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "The Cambridgeshire and Peterborough Formulary states that the 5 mg strength of folic acid must be prescribed, for example for people with diabetes, epilepsy or a raised BMI.",
+          "source_url": "https://www.cambridgeshireandpeterboroughformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&%3BSubSectionRef=09.06&%3BSubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "NICE guidance NG247 states that NICE currently recommends high dose (5 mg folic acid per day) when planning a pregnancy or in early stages of pregnancy for personal or partner history of neural tube defect.",
+          "source_url": "https://www.nice.org.uk/guidance/ng247/evidence/a-high-dose-folic-acid-supplementation-before-and-during-the-first-12-weeks-of-pregnancy-pdf-13620108493",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-27"
+        }
+      ]
+    },
+    "prose": "## Folate \u2014 Summary from UK Published Sources\n\nThe NHS states that folate helps the body make healthy red blood cells and, alongside vitamin B12, performs several important functions including keeping the nervous system healthy. The NHS also notes that folate works together with vitamin B12 to form healthy red blood cells. According to the NHS, good food sources of folate include green vegetables such as broccoli, Brussels sprouts, asparagus, peas, chickpeas, and brown rice. The NHS 111 Wales service states that adults need 200 micrograms of folate a day. The NHS states that taking 1 mg or less a day of folic acid supplements is unlikely to cause any harm. Folic acid is listed in the BNF as a drug with a dedicated monograph; NHS local formulary sources note that the 400-microgram tablet strength is listed under self-care for routine supplementation, while the 5 mg strength must be prescribed for certain individuals.\n\n---",
+    "computed_on": "2026-08-27"
+  },
+  "Selenium": {
+    "evidence": {
+      "canonical_name": "Selenium",
+      "role": [
+        {
+          "text": "Selenium helps the immune system work properly, as well as in reproduction. It also helps prevent damage to cells and tissues.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources of selenium include brazil nuts, fish, meat, and eggs. People who eat meat, fish, or nuts should be able to get all the selenium they need from their daily diet.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "75 \u00b5g per day for men aged 19 to 64 years; 60 \u00b5g per day for women aged 19 to 64 years.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 350 \u00b5g or less a day of selenium supplements is unlikely to cause any harm. Too much selenium causes selenosis, which in its mildest form can lead to loss of hair and nails.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Taking 350 \u00b5g or less a day of selenium supplements is unlikely to cause any harm. Too much selenium causes selenosis, which in its mildest form can lead to loss of hair and nails.",
+          "source_url": "https://111.wales.nhs.uk/vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "According to the NHS, selenium helps the immune system work properly and plays a role in reproduction; it also helps prevent damage to cells and tissues. The NHS identifies brazil nuts, fish, meat, and eggs as good food sources, noting that people who eat meat, fish, or nuts should be able to obtain all the selenium they need from their daily diet. The NHS states that men aged 19 to 64 need 75 \u00b5g per day and women aged 19 to 64 need 60 \u00b5g per day. The NHS states that taking 350 \u00b5g or less per day of selenium supplements is unlikely to cause harm, and that too much selenium causes selenosis, which in its mildest form can lead to loss of hair and nails. No published UK source was found providing a regulatory classification for selenium as a supplement ingredient.",
+    "computed_on": "2026-08-27"
+  },
+  "Calcium": {
+    "evidence": {
+      "canonical_name": "Calcium",
+      "role": [
+        {
+          "text": "Helps build bones and keep teeth healthy; regulates muscle contractions, including the heartbeat; makes sure blood clots normally.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/calcium",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "The body needs calcium to keep bones, muscles and nerves working properly.",
+          "source_url": "https://www.nhs.uk/conditions/hypoparathyroidism",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources include milk, cheese and other dairy foods, and green leafy vegetables such as curly kale and okra (but not spinach, as the body cannot digest all of the calcium it contains).",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/calcium",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "For those following a vegan diet, good sources include green leafy vegetables such as broccoli, cabbage and okra (but not spinach), fortified unsweetened soya, pea and oat drinks, calcium-set tofu, sesame seeds and tahini, pulses, dried fruit such as raisins, prunes, figs and dried apricots, and brown and white bread (calcium is added to white and brown flour by law in the UK).",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Non-vegans get most of their calcium from dairy foods (milk, cheese and yoghurt).",
+          "source_url": "https://www.nhs.uk/Livewell/healthy-bones/Pages/food-and-diet-for-strong-bones.aspx",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults need 700 mg of calcium a day.",
+          "source_url": "https://www.nhs.uk/Livewell/healthy-bones/Pages/food-and-diet-for-strong-bones.aspx",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Adults need 700 mg of calcium a day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/calcium",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 1,500 mg or less of calcium a day is unlikely to cause any harm. Taking high doses of calcium (more than 1,500 mg a day) could lead to stomach pain and diarrhoea.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/calcium",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Calcium \u2014 UK Source Evidence Summary\n\nAccording to the NHS, calcium serves several important functions in the body: it helps build bones and keep teeth healthy, regulates muscle contractions including the heartbeat, and ensures blood clots normally. The NHS also states, in the context of hypoparathyroidism, that calcium is a mineral the body needs to keep bones, muscles, and nerves working properly.\n\nThe NHS identifies a range of food sources of calcium. For the general population, these include milk, cheese, and other dairy foods, as well as green leafy vegetables such as curly kale and okra \u2014 though the NHS notes that while spinach contains high levels of calcium, the body cannot digest all of it. For those following a vegan diet, the NHS lists additional sources including broccoli, cabbage, fortified unsweetened soya, pea and oat drinks, calcium-set tofu, sesame seeds and tahini, pulses, dried fruit, and brown and white bread, noting that in the UK, calcium is added to white and brown flour by law.\n\nThe NHS states that adults need 700 mg of calcium per day. Regarding upper limits, the NHS states that taking 1,500 mg or less per day is unlikely to cause any harm, while taking more than 1,500 mg per day could lead to stomach pain and diarrhoea.\n\nNo fully attributable UK regulatory classification statement for calcium supplements could be retrieved from the BNF or other UK sources in the evidence gathered.\n\n---",
+    "computed_on": "2026-08-27"
+  },
+  "Vitamin A": {
+    "evidence": {
+      "canonical_name": "Vitamin A",
+      "role": [
+        {
+          "text": "Helps the body's natural defence against illness and infection (the immune system) work properly; helps vision in dim light; keeps skin and the lining of some parts of the body, such as the nose, healthy.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources of vitamin A (retinol) include cheese, eggs, oily fish (such as salmon, sardines, trout, herring, and mackerel), fortified low-fat spreads, milk, yoghurt, and liver and liver products such as liver p\u00e2t\u00e9, which the NHS describes as a particularly rich source. The body can also convert beta-carotene from plant foods into retinol.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "Milk and dairy products, such as cheese and yoghurt, are described as good sources of vitamins A and B12, among other nutrients.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "The NHS states that adults aged 19 to 64 need 700 \u00b5g a day (men) and 600 \u00b5g a day (women). The body stores surplus vitamin A, so daily intake is not required.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "The NHS states that research suggests averaging more than 1.5 mg (1,500 \u00b5g) of vitamin A a day over many years may affect bones, making them more likely to fracture. The NHS states that averaging 1.5 mg a day or less from diet and supplements combined is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "The Oxfordshire CCG Formulary lists a combined Vitamins A and D preparation under section 09.06.01 with Amber \u2013 Recommended status, described as suitable for prescribing in primary care following specialist recommendation for use in cystic fibrosis patients only.",
+          "source_url": "https://www.oxfordshireformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09.06&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        },
+        {
+          "text": "The West Herts Medicines Formulary lists a combined Vitamins A and D preparation under section 09.06.01 as a Restricted Drug \u2013 Amber Initiation, specifying cystic fibrosis patients only.",
+          "source_url": "https://www.westhertsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09.06&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-27"
+        }
+      ]
+    },
+    "prose": "According to the NHS, Vitamin A (retinol) has several important functions, including supporting the body's immune defences, helping vision in dim light, and keeping skin and the lining of parts of the body such as the nose healthy. The NHS states that good dietary sources include cheese, eggs, oily fish (such as salmon, sardines, trout, herring, and mackerel), fortified low-fat spreads, milk, yoghurt, and liver and liver products, with the NHS describing liver as a particularly rich source. The NHS also notes that beta-carotene from plant foods can be converted by the body into retinol. The NHS states that adults aged 19 to 64 need 700 \u00b5g a day (men) and 600 \u00b5g a day (women), and that the body stores any surplus, so daily intake is not required. Regarding upper limits, the NHS states that research suggests averaging more than 1.5 mg (1,500 \u00b5g) per day over many years may affect bone strength; it states that averaging 1.5 mg a day or less from diet and supplements combined is unlikely to cause harm. Two NHS-affiliated regional medicines formularies \u2014 Oxfordshire CCG and West Herts \u2014 list a combined Vitamins A and D preparation under section 09.06.01 with restricted (amber) status, noted as suitable only for cystic fibrosis patients following specialist recommendation.",
+    "computed_on": "2026-08-27"
+  },
+  "Vitamin E": {
+    "evidence": {
+      "canonical_name": "Vitamin E",
+      "role": [
+        {
+          "text": "Vitamin E helps maintain healthy skin and eyes, and strengthen the body's natural defence against illness and infection (the immune system).",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-e",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Vitamin E is fat-soluble, meaning it can only be absorbed with the help of fats.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Vitamin E is a group of compounds found in a wide variety of foods. Good sources include plant oils such as rapeseed (vegetable oil), sunflower, soya, corn and olive oil; nuts and seeds; and wheatgerm, found in cereals and cereal products.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-e",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "The NHS states men need 4 mg of vitamin E per day and women need 3 mg per day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-e",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 540 mg (800 IU) or less a day of vitamin E supplements is unlikely to cause any harm, according to the Department of Health and Social Care advice cited by the NHS.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-e",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Vitamin E \u2014 Evidence Summary\n\nAccording to the NHS, vitamin E helps maintain healthy skin and eyes, and strengthens the body's natural defence against illness and infection (the immune system). The NHS also notes, in its guidance on dietary fats, that vitamin E is fat-soluble and can only be absorbed with the help of fats. The NHS describes vitamin E as a group of compounds found in a wide variety of foods, listing plant oils (such as rapeseed, sunflower, soya, corn, and olive oil), nuts and seeds, and wheatgerm \u2014 found in cereals and cereal products \u2014 as good sources. The NHS states that men need 4 mg per day and women need 3 mg per day, and that these amounts should be obtainable through diet. Regarding supplements, the NHS states that taking 540 mg (800 IU) or less per day of vitamin E supplements is unlikely to cause any harm. No retrievable UK regulatory or prescribing information was available from the BNF or NICE for this ingredient.",
+    "computed_on": "2026-08-28"
+  },
+  "Vitamin B6": {
+    "evidence": {
+      "canonical_name": "Vitamin B6",
+      "role": [
+        {
+          "text": "Helps the body to use and store energy from protein and carbohydrates in food, and helps the body form haemoglobin, the substance in red blood cells that carries oxygen around the body.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Found in a wide variety of foods including pork, poultry (such as chicken or turkey), some fish, peanuts, soya beans, wheatgerm, oats, bananas, milk, and some fortified breakfast cereals. The bacteria that live naturally in the bowel are also able to make Vitamin B6.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults aged 19 to 64 need about 1.4mg a day (men) and 1.2mg a day (women).",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Do not take more than 10mg of Vitamin B6 a day in supplements unless advised by a doctor. Taking 200mg or more a day can lead to a loss of feeling in the arms and legs known as peripheral neuropathy. The effect of taking Vitamin B6 at doses between 10mg and 200mg is unclear, and there is not enough evidence to say how long these doses could be taken for safely.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Do not take more than 10mg of Vitamin B6 a day in supplements unless advised by a doctor. Taking 200mg or more a day can lead to a loss of feeling in the arms and legs known as peripheral neuropathy, which will usually improve once the supplement is stopped.",
+          "source_url": "https://111.wales.nhs.uk/Encyclopaedia/v/article/vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "According to the NHS, Vitamin B6 helps the body to use and store energy from protein and carbohydrates in food, and helps the body form haemoglobin, the substance in red blood cells that carries oxygen around the body. The NHS states that Vitamin B6 is found in a wide variety of foods, including pork, poultry, some fish, peanuts, soya beans, wheatgerm, oats, bananas, milk, and some fortified breakfast cereals, and notes that bacteria living naturally in the bowel are also able to make Vitamin B6. The NHS gives the reference intake for adults aged 19 to 64 as 1.4mg a day for men and 1.2mg a day for women, and states that the daily requirement should be obtainable from diet alone. Regarding supplementation, the NHS advises that more than 10mg a day should not be taken in supplements unless directed by a doctor, and states that taking 200mg or more a day can lead to peripheral neuropathy; this upper limit figure is also published by NHS 111 Wales. No retrievable UK source was found for a regulatory classification of Vitamin B6.",
+    "computed_on": "2026-08-28"
+  },
+  "Copper": {
+    "evidence": {
+      "canonical_name": "Copper",
+      "role": [
+        {
+          "text": "Copper helps produce red and white blood cells and triggers the release of iron to form haemoglobin, the substance that carries oxygen around the body. It is also thought to be important for infant growth, brain development, the immune system, and strong bones.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources of copper include nuts, shellfish, and offal.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults aged 19 to 64 need 1.2 mg of copper a day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "The NHS states that taking high doses of copper could cause stomach pain, sickness, diarrhoea, and damage to the liver and kidneys if taken for a long time. No specific numerical upper limit is published on this NHS page.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Copper: Summary of UK Published Evidence\n\nAccording to the NHS, copper helps the body produce red and white blood cells and triggers the release of iron to form haemoglobin, the substance that carries oxygen around the body. The NHS also states that copper is thought to be important for infant growth, brain development, the immune system, and strong bones. Good food sources listed by the NHS include nuts, shellfish, and offal. The NHS states that adults aged 19 to 64 need 1.2 mg of copper per day, and that this amount should be obtainable from a daily diet. Regarding high doses, the NHS notes that taking high doses of copper could cause stomach pain, sickness, diarrhoea, and \u2014 if taken over a long period \u2014 damage to the liver and kidneys; however, no specific numerical upper limit is published on that page. No UK national source in the evidence retrieved provides a definitive standalone regulatory classification for copper as a supplement.\n\n---",
+    "computed_on": "2026-08-28"
+  },
+  "Pantothenic acid": {
+    "evidence": {
+      "canonical_name": "Pantothenic acid",
+      "role": [
+        {
+          "text": "Pantothenic acid has several functions, such as helping the body to release energy from food.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Pantothenic acid is found in varying amounts in almost all vegetables, wholegrain foods and meats, but good sources include chicken, beef, liver and kidneys, eggs, mushrooms and avocado. Breakfast cereals are also a good source if they have been fortified with pantothenic acid.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "No amount has been set in the UK for how much pantothenic acid you need.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 200mg or less a day of pantothenic acid in supplements is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "According to the NHS, pantothenic acid has several functions, including helping the body to release energy from food. The NHS notes that pantothenic acid is found in varying amounts in almost all vegetables, wholegrain foods, and meats, with particularly good sources including chicken, beef, liver and kidneys, eggs, mushrooms, and avocado; fortified breakfast cereals are also noted as a good source. The NHS states that no amount has been set in the UK for how much pantothenic acid a person needs, and that most people should be able to obtain sufficient amounts through their daily diet. Regarding supplementation, the NHS states that taking 200 mg or less per day of pantothenic acid in supplements is unlikely to cause any harm. No usable published content specifically about pantothenic acid was found from NICE or the BNF during the evidence-gathering process.",
+    "computed_on": "2026-08-28"
+  },
+  "Thiamin": {
+    "evidence": {
+      "canonical_name": "Thiamin",
+      "role": [
+        {
+          "text": "Thiamin helps to turn food into energy and to keep the nervous system healthy. The body is not able to make thiamine for itself.",
+          "source_url": "https://www.nhs.uk/medicines/thiamine-vitamin-b1/about-thiamine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources of thiamin include peas, some fresh fruits (such as bananas and oranges), nuts, wholegrain breads, some fortified breakfast cereals, and liver.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Thiamine is also found in peas, lentils and beans; yeast or beef extracts (including Marmite and Bovril); eggs; oranges and orange juice; wheat bran and other wholegrain foods; pork, beef and liver; fish; and fortified foods that have thiamine added (including some brands of breakfast cereals, rice, egg noodles and bread).",
+          "source_url": "https://www.nhs.uk/medicines/thiamine-vitamin-b1/common-questions-about-thiamine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "The NHS states the reference intake for adults aged 19 to 64 is 1 mg a day for men and 0.8 mg a day for women.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 100 mg or less a day of thiamin supplements is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Thiamine is available as a named medicine under the brand names Benerva, Tyvera, Athiam, ThiaDose, and ThiamEss. It can also be purchased over the counter from pharmacies or shops, including as vitamin B complex tablets and multivitamins.",
+          "source_url": "https://www.nhs.uk/medicines/thiamine-vitamin-b1/about-thiamine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "NICE guidance (CG32) references thiamine in a clinical prescribing context, citing oral doses of 200\u2013300 mg daily and intravenous vitamin B preparations, indicating that higher-dose and injectable forms exist within a clinical setting.",
+          "source_url": "https://www.nice.org.uk/guidance/cg32/evidence/appendix-a-summary-of-evidence-from-surveillance-pdf-4540429694",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "According to the NHS, thiamin (vitamin B1) helps turn food into energy and keeps the nervous system healthy; the body cannot make thiamin for itself. The NHS notes that good dietary sources include peas, nuts, wholegrain breads, some fresh fruits, fortified breakfast cereals, liver, lentils and beans, eggs, pork, beef, fish, and yeast or beef extracts such as Marmite and Bovril. The NHS states the reference intake for adults aged 19 to 64 is 1 mg a day for men and 0.8 mg a day for women, and that most people should be able to meet this through their daily diet. The NHS also states that taking 100 mg or less a day in supplement form is unlikely to cause any harm. Thiamine is available as a named medicine under several brand names and, according to the NHS, can also be purchased over the counter from pharmacies and shops in the form of vitamin B complex tablets and multivitamins.",
+    "computed_on": "2026-08-28"
+  },
+  "Riboflavin": {
+    "evidence": {
+      "canonical_name": "Riboflavin",
+      "role": [
+        {
+          "text": "Helps keep skin, eyes and the nervous system healthy, and helps the body release energy from food.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Helps keep skin, eyes and the nervous system healthy; helps the body release energy from food.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources include milk, eggs, fortified breakfast cereals, mushrooms, and plain yoghurt. UV light can destroy riboflavin, so these foods should ideally be kept out of direct sunlight.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "About 1.3 mg a day for men and 1.1 mg a day for women aged 19 to 64. Riboflavin cannot be stored in the body, so it is needed in the diet every day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 40 mg or less a day of riboflavin supplements is unlikely to cause any harm.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "There is not enough evidence to know what the effects might be of taking high doses of riboflavin supplements each day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Listed as available for OTC purchase on the Lancashire and South Cumbria Formulary.",
+          "source_url": "https://www.lancashireandsouthcumbriaformulary.nhs.uk/reports/Archive/A0003.asp",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "The Cambridgeshire and Peterborough Formulary states riboflavin can be purchased from a community pharmacist; a prescription (FP10) should be considered if a prescriber has particular concerns that a patient might not be able to, or is unwilling to, self-care. A separate Red (CUHFT only) hospital formulary entry also exists.",
+          "source_url": "https://www.cambridgeshireandpeterboroughformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "The Wirral University Teaching Hospitals Formulary lists riboflavin as a formulary (Black) item, with an unlicensed Tablets 50 mg entry under Red classification for mitochondrial disorders.",
+          "source_url": "https://wirralformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "The Lincolnshire Joint Formulary lists riboflavin as Non Formulary / Red, meaning it is not routinely prescribed on that formulary.",
+          "source_url": "https://www.lincolnshirejointformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "The Bedfordshire and Luton Joint Formulary lists riboflavin as Non Formulary.",
+          "source_url": "https://www.bedsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "## Riboflavin (Vitamin B2): Summary from UK Published Sources\n\nThe NHS states that riboflavin helps keep skin, eyes, and the nervous system healthy, and helps the body release energy from food. According to the NHS, good food sources include milk, eggs, fortified breakfast cereals, mushrooms, and plain yoghurt; the NHS also notes that UV light can destroy riboflavin, so these foods should ideally be kept out of direct sunlight. The NHS gives the adult reference intake as approximately 1.3 mg per day for men and 1.1 mg per day for women (aged 19 to 64), and states that riboflavin cannot be stored in the body. NHS 111 Wales records that taking 40 mg or less per day of riboflavin supplements is unlikely to cause any harm, while the NHS states there is not enough evidence to know the effects of taking high doses each day. Several NHS regional formularies list riboflavin under varying prescribing classifications, ranging from over-the-counter purchase to restricted hospital use depending on the local formulary.",
+    "computed_on": "2026-08-28"
+  },
+  "Niacin": {
+    "evidence": {
+      "canonical_name": "Niacin",
+      "role": [
+        {
+          "text": "Niacin helps the body release energy from food and keeps the nervous system and skin healthy.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources of niacin include meat, fish, wheat flour, and eggs. Both forms of niacin (nicotinic acid and nicotinamide) are found in food. Niacin cannot be stored in the body, so it is needed in the diet every day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Approximately 16.5 mg a day for men and 13.2 mg a day for women.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking high doses of nicotinic acid supplements can cause skin flushes. Taking high doses for a long time could lead to liver damage. No specific numerical upper limit figure was stated in the retrieved NHS content.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "According to the NHS, niacin (also known as vitamin B3) helps the body release energy from food and keeps the nervous system and skin healthy. The NHS states that niacin exists in two forms \u2014 nicotinic acid and nicotinamide \u2014 both of which are found in food, with good sources including meat, fish, wheat flour, and eggs. The NHS notes that niacin cannot be stored in the body, so it is needed in the diet every day. The NHS gives a reference intake of approximately 16.5 mg a day for men and 13.2 mg a day for women. Regarding high doses, the NHS states that taking high doses of nicotinic acid supplements can cause skin flushes, and that taking high doses for a long time could lead to liver damage; no specific numerical upper limit was identified in the retrieved NHS content. No UK regulatory or prescribing status information for niacin was returned from BNF or NICE searches.",
+    "computed_on": "2026-08-28"
+  },
+  "Manganese": {
+    "evidence": {
+      "canonical_name": "Manganese",
+      "role": [
+        {
+          "text": "Manganese helps make and activate some of the enzymes in the body. Enzymes are proteins that help the body carry out chemical reactions, such as breaking down food.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Manganese is found in a variety of foods, including bread, nuts, breakfast cereals (especially wholegrain), and green vegetables such as peas.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [
+        {
+          "text": "For most people, taking 4 mg or less of manganese supplements a day is unlikely to cause any harm. For older people, who may be more sensitive to manganese, taking 0.5 mg or less of manganese supplements a day is unlikely to cause any harm. Taking high doses of manganese for long periods of time might cause muscle pain, nerve damage and other symptoms, such as fatigue and depression.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "In the context of parenteral nutrition, NICE guidance states that excess provision of manganese is to be avoided, and that this is more likely if liver disease is present. Monitoring of manganese levels is recommended every 3 to 6 months for patients on home parenteral nutrition.",
+          "source_url": "https://www.nice.org.uk/guidance/cg32/chapter/Recommendations#parenteral-nutrition-in-hospital-and-the-community",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Manganese \u2014 Evidence Summary\n\nAccording to the NHS, manganese helps make and activate some of the enzymes in the body; enzymes are proteins that help the body carry out chemical reactions, such as breaking down food. The NHS lists food sources as including bread, nuts, breakfast cereals (especially wholegrain), and green vegetables such as peas. The NHS notes that most people should be able to get all the manganese they need from their daily diet, but does not publish a specific numeric reference intake figure for adults. Regarding supplemental intake, the NHS states that for most people, taking 4 mg or less of manganese supplements a day is unlikely to cause any harm, and that for older people, who may be more sensitive to manganese, taking 0.5 mg or less per day is unlikely to cause any harm. The NHS further states that taking high doses of manganese for long periods of time might cause muscle pain, nerve damage, and other symptoms such as fatigue and depression. NICE guidance (CG32) on nutrition support for adults notes, in the context of parenteral nutrition, that excess provision of manganese is to be avoided, and that this is more likely if liver disease is present; the guidance also recommends monitoring manganese levels every three to six months in patients on home parenteral nutrition.",
+    "computed_on": "2026-08-28"
+  },
+  "Biotin": {
+    "evidence": {
+      "canonical_name": "Biotin",
+      "role": [
+        {
+          "text": "Biotin is needed in very small amounts to help the body make fatty acids. Bacteria that live naturally in the bowel are able to make biotin, so it is not clear whether any additional biotin from the diet is needed.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Biotin is needed in very small amounts to help the body make fatty acids.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Biotin is found in a wide range of foods, but only at very low levels.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Biotin is found in a wide range of foods, but only at very low levels.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "The required daily intake of biotin is quite small (30\u201370 micrograms), and most diets will contain sufficient amounts.",
+          "source_url": "https://www.barnsleyhospital.nhs.uk/pathology/drugs-and-other-substances-can-interfere-biochemistry-tests",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 0.9 mg or less a day of biotin in supplements is unlikely to cause any harm. There is not enough evidence to know what the effects might be of taking high daily doses of biotin supplements.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-b",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Taking 0.9 mg or less a day of biotin in supplements is unlikely to cause any harm.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Biotin supplements can affect the accuracy of thyroid function tests. This is noted in the context of patients taking carbimazole.",
+          "source_url": "https://www.nhs.uk/medicines/carbimazole/taking-carbimazole-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Higher dose biotin supplements (5\u201310 mg, sometimes higher) are available over-the-counter, marketed for hair, skin and nail health, and are also sometimes prescribed as a treatment for multiple sclerosis or some inherited metabolic disorders.",
+          "source_url": "https://www.barnsleyhospital.nhs.uk/pathology/drugs-and-other-substances-can-interfere-biochemistry-tests",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "## Biotin \u2014 Summary from UK Published Sources\n\nThe NHS states that biotin \"is needed in very small amounts to help the body make fatty acids,\" and notes that bacteria living naturally in the bowel are also able to make biotin, meaning it is not clear whether additional dietary intake is required. According to the NHS, biotin is found in a wide range of foods, though only at very low levels; no specific foods are named on the NHS vitamins and minerals page. The NHS reports Department of Health and Social Care advice that a varied and balanced diet should supply all the biotin a person needs, and that taking 0.9 mg or less per day in supplements is unlikely to cause harm, though there is stated to be insufficient evidence about the effects of high daily doses. The NHS also notes, in the context of the medicine carbimazole, that biotin supplements can affect the accuracy of thyroid function tests. Barnsley Hospital NHS Foundation Trust's pathology guidance states that the required daily intake is \"quite small (30\u201370 micrograms)\" and that higher-dose supplements (5\u201310 mg, sometimes higher) are available over the counter, marketed for hair, skin and nail health, and are also sometimes prescribed for multiple sclerosis or certain inherited metabolic disorders.\n\n---",
+    "computed_on": "2026-08-28"
+  },
+  "Magnesium": {
+    "evidence": {
+      "canonical_name": "Magnesium",
+      "role": [
+        {
+          "text": "Magnesium helps turn the food we eat into energy and helps make sure the parathyroid glands, which produce hormones important for bone health, work normally.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Magnesium is a metallic element mainly found in the bones and is essential to life.",
+          "source_url": "https://www.nhs.uk/tests-and-treatments/magnesium-test",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Magnesium is an electrolyte \u2014 a mineral in the blood that has a tiny electric charge.",
+          "source_url": "https://www.nhs.uk/conditions/diabetes-insipidus/complications",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Magnesium is found in a wide variety of foods, including spinach, nuts, and wholemeal bread.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "300 mg per day for men aged 19 to 64 years; 270 mg per day for women aged 19 to 64 years.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Having 400 mg or less a day of magnesium from supplements is unlikely to cause any harm. Taking more than 400 mg for a short time can cause diarrhoea. There is not enough evidence to say what the effects might be of taking high doses of magnesium for a long time.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "There are no licensed oral medicines for treating and preventing hypomagnesaemia in the UK. Many unlicensed oral magnesium salts are available in the UK, such as magnesium aspartate, magnesium carbonate, and magnesium citrate.",
+          "source_url": "https://www.nice.org.uk/advice/esuom4/chapter/intervention-and-alternatives",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "No other oral magnesium supplements have marketing authorisation in the UK for preventing recurrent hypomagnesaemia. Oral magnesium glycerophosphate is an option described in the BNF and BNF for children for preventing recurrent hypomagnesaemia, available from special-order manufacturers or specialist importing companies.",
+          "source_url": "https://www.nice.org.uk/advice/esuom4/chapter/overview-for-healthcare-professionals",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "## Magnesium \u2013 Summary of UK Published Sources\n\nAccording to the NHS, magnesium is a mineral that helps turn food into energy and helps ensure the parathyroid glands \u2014 which produce hormones important for bone health \u2014 work normally. The NHS also describes magnesium as a metallic element mainly found in the bones and essential to life, and as an electrolyte: a mineral in the blood that carries a tiny electric charge. The NHS states that magnesium is found in a wide variety of foods, including spinach, nuts, and wholemeal bread. The NHS gives a reference intake of 300 mg per day for men aged 19 to 64, and 270 mg per day for women in the same age range. Regarding supplementation, the NHS states that 400 mg or less per day from supplements is unlikely to cause harm, and that taking more than 400 mg for a short time can cause diarrhoea; the NHS also notes there is not enough evidence to say what the effects of taking high doses for a long time might be. According to NICE guidance, there are no licensed oral medicines for treating or preventing hypomagnesaemia in the UK, and many oral magnesium salts available in the UK are unlicensed for this indication.",
+    "computed_on": "2026-08-28"
+  },
+  "Iodine": {
+    "evidence": {
+      "canonical_name": "Iodine",
+      "role": [
+        {
+          "text": "Iodine helps make thyroid hormones, which help keep cells and the metabolic rate (the speed at which chemical reactions take place in the body) healthy.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good food sources of iodine include cows' milk and dairy products, eggs, sea fish, and shellfish. Iodine can also be found in plant foods such as cereals and grains, but levels vary depending on the amount of iodine in the soil where the plants are grown. Some types of plant-based drinks (such as soya or oat) are also fortified with iodine.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults need 140 micrograms (\u03bcg) of iodine a day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 0.5 mg or less a day of iodine supplements is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Iodine \u2014 UK Source Summary\n\nAccording to the NHS, iodine helps make thyroid hormones, which in turn help keep cells and the metabolic rate healthy. The NHS identifies cows' milk and dairy products, eggs, sea fish, and shellfish as good food sources, and notes that iodine can also be found in plant foods such as cereals and grains, though levels vary depending on iodine content in the soil where plants are grown; some plant-based drinks such as soya or oat drinks are also fortified with iodine. The NHS states that adults need 140 micrograms (\u03bcg) of iodine a day, and that taking 0.5 mg or less a day of iodine supplements is unlikely to cause harm. No qualifying UK source was retrieved regarding the regulatory or prescribing classification of iodine as a supplement.",
+    "computed_on": "2026-08-28"
+  },
+  "Chromium": {
+    "evidence": {
+      "canonical_name": "Chromium",
+      "role": [],
+      "food_sources": [
+        {
+          "text": "Good sources of chromium include meat, nuts, and cereal grains.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Good sources of chromium include meat, nuts, and cereal grains.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Around 25 micrograms (\u00b5g) of chromium a day should be enough for adults.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Around 25 micrograms (\u00b5g) of chromium a day should be enough for adults.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Having 10 mg or less a day of chromium from food and supplements is unlikely to cause any harm, according to the Department of Health and Social Care. There is not enough evidence to know what the effects might be of taking high doses of chromium each day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Having 10 mg or less a day of chromium from food and supplements is unlikely to cause any harm. There is not enough evidence to know what the effects might be of taking high doses of chromium each day.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "According to the NHS (*Vitamins and Minerals \u2013 Others*), around 25 micrograms of chromium a day should be enough for adults. The NHS identifies meat, nuts, and cereal grains as good sources of chromium. Regarding safe intake levels, the NHS \u2014 attributing the guidance to the Department of Health and Social Care \u2014 states that 10 mg or less per day of chromium from food and supplements combined is unlikely to cause any harm, and notes that there is not enough evidence to know what the effects might be of taking high doses each day. No published statement describing chromium's functional role in the body was retrievable from the UK sources searched, and no regulatory or prescribing status entry for chromium was found in the BNF.",
+    "computed_on": "2026-08-28"
   }
 }
