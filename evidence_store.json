@@ -1180,5 +1180,1180 @@
     },
     "prose": "According to the NHS (*Vitamins and Minerals \u2013 Others*), around 25 micrograms of chromium a day should be enough for adults. The NHS identifies meat, nuts, and cereal grains as good sources of chromium. Regarding safe intake levels, the NHS \u2014 attributing the guidance to the Department of Health and Social Care \u2014 states that 10 mg or less per day of chromium from food and supplements combined is unlikely to cause any harm, and notes that there is not enough evidence to know what the effects might be of taking high doses each day. No published statement describing chromium's functional role in the body was retrievable from the UK sources searched, and no regulatory or prescribing status entry for chromium was found in the BNF.",
     "computed_on": "2026-08-28"
+  },
+  "Beta-carotene": {
+    "evidence": {
+      "canonical_name": "Beta-carotene",
+      "role": [
+        {
+          "text": "Beta-carotene gives yellow and orange fruit and vegetables their colour. It is turned into vitamin A in the body, so it can perform the same jobs in the body as vitamin A.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "The body can convert beta-carotene into retinol (vitamin A), making it a dietary source of vitamin A.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Yellow and green (leafy) vegetables such as spinach, carrots and red peppers; yellow fruit such as mango, papaya and apricots.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Yellow, red and green (leafy) vegetables such as spinach, carrots, sweet potatoes and red peppers; yellow fruit such as mango, papaya and apricots.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [
+        {
+          "text": "Do not take more than 7 mg of beta-carotene supplements a day unless advised to by a doctor.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Beta-carotene supplements have been found to increase the risk of lung cancer in people who smoke or who have been exposed to asbestos.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "## Beta-Carotene: Prose Summary\n\nAccording to the NHS, beta-carotene is the pigment that gives yellow and orange fruit and vegetables their colour; the body converts it into vitamin A, allowing it to perform the same functions in the body as vitamin A (NHS: https://www.nhs.uk/conditions/vitamins-and-minerals/others). The NHS identifies the main dietary sources as yellow, red and green leafy vegetables \u2014 including spinach, carrots, sweet potatoes and red peppers \u2014 and yellow fruit such as mango, papaya and apricots (NHS: https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a). No specific numerical daily reference intake figure for beta-carotene as a standalone nutrient is published by the NHS; the NHS states that a varied and balanced diet should provide the amount needed (NHS: https://www.nhs.uk/conditions/vitamins-and-minerals/others). Regarding supplemental intake, the NHS states that adults should not take more than 7 mg of beta-carotene supplements per day unless advised by a doctor, and notes that beta-carotene supplements have been found to increase the risk of lung cancer in people who smoke or who have been exposed to asbestos (NHS: https://www.nhs.uk/conditions/vitamins-and-minerals/others).\n\n---",
+    "computed_on": "2026-08-28"
+  },
+  "Molybdenum": {
+    "evidence": {
+      "canonical_name": "Molybdenum",
+      "role": [
+        {
+          "text": "Molybdenum helps make and activate some of the proteins involved in chemical reactions (enzymes) that help with repairing and making genetic material.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Molybdenum helps make and activate some of the proteins involved in chemical reactions (enzymes) that help with repairing and making genetic material.",
+          "source_url": "https://111.wales.nhs.uk/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Molybdenum is found in a wide variety of foods. Foods that grow above ground tend to be higher in molybdenum than foods that grow below ground.",
+          "source_url": "https://111.wales.nhs.uk/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "## Molybdenum: Summary from UK Published Sources\n\nAccording to the NHS, molybdenum helps make and activate some of the proteins involved in chemical reactions (enzymes) that help with repairing and making genetic material. NHS 111 Wales states that molybdenum is found in a wide variety of foods, and that foods which grow above ground tend to be higher in molybdenum than foods that grow below ground. Both the NHS and NHS 111 Wales note that a varied and balanced diet should provide all the molybdenum needed. NHS 111 Wales also states that molybdenum obtained from food is not likely to be harmful. No specific numerical reference intake or upper limit figure for molybdenum was returned by any of the UK sources searched (NHS, NICE, or BNF), and no regulatory classification monograph was identified in the BNF.",
+    "computed_on": "2026-08-28"
+  },
+  "Vitamin K": {
+    "evidence": {
+      "canonical_name": "Vitamin K",
+      "role": [
+        {
+          "text": "Vitamin K is a group of vitamins that the body needs for blood clotting, helping wounds to heal. There is also some evidence vitamin K may help keep bones healthy. Any vitamin K the body does not need immediately is stored in the liver for future use.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-k",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Vitamin K is found in green leafy vegetables such as broccoli and spinach, vegetable oils, and cereal grains. Small amounts can also be found in meat and dairy foods.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-k",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults need approximately 1 microgram (\u03bcg) a day of vitamin K for each kilogram of their body weight.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-k",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 1 mg or less of vitamin K supplements a day is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-k",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "**Vitamin K \u2014 UK Source Summary**\n\nAccording to the NHS, vitamin K is a group of vitamins that the body needs for blood clotting, helping wounds to heal, and any vitamin K the body does not need immediately is stored in the liver for future use. The NHS also notes there is some evidence vitamin K may help keep bones healthy. The NHS states that vitamin K is found in green leafy vegetables such as broccoli and spinach, vegetable oils, and cereal grains, with small amounts also present in meat and dairy foods. Regarding intake, the NHS states that adults need approximately 1 microgram per kilogram of body weight per day \u2014 for example, someone weighing 65 kg would need approximately 65 micrograms per day. The NHS states that taking 1 mg or less of vitamin K supplements a day is unlikely to cause any harm. No UK source was identified that provided a published regulatory or prescribing status for vitamin K as a supplement.",
+    "computed_on": "2026-08-28"
+  },
+  "Choline": {
+    "evidence": {
+      "canonical_name": "Choline",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The BNF lists choline salicylate as a licensed medicine; this is a distinct substance from the dietary nutrient choline and should not be conflated with it.",
+          "source_url": "https://bnf.nice.org.uk/drugs/choline-salicylate",
+          "source_authority": "BNF",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "## Choline: Evidence Summary from UK Sources\n\nSearches across NHS (nhs.uk), NICE (nice.org.uk), and the British National Formulary (bnf.nice.org.uk) did not return any published UK source covering the physiological role, dietary food sources, reference intake, or upper limit of choline as a nutrient or dietary supplement ingredient. The NHS Vitamins and Minerals guide (https://www.nhs.uk/conditions/vitamins-and-minerals/) does not include a section on choline. The only choline-related entry found in these sources is for **choline salicylate**, a licensed salicylate analgesic medicine listed in the BNF (https://bnf.nice.org.uk/drugs/choline-salicylate); this is a distinct substance from the dietary nutrient choline, and its full monograph content was not accessible. No claims about choline as a nutrient can be attributed to any of the three authoritative UK sources on the basis of the evidence retrieved.",
+    "computed_on": "2026-08-28"
+  },
+  "Omega-3": {
+    "evidence": {
+      "canonical_name": "Omega-3",
+      "role": [
+        {
+          "text": "Omega-3 fatty acids help maintain healthy eyes, skin, and immune system, as well as supporting brain and nerve development.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Long-chain omega-3 can help to prevent heart disease. It is also important if you are pregnant or breastfeeding, because it can help your baby's nervous system to develop.",
+          "source_url": "https://www.nhs.uk/Live-well/eat-well/food-types/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Some types of omega-3 fats cannot be made by the body, which means it is essential to include small amounts of them in the diet.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Omega-3 fats are found in oily fish, including kippers, herring, trout, sardines, salmon, and mackerel.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Some types of shellfish, such as mussels, oysters, squid and crab, are also good sources of long-chain omega-3 fatty acids, but they do not contain as much as oily fish.",
+          "source_url": "https://www.nhs.uk/Live-well/eat-well/food-types/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Plant-based and vegetarian sources of omega-3 fatty acids include flaxseed (linseed) oil, rapeseed oil, walnuts, flaxseeds, chia seeds, pumpkin seeds, and eggs enriched with omega-3.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "The NHS recommends eating at least 2 portions of fish per week, with 1 portion being an oily fish, and describes one portion as around 140g when cooked. No standalone gram-per-day reference intake figure solely for omega-3 in adults was found in the retrieved UK sources.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "The NHS states it is recommended to have more omega-3 by eating at least 2 portions of fish each week, with 1 portion being an oily fish, and to eat at least 1 portion (around 140g when cooked) of oily fish a week.",
+          "source_url": "https://www.nhs.uk/Live-well/eat-well/food-types/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Omega-3-acid ethyl esters is listed as a named prescription medicine in the British National Formulary.",
+          "source_url": "https://bnf.nice.org.uk/drugs/omega-3-acid-ethyl-esters",
+          "source_authority": "BNF",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Omega-3 fatty acid medicines are not licensed in the UK to treat schizophrenia; their use in this context is described as off-label.",
+          "source_url": "https://www.nice.org.uk/advice/esuom19/ifp/chapter/about-omega-3-fatty-acids",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "## Omega-3 \u2014 Summary from Published UK Sources\n\nThe NHS describes omega-3 fatty acids as helping to maintain healthy eyes, skin, and immune system, as well as supporting brain and nerve development, according to its vegan diet page. On its fish and shellfish page, the NHS states that long-chain omega-3 can help to prevent heart disease and is important during pregnancy and breastfeeding because it can help a baby's nervous system to develop. The NHS also notes, on its facts about fat page, that some types of omega-3 fats cannot be made by the body, making it essential to include small amounts in the diet.\n\nUK sources identify oily fish \u2014 including kippers, herring, trout, sardines, salmon, and mackerel \u2014 as the richest dietary sources, with some shellfish such as mussels, oysters, squid, and crab also described by the NHS as good sources of long-chain omega-3, though containing less than oily fish. Plant-based sources listed by the NHS include flaxseed (linseed) oil, rapeseed oil, walnuts, flaxseeds, chia seeds, pumpkin seeds, and omega-3-enriched eggs.\n\nRather than a gram-per-day figure, the NHS frames its guidance in terms of food portions, recommending at least two portions of fish per week, one of which should be oily fish, with one portion described as around 140g when cooked. No standalone gram-per-day reference intake figure for omega-3 alone, and no published upper limit expressed specifically for omega-3, was found in the retrieved UK sources. The BNF lists omega-3-acid ethyl esters as a named prescription medicine. NICE notes that omega-3 fatty acid medicines are not licensed in the UK to treat schizophrenia, describing any such use as off-label.\n\n---",
+    "computed_on": "2026-08-28"
+  },
+  "Inositol": {
+    "evidence": {
+      "canonical_name": "Inositol",
+      "role": [
+        {
+          "text": "Inositol nicotinate (a specific compound form of inositol) is described as an oral peripheral vasodilator that slows the release of nicotinic acid.",
+          "source_url": "https://www.nice.org.uk/guidance/ta223/chapter/3-the-technologies",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Inositol nicotinate has a UK marketing authorisation for the symptomatic relief of severe intermittent claudication and Raynaud's phenomenon.",
+          "source_url": "https://www.nice.org.uk/guidance/ta223/chapter/3-the-technologies",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "NICE concluded that it could not recommend inositol nicotinate as a cost-effective use of NHS resources for intermittent claudication.",
+          "source_url": "https://www.nice.org.uk/guidance/ta223/chapter/4-evidence-and-interpretation",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "## Inositol: Summary from Published UK Sources\n\nInositol is not listed as a standalone nutrient in the NHS vitamins and minerals resource. One specific compound form, inositol nicotinate, is described by NICE (Technology Appraisal TA223) as \"an oral peripheral vasodilator that slows the release of nicotinic acid,\" and holds a UK marketing authorisation for the symptomatic relief of severe intermittent claudication and Raynaud's phenomenon. NICE concluded in TA223, however, that it could not recommend inositol nicotinate as a cost-effective use of NHS resources for intermittent claudication. A Great Ormond Street Hospital (GOSH/NHS) press release references a clinical trial investigating inositol alongside folic acid in the context of neural tube defect prevention, though this is a research summary rather than a statement about the nutrient's established physiological function. The NHS Health Research Authority lists a research study titled *Inositol Depletion and Emotion*, noting inositol's involvement in emotional processing, again as a research summary only. No UK source provides food sources, a reference intake, or an upper limit for inositol as a general supplement ingredient.\n\n---",
+    "computed_on": "2026-08-28"
+  },
+  "Lutein": {
+    "evidence": {
+      "canonical_name": "Lutein",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "PrescQIPP CIC has issued a bulletin that did not find evidence to support prescribing of lutein and antioxidants routinely on the NHS. NICE guidance on AMD includes a recommendation for research on the effectiveness and cost-effectiveness of lutein and antioxidants, which is currently a gap in the research.",
+          "source_url": "https://www.england.nhs.uk/long-read/items-which-should-not-routinely-be-prescribed-in-primary-care-policy-guidance",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Lutein antioxidant supplements are classified Non Formulary DNP. Not to be prescribed for age-related macular degeneration as per NHS England. Evidence base does not show that lutein and other eye vitamins are effective.",
+          "source_url": "https://www.bedsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Lutein-containing products (e.g. Preservision Eye Vitamin and Mineral Food Supplement, Original or Lutein) are classified Non Formulary / Red. Health food supplements marketed as aids to the improvement of eye health. Should not be prescribed on the NHS for the prevention of age related macular degeneration.",
+          "source_url": "https://www.lincolnshirejointformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Lutein, zeaxanthin, omega-3 fatty acids and beta carotene containing products are not for NHS prescription due to lack of evidence of benefit and cost-effectiveness.",
+          "source_url": "https://www.cheshireandmerseysideformulary.nhs.uk/reports/Archive/A0003.asp",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ]
+    },
+    "prose": "The published UK sources retrieved for lutein come exclusively from NHS prescribing and formulary guidance rather than from general nutrition pages. No UK source was found describing lutein's physiological role in general terms, its food sources, a reference intake, or an upper limit. The available NHS evidence relates to lutein's prescribing status: NHS England states that PrescQIPP CIC did not find evidence to support prescribing lutein and antioxidants routinely on the NHS, and that NICE guidance on age-related macular degeneration (AMD) identifies the effectiveness and cost-effectiveness of lutein and antioxidants as a research gap. Multiple NHS formularies \u2014 including those for Bedfordshire and Luton, Lincolnshire, and Cheshire and Merseyside \u2014 classify lutein-containing supplements as non-formulary or not for NHS prescription, citing lack of evidence of benefit and cost-effectiveness, particularly for AMD.",
+    "computed_on": "2026-08-28"
+  },
+  "Potassium": {
+    "evidence": {
+      "canonical_name": "Potassium",
+      "role": [
+        {
+          "text": "Potassium is a mineral that helps control the balance of fluids in the body, and also helps the heart muscle work properly.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others#potassium",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Potassium helps nerves and muscles communicate, helps nutrients move into cells and waste products move out of cells, and helps the heart function healthily.",
+          "source_url": "https://www.nhs.uk/tests-and-treatments/potassium-test",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources of potassium include bananas, some vegetables such as broccoli, parsnips and brussels sprouts, beans and pulses, nuts and seeds, fish, beef, chicken, and turkey.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others#potassium",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Good sources of dietary potassium include fruit (particularly bananas), some vegetables, pulses, nuts and seeds, milk, fish, shellfish, beef, chicken, turkey, and bread.",
+          "source_url": "https://www.nhs.uk/tests-and-treatments/potassium-test",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Potatoes are a good source of potassium.",
+          "source_url": "http://www.nhs.uk/live-well/eat-well/food-types/starchy-foods-and-carbohydrates",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults aged 19 to 64 years need 3,500 mg of potassium a day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others#potassium",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 3,700 mg or less of potassium supplements a day is unlikely to have obvious harmful effects. Taking too much potassium can cause stomach pain, feeling sick and diarrhoea.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others#potassium",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "## Potassium: Summary from UK Published Sources\n\nThe NHS states that potassium is a mineral that helps control the balance of fluids in the body and helps the heart muscle work properly. According to the NHS *Potassium test* page, potassium also helps nerves and muscles communicate, supports the movement of nutrients into cells and waste products out of cells, and contributes to healthy heart function. The NHS *Vitamins and minerals \u2013 Others* page notes that potassium is found in most types of food, listing good sources as bananas, vegetables such as broccoli, parsnips and brussels sprouts, beans and pulses, nuts and seeds, fish, beef, chicken, and turkey; the NHS *Potassium test* page adds milk, shellfish, and bread to this list, and a separate NHS page on starchy foods identifies potatoes as a good source of potassium. The NHS states that adults aged 19 to 64 need 3,500 mg of potassium per day, and that taking 3,700 mg or less of potassium supplements a day is unlikely to have obvious harmful effects, noting also that taking too much potassium can cause stomach pain, feeling sick, and diarrhoea. No substantive regulatory status statement was retrievable from BNF or other UK sources within the evidence gathered.",
+    "computed_on": "2026-08-28"
+  },
+  "Phosphorus": {
+    "evidence": {
+      "canonical_name": "Phosphorus",
+      "role": [
+        {
+          "text": "Phosphorus is a mineral that helps build strong bones and teeth, and helps release energy from food.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Phosphates are essential for the production of energy, muscle and nerve function, and bone growth.",
+          "source_url": "https://www.nhs.uk/tests-and-treatments/phosphate-test",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Phosphorus is found in many foods, including red meat, dairy foods, fish, poultry, bread, brown rice, and oats.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults need 550 mg of phosphorus a day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 250 mg or less a day of phosphorus supplements on top of the phosphorus obtained from the diet is unlikely to cause any harm.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        },
+        {
+          "text": "Taking high doses of phosphorus supplements for a short time can cause diarrhoea or stomach pain. Taking high doses for a long time can reduce the amount of calcium in the body, which means bones are more likely to fracture.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/others",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-28"
+        }
+      ],
+      "regulatory_flags": []
+    },
+    "prose": "According to the NHS, phosphorus is a mineral that helps build strong bones and teeth and helps release energy from food. The NHS also states, in the context of a phosphate blood test, that phosphates are essential for the production of energy, muscle and nerve function, and bone growth. The NHS notes that adults need 550 mg of phosphorus a day, and that this should be obtainable from a daily diet alone. Good dietary sources listed by the NHS include red meat, dairy foods, fish, poultry, bread, brown rice, and oats. Regarding supplemental intake, the NHS states that taking 250 mg or less per day of phosphorus supplements on top of dietary intake is unlikely to cause harm, while high doses taken over a short time can cause diarrhoea or stomach pain, and high doses taken over a long time can reduce calcium in the body.",
+    "computed_on": "2026-08-28"
+  },
+  "Boron": {
+    "evidence": {
+      "canonical_name": "Boron",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "The Evidence Researcher's searches of NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk) did not return any published, attributed statements from these UK authoritative sources covering boron's physiological role, food sources, reference intake, upper limit, or regulatory status. Boron does not appear to have a dedicated published section on any of these three platforms at the time of the searches conducted. All five evidence fields are therefore empty. This reflects the absence of retrieved content from these specific UK sources, not a general absence of scientific literature on boron.",
+    "computed_on": "2026-08-28"
+  },
+  "Co-enzyme Q10": {
+    "evidence": {
+      "canonical_name": "Co-enzyme Q10",
+      "role": [
+        {
+          "text": "A fat-soluble compound primarily synthesised by the body and also consumed in the diet; involved in the process of energy production by mitochondria and functions as an antioxidant in cell membranes and lipoproteins.",
+          "source_url": "https://www.nice.org.uk/advice/es11/resources/mitochondrial-disorders-in-children-coenzyme-q10-pdf-1158110303173",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Classified among antioxidants; antioxidants might help prevent cell damage.",
+          "source_url": "https://www.guysandstthomas.nhs.uk/health-information/herbal-remedies-and-dietary-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Co-enzyme Q10 has no licensed indications as a medicine in the UK. In line with GMC guidance on prescribing unlicensed medicines, the prescriber should take full responsibility for determining the needs of the patient and whether using co-enzyme Q10 is suitable.",
+          "source_url": "https://www.nice.org.uk/advice/es11/resources/mitochondrial-disorders-in-children-coenzyme-q10-pdf-1158110303173",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Listed under a restricted category in the Greater Manchester NHS Formulary; should only be used for the treatment of mitochondrial disorders under the care of a specialist. Includes ubiquinone.",
+          "source_url": "https://www.greatermanchesterformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09.06&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "There is insufficient evidence to recommend supplements such as co-enzyme Q10 in the context of ME/CFS treatment.",
+          "source_url": "https://www.nhs.uk/conditions/chronic-fatigue-syndrome-cfs/treatment",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "## Co-enzyme Q10 \u2014 Evidence Summary\n\nAccording to the NICE Evidence Summary ES11 (*Mitochondrial disorders in children: Co-enzyme Q10*, published 28 March 2017), co-enzyme Q10 is a fat-soluble compound primarily synthesised by the body and also consumed in the diet; it is described as being involved in energy production by mitochondria and as functioning as an antioxidant in cell membranes and lipoproteins. The Guy's and St Thomas' NHS Foundation Trust patient information page on herbal remedies and dietary supplements similarly groups co-enzyme Q10 among antioxidants, noting that antioxidants might help prevent cell damage.\n\nNo NHS, NICE, or BNF source retrieved lists specific food sources for co-enzyme Q10, and no UK reference intake or published upper safety limit for healthy adults is available in the sources examined. NICE ES11 notes that co-enzyme Q10 has no licensed indications as a medicine in the UK. The NHS page on ME/CFS treatment states there is insufficient evidence to recommend co-enzyme Q10 as a supplement in that context.",
+    "computed_on": "2026-08-29"
+  },
+  "L-carnitine": {
+    "evidence": {
+      "canonical_name": "L-carnitine",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Levocarnitine (Carnitor) is listed under section 09.08.01 (Carnitine deficiency) as Formulary Amber 2 \u2014 High Cost Medicine NHS England; oral licensed products are indicated for the treatment of carnitine deficiency.",
+          "source_url": "https://www.lincolnshirejointformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Levocarnitine is classified as Formulary Red Hospital, indicated for carnitine deficiency and for paediatric metabolic disorders on specialist advice only.",
+          "source_url": "https://www.cambridgeshireandpeterboroughformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Levocarnitine is listed as Restricted \u2014 Amber SPIS \u2014 High Cost under carnitine deficiency.",
+          "source_url": "https://www.bedsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Levocarnitine (Carnitor) is listed under 09.08.01 Carnitine deficiency as a Formulary Red Hospital item.",
+          "source_url": "https://www.swljointmedicinesformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "L-carnitine (levocarnitine) 1g is classified as unlicensed in at least one context; the formulary directs referral to Toxbase for off-label use in severe sodium valproate toxicity and to Formulary Chapter 9 for use in metabolic disorders.",
+          "source_url": "https://www.hiowformulary.nhs.uk/reports/Archive/A0003.asp",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Levocarnitine is listed in the BNF drugs directory.",
+          "source_url": "https://bnf.nice.org.uk/drugs",
+          "source_authority": "BNF",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "L-carnitine (also referred to in clinical contexts as levocarnitine) does not appear among the nutrients covered by the NHS Vitamins and Minerals pages (https://www.nhs.uk/conditions/vitamins-and-minerals), and no NHS, NICE, or BNF page retrieved by the searches states a function, food source, reference intake, or upper limit for L-carnitine as a general dietary nutrient. Several NHS regional formularies do, however, record levocarnitine as a licensed pharmaceutical preparation. The Lincolnshire Joint Formulary lists levocarnitine (Carnitor) under section 09.08.01 (Carnitine deficiency) as a \"Formulary Amber 2 \u2014 High Cost Medicine NHS England\" item, with oral licensed products indicated for the treatment of carnitine deficiency (https://www.lincolnshirejointformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100). The Cambridgeshire and Peterborough Formulary classifies levocarnitine as \"Formulary Red Hospital\", indicated for carnitine deficiency and for paediatric metabolic disorders on specialist advice only (https://www.cambridgeshireandpeterboroughformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100). The Bedfordshire and Luton Joint Formulary lists it as \"Restricted \u2014 Amber SPIS \u2014 High Cost\" under carnitine deficiency (https://www.bedsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100). The South West London Joint Medicines Formulary similarly records levocarnitine (Carnitor) under 09.08.01 Carnitine deficiency as a \"Formulary Red Hospital\" item (https://www.swljointmedicinesformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100). The Hampshire and Isle of Wight Formulary notes that L-carnitine (levocarnitine) 1 g is classified as unlicensed in at least one context, with a direction to refer to Toxbase for off-label use in severe sodium valproate toxicity and to Formulary Chapter 9 for use in metabolic disorders (https://www.hiowformulary.nhs.uk/reports/Archive/A0003.asp). The BNF drugs directory confirms levocarnitine is listed (https://bnf.nice.org.uk/drugs), but full monograph text was not accessible without authenticated UK access.",
+    "computed_on": "2026-08-29"
+  },
+  "Citrus bioflavonoids": {
+    "evidence": {
+      "canonical_name": "Citrus bioflavonoids",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "The Evidence Researcher's exhaustive searches of NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk) returned no published content specifically addressing citrus bioflavonoids across any of the five fields examined \u2014 role, food sources, reference intake, upper limit, or regulatory status. The pages retrieved from those searches were unrelated to this ingredient. Accordingly, no sourced claims about citrus bioflavonoids can be made from these three UK authorities at this time.",
+    "computed_on": "2026-08-29"
+  },
+  "PABA": {
+    "evidence": {
+      "canonical_name": "PABA",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Potassium aminobenzoate, a pharmaceutical salt of para-aminobenzoic acid, is listed in the BNF as a licensed medicine with a dosing instruction of 12 g daily in divided doses, to be taken after food.",
+          "source_url": "https://bnf.nice.org.uk/drugs/potassium-aminobenzoate",
+          "source_authority": "BNF",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "A NICE draft scope document lists potassium para-aminobenzoate as an oral intervention under technology appraisal consideration for adults with Peyronie's disease.",
+          "source_url": "https://www.nice.org.uk/media/default/About/what-we-do/NICE-guidance/NICE-technology-appraisals/Proposed-appraisals-no-wave/ID849%20-%20Peyronie%E2%80%99s%20disease%20-%20collagenase%20Clostridium%20histolyticum%20and%20potassium%20para-aminobenzoate%20-%20draft%20scope.pdf",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "Para-aminobenzoic acid (PABA) is not described as a nutrient with a defined physiological role, food sources, reference intake, or upper limit in any NHS, NICE, or BNF publication found. The BNF (bnf.nice.org.uk) does carry an entry for **potassium aminobenzoate** \u2014 a pharmaceutical salt of PABA \u2014 listing a medicinal dosing instruction of 12 g daily in divided doses, taken after food, for use as a licensed medicine. A NICE draft scope document also references potassium para-aminobenzoate as an intervention under technology appraisal consideration for adults with Peyronie's disease. One NHS body, South West London Integrated Care Board, mentions para-aminobenzoic acid only in the context of sunscreen ingredients, without attributing any nutritional function to it. No UK source was found addressing PABA specifically as an over-the-counter dietary supplement ingredient.",
+    "computed_on": "2026-08-29"
+  },
+  "L-arginine": {
+    "evidence": {
+      "canonical_name": "L-arginine",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "L-arginine is listed as 'Non Formulary' on the Joint Warwickshire NHS local formulary, meaning it is not routinely commissioned for prescribing on that formulary. This is a local formulary decision and does not represent national regulatory status.",
+          "source_url": "https://www.swftformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "The Evidence Researcher's searches of NHS (nhs.uk), NICE (nice.org.uk), and BNF (bnf.nice.org.uk) did not return any published page from those authoritative bodies describing the physiological role, food sources, reference intake, or upper limit of L-arginine as a nutrient or supplement ingredient. References to \"arginine\" found during searching concerned distinct compounds or clinical contexts: arginine vasopressin (a hormone discussed in relation to diabetes insipidus on NHS pages), perindopril arginine (a pharmaceutical ACE inhibitor salt discussed in NHS England prescribing guidance and NICE CKS hypertension guidance), and the arginine stimulation test (a paediatric diagnostic procedure described on NHS Scotland Right Decisions). None of these constitute a published UK authoritative statement about L-arginine as a supplement or amino acid. One local NHS formulary (Joint Warwickshire) lists L-arginine with a status of \"Non Formulary,\" meaning it is not routinely commissioned for prescribing on that local formulary; this is a local decision and does not represent a national regulatory position. No national NHS, NICE, or BNF statement was found specifying the regulatory or legal status of L-arginine as a food supplement ingredient in the UK.",
+    "computed_on": "2026-08-29"
+  },
+  "Eleuthero": {
+    "evidence": {
+      "canonical_name": "Eleuthero",
+      "role": [
+        {
+          "text": "Listed among herbal supplements that could reduce blood glucose levels, in the context of potential interactions with other medicines.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric-potential-interactions",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "## Eleuthero \u2013 UK Published Sources Summary\n\nThe Welsh Medicines Advice Service, operating as part of NHS Wales, lists eleuthero (also referred to as Siberian ginseng) among herbal supplements that could reduce blood glucose levels, noting this in the context of potential interactions with other medicines. No statements about eleuthero's physiological role beyond this interaction context, its food sources, a reference intake, an upper limit, or its UK regulatory status were found in the sources searched \u2014 which comprised NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk).",
+    "computed_on": "2026-08-29"
+  },
+  "L-lysine": {
+    "evidence": {
+      "canonical_name": "L-lysine",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "The Evidence Researcher conducted systematic searches of NHS (nhs.uk), NICE (nice.org.uk), and BNF (bnf.nice.org.uk) for published information about L-lysine across five fields: role and function, food sources, reference intake, upper limit, and regulatory status. None of the searches returned a page from these authoritative UK sources that contained specific information about L-lysine. The URLs retrieved during the searches related to unrelated topics, including bone health foods, food labelling for macronutrients, TB treatment evidence tables, and lung function devices. Because no claim about L-lysine can be traced to a specific snippet from NHS, NICE, or BNF, no statements are included in the record below.",
+    "computed_on": "2026-08-29"
+  },
+  "L-methionine": {
+    "evidence": {
+      "canonical_name": "L-Methionine",
+      "role": [
+        {
+          "text": "Methionine is an amino acid. The NHS states that in homocystinuria, an enzyme called cystathionine beta-synthase is missing, which leads to problems breaking down methionine, causing methionine and homocysteine to build up in the body and blood; the aim of dietary management is to reduce the build-up of homocysteine, which is formed from methionine.",
+          "source_url": "https://www.nhs.uk/conditions/homocystinuria",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "An NHSGGC paediatric clinical guideline states that foods high in methionine include certain fish (dried cod, tuna, sardines), shellfish (lobster, crayfish), liver, poultry, beef, cheese, and eggs.",
+          "source_url": "https://www.clinicalguidelines.scot.nhs.uk/ggc-paediatric-guidelines/ggc-paediatric-guidelines/urology/nephrolithiasis-andor-nephrocalcinosis-management-and-evaluation-973",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "## L-Methionine: Evidence Summary\n\nThe NHS describes methionine as an amino acid. In the context of the metabolic disorder homocystinuria, the NHS explains that methionine is broken down in the body via an enzyme called cystathionine beta-synthase, and that homocysteine is formed from methionine; in that condition, both substances build up when the enzyme is absent. No standalone description of methionine's physiological role in a healthy body was identified in the NHS, NICE, or BNF sources retrieved.\n\nAn NHS Greater Glasgow and Clyde (NHSGGC) paediatric clinical guideline lists foods high in methionine as including certain fish (dried cod, tuna, sardines), shellfish (lobster, crayfish), liver, poultry, beef, cheese, and eggs. That information appears within guidance on cystinuria management.\n\nNo UK reference intake figure, upper limit, or regulatory status statement for L-methionine was identified in any NHS, NICE, or BNF source retrieved.\n\n---",
+    "computed_on": "2026-08-29"
+  },
+  "N-acetylcysteine": {
+    "evidence": {
+      "canonical_name": "N-Acetylcysteine",
+      "role": [
+        {
+          "text": "Described as 'a nutritional supplement and medicine' in an NHS Health Research Authority research summary.",
+          "source_url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/effect-of-n-acetylcysteine-on-brain-glutamate",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Referred to as 'an existing anti-oxidant drug' in the context of a specific research study, in a Great Ormond Street Hospital news article.",
+          "source_url": "https://www.gosh.nhs.uk/news/research-uncovers-potential-for-new-treatments-for-childhood-autoimmune-condition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Listed as a formulary medicine under Mucolytics (section 03.07); use restricted to respiratory consultants only at certain NHS trusts, and injection restricted to ITU use at specific providers.",
+          "source_url": "https://ncl-jointformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=3&SubSectionRef=03&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Acetylcysteine effervescent tablets listed as 'On Formulary' under conditions affecting sputum viscosity, with multiple named licensed products including A-CYS, AceCil, and Acepiro.",
+          "source_url": "https://primarycare.northeastlondon.icb.nhs.uk/wp-content/uploads/2024/10/Respiratory-system.html",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Acetylcysteine injection for nebulisation listed as 'Unlicensed \u2013 Red' (restricted), for respiratory specialist initiation only; the formulary notes that 'no conclusive proof of efficacy has yet been found' for that route.",
+          "source_url": "https://uhdbformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=3&SubSectionRef=03&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "A BNF monograph for acetylcysteine exists but its full content is access-restricted and could not be retrieved for public citation.",
+          "source_url": "https://bnf.nice.org.uk/drugs/acetylcysteine",
+          "source_authority": "BNF",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "## N-Acetylcysteine: Evidence Summary from UK Published Sources\n\nThe NHS Health Research Authority describes N-acetylcysteine (NAC) as \"a nutritional supplement and medicine,\" according to a research summary published at https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/effect-of-n-acetylcysteine-on-brain-glutamate. A Great Ormond Street Hospital (NHS) news article refers to NAC as \"an existing anti-oxidant drug\" in the context of a specific research study, though this characterisation appears in a news report rather than a clinical reference document. NHS formulary sources list acetylcysteine as a licensed medicine under the mucolytics category; the North East London ICB Primary Care formulary lists acetylcysteine effervescent tablets as \"On Formulary\" under conditions affecting sputum viscosity, and the North Central London NHS Joint Formulary notes that certain forms and routes of administration are restricted to specialist use. The University Hospitals of Derby and Burton NHS Formulary lists acetylcysteine injection for nebulisation as \"Unlicensed \u2013 Red,\" restricted to respiratory specialist initiation, and notes that \"no conclusive proof of efficacy has yet been found\" for that route. No UK authoritative source was found providing food sources, a reference intake, or a published upper limit for N-acetylcysteine.",
+    "computed_on": "2026-08-29"
+  },
+  "Soy isoflavones": {
+    "evidence": {
+      "canonical_name": "Soy isoflavones",
+      "role": [
+        {
+          "text": "Soy isoflavones are phyto-oestrogens, described as similar in structure to oestrogen, and noted as potentially helping with menopausal symptoms such as hot flushes and vaginal dryness.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/menopause-a-healthy-lifestyle-guide",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "NICE Guideline NG101 situates soy isoflavones as agents used in the context of vasomotor (menopausal) symptoms, within a recommendation not to offer them to women with breast cancer.",
+          "source_url": "https://www.nice.org.uk/guidance/ng101/chapter/recommendations",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Isoflavones are found in soya beans, green beans, lentils, chickpeas, texturised vegetable protein, tofu, and soya drinks.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/menopause-a-healthy-lifestyle-guide",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "NICE Guideline NG101 states: 'Do not offer soy (isoflavone), red clover, black cohosh, vitamin E or magnetic devices to treat vasomotor symptoms in women with breast cancer.'",
+          "source_url": "https://www.nice.org.uk/guidance/ng101/chapter/recommendations",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "NHS Somerset prescribing guidelines state the same clinical restriction for people with breast cancer, and note that health food supplements may vary and that their safety is not regulated as medicines are, with interactions possible.",
+          "source_url": "https://nhssomerset.nhs.uk/prescribing-and-medicines-management/prescribing-guidelines-by-clinical-area/menopause-and-hormone-replacement-therapy",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "NICE surveillance evidence for lower urinary tract symptoms (CG97, 2019) states that additional consistent conclusive evidence on the efficacy of soy isoflavones is needed before considering them for inclusion in that guideline.",
+          "source_url": "https://www.nice.org.uk/consultations/645/2/summary-of-evidence-from-surveillance",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "**Soy Isoflavones \u2014 Summary of Published UK Source Evidence**\n\nCambridge University Hospitals NHS Foundation Trust describes soy isoflavones as phyto-oestrogens \u2014 compounds similar in structure to oestrogen \u2014 and notes that they \"may help with symptoms such as hot flushes and vaginal dryness.\" The same source lists food sources of isoflavones as including soya beans, green beans, lentils, chickpeas, texturised vegetable protein, tofu, and soya drinks. NICE Guideline NG101 (Early and Locally Advanced Breast Cancer) states that soy isoflavones should not be offered to treat vasomotor symptoms in women with breast cancer, and NHS Somerset prescribing guidelines carry the same clinical restriction. NHS Somerset also notes that health food supplements, including those containing soy isoflavones, fall outside medicines regulation in the UK, and that their safety \"isn't regulated as medicines are.\" NICE surveillance evidence for lower urinary tract symptoms (CG97, 2019) states that \"additional consistent conclusive evidence on the efficacy of\u2026 soy isoflavones is needed before considering these for inclusion in the guideline.\" No UK reference intake or upper limit figure for soy isoflavones was identified in the sources retrieved.",
+    "computed_on": "2026-08-29"
+  },
+  "Docosahexaenoic acid": {
+    "evidence": {
+      "canonical_name": "Docosahexaenoic acid",
+      "role": [
+        {
+          "text": "Long-chain omega-3 fatty acids including DHA can help to prevent heart disease and are important for women who are pregnant or breastfeeding, because they can help a baby's nervous system to develop.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Omega-3 fatty acids are a type of fat necessary for human health, described as essential fatty acids because the body cannot make them on its own and must obtain them from food and drink.",
+          "source_url": "https://www.nice.org.uk/advice/esuom19/ifp/chapter/about-omega-3-fatty-acids",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Omega-3 fatty acids cannot be made by the body and must be obtained through food, such as fatty fish.",
+          "source_url": "https://research.uhs.nhs.uk/news/finding-sustainable-fatty-acids-meet-ella-baker",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Oily fish including salmon, sardines, fresh tuna, mackerel, herring, trout, and pilchards are primary sources of long-chain omega-3 fatty acids including DHA. Some shellfish such as mussels, oysters, squid, and crab are also good sources, though they contain less than oily fish.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Oily fish such as salmon, mackerel, and sardines are the main source of EPA and DHA, together with smaller amounts in meat and dairy products.",
+          "source_url": "https://research.uhs.nhs.uk/news/transgenic-plant-oil-as-good-as-fish-for-healthy-omega-3",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Oily fish listed as sources include sardines, salmon, pilchards, mackerel, herring, trout, and fresh tuna; tinned tuna is noted as having omega-3 removed during the canning process.",
+          "source_url": "https://library.sheffieldchildrens.nhs.uk/food-and-mental-health",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "UK government recommendations cited in NHS UHS Research indicate 450 mg of combined EPA and DHA per day for adults. No separate reference intake for DHA alone was identified in the sources retrieved.",
+          "source_url": "https://research.uhs.nhs.uk/news/transgenic-plant-oil-as-good-as-fish-for-healthy-omega-3",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "In a pregnancy-specific clinical context, University Hospitals Plymouth NHS Trust states that taking more than 1000 mg of DHA plus EPA a day will not give any extra benefit.",
+          "source_url": "https://www.plymouthhospitals.nhs.uk/display-pil/pil-omega-3-omacor-supplements-6034",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Omega-3 fatty acid medicines containing EPA and DHA hold a UK marketing authorisation as adjuvant treatment in secondary prevention of myocardial infarction and for treatment of hypertriglyceridaemia when dietary measures are not sufficient.",
+          "source_url": "https://www.nice.org.uk/advice/esuom19/chapter/intervention-and-alternatives",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Omega-3 fatty acid medicines are not licensed in the UK to treat schizophrenia; use in that indication is off-label.",
+          "source_url": "https://www.nice.org.uk/advice/esuom19/ifp/chapter/about-omega-3-fatty-acids",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Omega-3 fatty acids are included in the NHS England guidance on items which should not be routinely prescribed in primary care.",
+          "source_url": "https://www.barnsleyformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=2&SubSectionRef=02&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "## Docosahexaenoic Acid (DHA) \u2014 Evidence Summary\n\nDocosahexaenoic acid (DHA) is a long-chain omega-3 fatty acid. The NHS states that long-chain omega-3 fatty acids \"can help to prevent heart disease\" and are \"important for women who are pregnant or breastfeeding, because it can help a baby's nervous system to develop.\" According to NICE, omega-3 fatty acids are described as \"a type of fat necessary for human health\" and as \"essential fatty acids because the body can't make them on its own, so it must get them from food and drink.\" NHS University Hospitals Southampton similarly notes that omega-3 fatty acids \"cannot be made by the body and must be obtained through food.\"\n\nThe NHS identifies oily fish \u2014 including salmon, sardines, fresh tuna, mackerel, herring, trout, and pilchards \u2014 as the primary food sources of long-chain omega-3 fatty acids including DHA. The NHS also notes that some shellfish such as mussels, oysters, squid, and crab are good sources, though containing less than oily fish. NHS UHS Research additionally notes smaller amounts in meat and dairy products.\n\nNHS UHS Research cites a UK government recommendation of 450 mg of combined EPA and DHA per day for adults; no separate UK reference intake for DHA alone was identified in the sources retrieved. University Hospitals Plymouth NHS Trust states, in a pregnancy-specific clinical context, that \"taking more than 1000 mg of DHA plus EPA a day will not give any extra benefit.\" NICE notes that omega-3 fatty acid medicines hold a UK marketing authorisation as adjuvant treatment in secondary prevention of myocardial infarction and for hypertriglyceridaemia, and that the Barnsley Area Joint Formulary records omega-3 fatty acids as included in NHS England guidance on items that should not be routinely prescribed in primary care.\n\n---",
+    "computed_on": "2026-08-29"
+  },
+  "Eicosapentaenoic acid": {
+    "evidence": {
+      "canonical_name": "Eicosapentaenoic acid",
+      "role": [
+        {
+          "text": "EPA is described as an essential fatty acid that cannot be produced in the body and must be supplied in the diet. Together with DHA, it has critical functions such as eye and brain development, and EPA and DHA have been demonstrated to be beneficial to health.",
+          "source_url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/a-pilot-study-to-investigate-the-effect-of-krill-oil-on-skin-function-2",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Oily fish, which are particularly high in long-chain omega-3 fatty acids including EPA, can help to keep your heart healthy.",
+          "source_url": "https://www.nhs.uk/Live-well/eat-well/food-types/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Oily fish are high in long-chain omega-3 fatty acids including EPA. Oily fish include herring (including bloater, kipper, and hilsa), pilchards, salmon, and sardines.",
+          "source_url": "https://www.nhs.uk/Live-well/eat-well/food-types/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "EPA is characterised as derived from fish oils.",
+          "source_url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/a-pilot-study-to-investigate-the-effect-of-krill-oil-on-skin-function-2",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [
+        {
+          "text": "The NHS states that girls, women who are planning a pregnancy or may have a child one day, and pregnant and breastfeeding women should eat no more than 2 portions of oily fish a week, due to higher levels of pollutants in oily fish. No specific upper limit in milligrams of EPA from supplements is published in the sources retrieved.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "NICE references licensed medicinal products containing EPA available on the NHS electronic drug tariff, including Omacor 1000 mg capsules (comprising 460 mg ethyl-eicosapentaenoic acid and 380 mg DHA) and Maxepa 1000 mg capsules (comprising 170 mg EPA and 115 mg DHA), indicating that EPA-containing formulations exist as licensed prescription medicines in the UK.",
+          "source_url": "https://www.nice.org.uk/advice/esuom19/chapter/evidence-review-economic-issues",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "Eicosapentaenoic acid (EPA) is an omega-3 fatty acid. According to the NHS Health Research Authority, EPA is an essential fatty acid \u2014 described as \"a vitamin-like substance that cannot be produced in the body and has to be supplied in the diet\" \u2014 and, together with DHA, has \"critical functions such as eye and brain development.\" The NHS notes that oily fish, which are particularly high in long-chain omega-3 fatty acids including EPA, \"can help to keep your heart healthy.\" The NHS identifies oily fish such as herring, pilchards, salmon, and sardines as dietary sources of EPA, and the HRA additionally characterises EPA as derived from fish oils. No specific adult reference intake figure in milligrams of EPA is published by the NHS, NICE, or BNF in the sources available. NICE references licensed medicinal products containing EPA \u2014 including Omacor 1000 mg capsules and Maxepa 1000 mg capsules \u2014 as available on the NHS electronic drug tariff, indicating that EPA-containing formulations exist as licensed prescription medicines in the UK.",
+    "computed_on": "2026-08-29"
+  },
+  "Fish oil": {
+    "evidence": {
+      "canonical_name": "Fish Oil",
+      "role": [
+        {
+          "text": "The NHS states that long-chain omega-3 fatty acids found in oily fish can help to prevent heart disease, and are important during pregnancy and breastfeeding because they can help a baby's nervous system to develop.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "A NICE evidence review states that evidence for the protective benefits of oily fish on CVD is abundant, citing a meta-analysis of over 15 cohort studies examining omega-3 oils and cardiovascular disease.",
+          "source_url": "https://www.nice.org.uk/guidance/ph25/documents/prevention-of-cvd-ep-10-saturated-and-unsaturated-fats2",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "The NHS identifies oily fish \u2014 including herring, pilchards, salmon, sardines, sprats, trout, and mackerel \u2014 as the richest dietary sources of long-chain omega-3. Oysters and crab are noted as the main shellfish sources, though containing less than oily fish. Fresh, canned, frozen, pickled, and smoked versions all count.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "The NHS states that a healthy balanced diet should include at least two portions of fish per week, including at least one portion of oily fish, with a portion defined as around 140g cooked. No specific daily reference intake in milligrams or grams of omega-3 is published by the NHS for the general adult population.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "The NHS states that oily fish usually have higher levels of pollutants than other types of seafood and advises that girls and women who are pregnant, breastfeeding, planning a pregnancy, or may have children in future should have no more than two portions of oily fish per week (a portion being around 140g).",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/fish-and-shellfish-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "NICE notes that among the numerous omega-3 fatty acid products on the UK market, 14 hold a current licence as a medicinal product, indicated mainly as adjuvant treatment in secondary prevention of myocardial infarction and for treatment of hypertriglyceridaemia when dietary measures are insufficient.",
+          "source_url": "https://www.nice.org.uk/advice/esuom19/chapter/Overview-for-healthcare-professionals",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "NICE states that the use of omega-3 fatty acid medicines in schizophrenia represents off-label use.",
+          "source_url": "https://www.nice.org.uk/guidance/esuom19/resources/schizophrenia-omega3-fatty-acid-medicines-pdf-54116458949508037",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "The BNF lists omega-3-acid ethyl esters as a named drug entry, confirming the existence of a prescribable licensed form in the UK.",
+          "source_url": "https://bnf.nice.org.uk/drugs/omega-3-acid-ethyl-esters",
+          "source_authority": "BNF",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "An NHS Dorset medicines bulletin states that omega-3 fatty acids and other fish oils are not recommended for routine prescribing in primary care.",
+          "source_url": "https://nhsdorset.nhs.uk/medicines/wp-content/uploads/sites/3/2022/09/Omega-3-bulletin.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "## Fish Oil (Omega-3 Fatty Acids) \u2014 Evidence Summary\n\nThe NHS states that oily fish contains long-chain omega-3 fatty acids and that these \"can help to prevent heart disease,\" and that omega-3 from oily fish \"is also important if you're pregnant or breastfeeding, because it can help your baby's nervous system to develop\" (NHS \u2013 Fish and shellfish nutrition). A NICE evidence review on saturated and unsaturated fats notes that \"evidence for the protective benefits of oily fish on CVD is abundant,\" citing a meta-analysis of over 15 cohort studies examining omega-3 oils and cardiovascular disease (NICE \u2013 Prevention of CVD, Evidence Paper 10).\n\nThe NHS identifies the richest dietary sources as oily fish \u2014 including herring, pilchards, salmon, sardines, sprats, trout, and mackerel \u2014 and notes that oysters and crab are the main shellfish sources of long-chain omega-3, though in smaller amounts than oily fish. The NHS also states that fresh, canned, frozen, pickled, and smoked versions all count toward intake. Rather than a milligram reference intake, the NHS expresses guidance in food portions: a healthy balanced diet should include at least two portions of fish per week, including at least one portion of oily fish, with a portion defined as around 140g cooked.\n\nRegarding limits, the NHS states that oily fish \"usually have higher levels of pollutants than other types of seafood\" and advises that girls and women who are pregnant, breastfeeding, planning a pregnancy, or may have children in future should have no more than two portions of oily fish per week. On the regulatory side, NICE notes that among the numerous omega-3 products on the UK market, 14 hold a current licence as a medicinal product, indicated mainly as adjuvant treatment in secondary prevention of myocardial infarction and for hypertriglyceridaemia; use in schizophrenia is described by NICE as off-label. The BNF lists omega-3-acid ethyl esters as a named drug entry, confirming the existence of a prescribable licensed form in the UK. An NHS Dorset medicines bulletin states that omega-3 fatty acids and other fish oils are not recommended for routine prescribing in primary care.\n\n---",
+    "computed_on": "2026-08-29"
+  },
+  "Ginkgo biloba": {
+    "evidence": {
+      "canonical_name": "Ginkgo biloba",
+      "role": [
+        {
+          "text": "The NHS states that ginkgo biloba can increase the side effects of risperidone, in the context of drug interactions.",
+          "source_url": "https://www.nhs.uk/medicines/risperidone/taking-risperidone-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "The NHS states there might be a problem taking herbal remedies and supplements with clopidogrel, especially ones that can affect your blood, citing ginkgo as an example.",
+          "source_url": "https://www.nhs.uk/medicines/clopidogrel/taking-clopidogrel-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "NICE raises as an unanswered research question whether ginkgo biloba is more effective than placebo in increasing response and remission rates and decreasing anxiety ratings for people with generalised anxiety disorder (GAD); this is framed as a research question, not a confirmed effect.",
+          "source_url": "https://www.nice.org.uk/researchrecommendation/is-chamomile-ginkgo-biloba-more-effective-than-placebo-in-increasing-response-and-remission-rates-and-decreasing-anxiety-ratings-for-people-with-generalised-anxiety-disorder-gad",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The NHS states that herbal supplements, including ginkgo biloba, are not tested in the same way as pharmacy and prescription medicines, and that there is not enough information to confirm their safety alongside certain prescribed medicines.",
+          "source_url": "https://www.nhs.uk/medicines/risperidone/taking-risperidone-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "A Wales NHS source (Wales Medicines Information Centre) lists ginkgo among supplements that might have anticoagulant or antiplatelet effects.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric-potential-interactions",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "Ginkgo biloba is a herbal supplement. The NHS notes, in the context of drug interactions, that ginkgo biloba \"can increase the side effects of risperidone\" and that there \"might be a problem with taking some herbal remedies and supplements with clopidogrel, especially ones that can affect your blood (for example, ginkgo)\" (NHS \u2013 Taking risperidone with other medicines and herbal supplements; NHS \u2013 Taking clopidogrel with other medicines and herbal supplements). The NHS also states, as a general observation about herbal supplements, that they \"are not tested in the same way as pharmacy and prescription medicines\" (NHS \u2013 Taking risperidone with other medicines and herbal supplements). NICE, in its guideline on Generalised Anxiety Disorder (CG113), raises as an unanswered research question whether ginkgo biloba is more effective than placebo in reducing anxiety ratings for people with GAD \u2014 framing this as a question requiring further research, not a confirmed effect (NICE \u2013 GAD Research Recommendation). A Wales NHS source (Wales Medicines Information Centre) lists ginkgo among supplements that \"might have anticoagulant or antiplatelet effects\" (WMIC Wales NHS \u2013 Turmeric: potential interactions). No UK authoritative source in the evidence provided states food sources, a reference intake, or an upper limit for ginkgo biloba.",
+    "computed_on": "2026-08-29"
+  },
+  "Green tea extract": {
+    "evidence": {
+      "canonical_name": "Green tea extract",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The NHS states that any herbal medicine should carry a traditional herbal registration (THR) mark and a product licence code from the Medicines and Healthcare products Regulatory Agency (MHRA) on its packaging, showing it has been licensed for use in England and meets safety standards. The NHS also states that herbal medicines are not available on the NHS.",
+          "source_url": "https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "UK published sources contain limited information specifically about green tea extract as a supplement ingredient. The NHS states that herbal medicines \u2014 a category that includes herbal preparations such as green tea products \u2014 are not available on the NHS, and advises that any herbal medicine packaging should carry a traditional herbal registration (THR) mark and a product licence code from the Medicines and Healthcare products Regulatory Agency (MHRA) as evidence that the product has been licensed for use in England and meets safety standards (NHS, https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies). Green tea the beverage is noted on an NHS breastfeeding and diet page as a dietary source of caffeine, with a stated caffeine content of approximately 38 mg per mug, though this page does not characterise green tea or green tea extract as a supplement ingredient (NHS, https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/breastfeeding-and-lifestyle/diet). No NHS, NICE, or BNF national source was found that sets out a physiological role, a reference intake, or a formal upper limit for green tea extract. No claim about a biological function or recommended quantity could be verified against the evidence gathered, and those fields are therefore left empty below.",
+    "computed_on": "2026-08-29"
+  },
+  "Turmeric": {
+    "evidence": {
+      "canonical_name": "Turmeric",
+      "role": [
+        {
+          "text": "Only high doses of curcumin are absorbed into the blood and can have an effect throughout the body.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Studies on curcumin generally use concentrated supplements rather than the quantities of turmeric that would be consumed in a normal diet; at the moment the jury is out on what effect it may have on health.",
+          "source_url": "https://www.royalmarsden.nhs.uk/oafu/diet/superfoods",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Turmeric may change the way your body processes certain medicines.",
+          "source_url": "https://www.nhs.uk/medicines/solifenacin/taking-solifenacin-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Turmeric can potentially increase your risk of bleeding when taken with low-dose aspirin.",
+          "source_url": "https://www.nhs.uk/medicines/low-dose-aspirin/taking-low-dose-aspirin-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "The risk of bleeding might be increased because turmeric may interfere with clotting by decreasing platelet aggregation.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric-potential-interactions",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Turmeric is a root that has been used as a spice for many years and can be used to add flavour and colour to food.",
+          "source_url": "https://www.royalmarsden.nhs.uk/oafu/diet/superfoods",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Turmeric root and turmeric powder are dietary sources of curcumin; a common medicinal dose of curcumin (400\u2013600 mg three times a day) is equivalent to 60 g of fresh turmeric root or 15 g of turmeric powder.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [
+        {
+          "text": "In human studies, doses of up to 8000 mg a day of turmeric have been used without toxic effects for eight months. Curcumin doses of up to 8000 mg a day have been used without toxic effects for three months.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric-potential-adverse-effects",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Giving curcumin with piperine enhances the absorption of curcumin which may have safety implications.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric-potential-adverse-effects",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Products sold as food supplements are not subject to the same quality and safety standards as conventional medicines, and contamination of turmeric and curcumin supplements with another active ingredient cannot always be ruled out.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Of all the adverse reactions reported to the UK Medicines and Healthcare Products Regulatory Authority (MHRA) for curcuma, the most common (around 16%) were for gastrointestinal effects.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric-potential-adverse-effects",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Herbal products are not tested in the same way as pharmacy and prescription medicines and are generally not tested for the effect they have on other medicines.",
+          "source_url": "https://www.nhs.uk/medicines/solifenacin/taking-solifenacin-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "## Turmeric: Summary of Published UK Source Evidence\n\nTurmeric is a root plant used as a spice, the active constituent of which is curcumin. The Royal Marsden NHS Foundation Trust notes that turmeric \"is a root that has been used as a spice for many years\" and describes it as \"a great spice to add flavour and colour to your food,\" while observing that studies on curcumin \"generally use concentrated supplements rather than the quantities of turmeric that would be consumed in a normal diet\" and that \"at the moment the jury is out on what effect it may have on health\" ([https://www.royalmarsden.nhs.uk/oafu/diet/superfoods](https://www.royalmarsden.nhs.uk/oafu/diet/superfoods)). The Welsh Medicines Information Centre (WMIC), part of NHS Wales, states that \"only high doses of curcumin are absorbed into the blood and can have an effect throughout the body\" ([https://www.wmic.wales.nhs.uk/turmeric](https://www.wmic.wales.nhs.uk/turmeric)). The NHS notes that turmeric \"may change the way your body processes\" certain medicines and that it \"can potentially increase your risk of bleeding\" when taken alongside low-dose aspirin ([https://www.nhs.uk/medicines/low-dose-aspirin/taking-low-dose-aspirin-with-other-medicines-and-herbal-supplements](https://www.nhs.uk/medicines/low-dose-aspirin/taking-low-dose-aspirin-with-other-medicines-and-herbal-supplements)). The WMIC attributes this to turmeric potentially interfering with clotting by decreasing platelet aggregation ([https://www.wmic.wales.nhs.uk/turmeric-potential-interactions](https://www.wmic.wales.nhs.uk/turmeric-potential-interactions)). No UK reference nutrient intake or recommended daily amount for turmeric or curcumin was identified in any of the sources retrieved. The WMIC states that turmeric and curcumin supplements \"are not subject to the same quality and safety standards as conventional medicines\" and that contamination \"cannot always be ruled out\" ([https://www.wmic.wales.nhs.uk/turmeric](https://www.wmic.wales.nhs.uk/turmeric)). No NICE guidance or publicly accessible BNF monograph for turmeric or curcumin was retrievable.\n\n---",
+    "computed_on": "2026-08-29"
+  },
+  "Glucosamine": {
+    "evidence": {
+      "canonical_name": "Glucosamine",
+      "role": [
+        {
+          "text": "Glucosamine is important for maintaining the elasticity, strength and resilience of cartilage in joints, which helps to reduce joint damage. It is described as an important constituent of articular (joint) cartilage. The mechanism of action in humans is not understood and there is limited evidence to show that it is effective.",
+          "source_url": "https://sandwellandwestbhamccgformulary.nhs.uk/docs/UKMi_QA173_5_glucosamine_2015Final.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Glucosamine is the building block of proteoglycans, which are linked together to make the structure of articular cartilage. There is no accepted or coherent explanation of how it might help relieve pain in osteoarthritis.",
+          "source_url": "http://www.midlandsmedicines.nhs.uk/filestore/Glucosamine-DA.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Commercially, glucosamine is generally made from the exoskeleton (shells) of crustaceans such as shrimps.",
+          "source_url": "http://www.midlandsmedicines.nhs.uk/filestore/Glucosamine-DA.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Glucosamine, in its unlicensed form as a food supplement, has been commonly used for many years for the relief of pain and symptoms associated with joint disorders. In its licensed forms, as glucosamine sulphate and glucosamine hydrochloride, it is indicated for the relief of symptoms in mild to moderate osteoarthritis of the knee.",
+          "source_url": "https://nhsdorset.nhs.uk/medicines/wp-content/uploads/sites/3/2022/09/Glucosamine-briefing.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Because glucosamine is not used in current practice and there is no strong evidence of benefit, the committee recommended against its use for people with osteoarthritis.",
+          "source_url": "https://www.nice.org.uk/guidance/ng226/chapter/rationale-and-impact",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "## Glucosamine: Summary from UK Published Sources\n\nGlucosamine is described by an NHS-hosted UKMi document as being important for maintaining the elasticity, strength and resilience of cartilage in joints. An NHS Midlands Medicines assessment additionally describes it as a building block of proteoglycans, which form the structure of articular cartilage. Both sources note that the mechanism of action in humans is not fully understood, and the UKMi document states that there is limited evidence to show it is effective. Commercially, glucosamine is generally derived from the exoskeletons of crustaceans such as shrimps, according to the NHS Midlands Medicines document; no UK source identifies it as a naturally occurring component of everyday foods. No reference intake or upper limit for glucosamine has been identified in NHS, NICE, or BNF published sources. An NHS Dorset briefing notes that glucosamine exists both as an unlicensed food supplement and in licensed forms (glucosamine sulphate and glucosamine hydrochloride) indicated for mild to moderate osteoarthritis of the knee. NICE guidance NG226 states that the committee recommended against its use for people with osteoarthritis, on the basis that it is not used in current practice and there is no strong evidence of benefit.",
+    "computed_on": "2026-08-29"
+  },
+  "Evening primrose oil": {
+    "evidence": {
+      "canonical_name": "Evening Primrose Oil",
+      "role": [
+        {
+          "text": "Evening primrose oil contains gamma-linolenic acid (GLA), a fatty acid involved in regulating tissue response to normal hormone levels.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/evening-primrose-oil-for-breast-pain",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Evening primrose oil is listed among herbal products sold to help relieve menopause symptoms.",
+          "source_url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/vaginal-oestrogen/using-vaginal-oestrogen-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Evening primrose oil is listed among herbal products sold to help relieve menopause symptoms.",
+          "source_url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/sequential-combined-hormone-replacement-therapy-hrt-tablets-and-patches/taking-sequential-combined-hormone-replacement-therapy-hrt-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "Evening primrose oil is listed among herbal products sold to help relieve menopause symptoms.",
+          "source_url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/oestrogen-tablets-patches-gel-and-spray/taking-or-using-oestrogen-tablets-patches-gel-and-spray-with-other-medicines-and-herbal-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "In 2002 the MHRA (then the Medicines Control Agency) withdrew the product licences (marketing authorisations) for two major evening primrose oil preparations.",
+          "source_url": "https://www.nice.org.uk/guidance/cg57/documents/atopic-eczema-in-children-full-guideline2",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "NHS England policy guidance states that evening primrose oil (gamolenic acid) should not routinely be prescribed in primary care; it does not have a Traditional Herbal Registration, is not recognised as a supplement in the NHS Drug Tariff, and does not appear in the BNF.",
+          "source_url": "https://www.england.nhs.uk/long-read/items-which-should-not-routinely-be-prescribed-in-primary-care-policy-guidance",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        },
+        {
+          "text": "The Leicestershire Area Prescribing Committee classifies evening primrose oil (gamolenic acid) as 'Do not prescribe' for cyclical breast pain/mastalgia and atopic eczema, citing no evidence to support use for these indications and noting that marketing authorisations were withdrawn in 2002.",
+          "source_url": "https://www.areaprescribingcommitteeleicesterleicestershirerutland.nhs.uk/traffic-lights",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-08-29"
+        }
+      ]
+    },
+    "prose": "## Evening Primrose Oil \u2014 Evidence Summary\n\nAccording to Cambridge University Hospitals NHS Foundation Trust, evening primrose oil contains gamma-linolenic acid (GLA), a fatty acid that is described as being involved in regulating tissue response to normal hormone levels. The NHS lists evening primrose oil among herbal products sold to help relieve menopause symptoms, without further elaboration on its physiological function. No UK source in the evidence retrieved specifies food sources for evening primrose oil or GLA, nor is a reference intake or upper limit published by NHS, NICE, or BNF for this substance. From a regulatory standpoint, NICE guidance on atopic eczema in children notes that in 2002 the MHRA (then the Medicines Control Agency) withdrew marketing authorisations for two major evening primrose oil preparations. NHS England's prescribing policy guidance states that evening primrose oil (gamolenic acid) is among the products that should not routinely be prescribed in primary care, noting that it does not appear in the BNF and is not recognised as a supplement in the NHS Drug Tariff.",
+    "computed_on": "2026-08-29"
   }
 }
