@@ -6,7 +6,6 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from pathlib import Path
 
-from lagomy.crew import Lagomy
 from guardrails import find_banned_phrases
 
 load_dotenv()
@@ -90,29 +89,11 @@ def evidence(request: EvidenceRequest):
                 guardrail_triggered=bool(hits),
             )
 
-        result = Lagomy().crew().kickoff(inputs={
-        "ingredient": request.ingredient,
-        "probe": request.probe,
-    })
-    text = str(result)
-    data = extract_json(text)
-
-    today = date.today()
-    for field in ["role", "food_sources", "reference_intake",
-                  "upper_limit", "regulatory_flags"]:
-        for statement in data.get(field, []):
-            statement["retrieval_date"] = today
-
-    prose = text.split("```json")[0].strip()
-
-    hits = find_banned_phrases(prose)
-    if hits:
-        print(f"GUARDRAIL: prose withheld, matched {hits}")
-        prose = None
-
-    return EvidenceResponse(
-        ingredient=request.ingredient,
-        evidence=IngredientEvidence(**data),
-        prose=prose,
-        guardrail_triggered=bool(hits),
+    raise HTTPException(
+        status_code=404,
+        detail=(
+            f"No precomputed evidence for '{request.ingredient}'. "
+            "This API serves evidence generated in advance; "
+            "it does not run live searches."
+        ),
     )
