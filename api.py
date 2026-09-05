@@ -1,5 +1,4 @@
 import json
-import re
 from datetime import date
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
@@ -7,6 +6,7 @@ from pydantic import BaseModel
 from pathlib import Path
 
 from guardrails import find_banned_phrases
+import dataset
 
 load_dotenv()
 
@@ -41,6 +41,21 @@ class EvidenceResponse(BaseModel):
     prose: str | None = None
     guardrail_triggered: bool = False
 
+class ProductIngredientEvidence(BaseModel):
+    """One ingredient in a product, with evidence if we have any."""
+    ingredient_id: str
+    canonical_name: str
+    matched_key: str | None = None
+    match_type: str          # exact | alias | modifier | none
+    evidence: IngredientEvidence | None = None
+
+class ProductResponse(BaseModel):
+    """Every ingredient in a product, with per-ingredient provenance."""
+    product_id: str
+    ingredients: list[ProductIngredientEvidence]
+    matched_count: int
+    unmatched_count: int
+
 app = FastAPI(
     title="Lagomy Evidence API",
     description="Sourced UK supplement evidence. Records, never advises.",
@@ -51,26 +66,25 @@ app = FastAPI(
 def health():
     return {"status": "ok"}
 
-def extract_json(text: str) -> dict:
-    """Pull the JSON object out of the crew's prose + JSON output."""
-    match = re.search(r"```json\s*(\{.*?\})\s*```", text, re.DOTALL)
-    if not match:
-        match = re.search(r"(\{.*\})", text, re.DOTALL)
-    if not match:
-        raise HTTPException(status_code=502, detail="Crew returned no JSON block")
-    return json.loads(match.group(1))
 
 STORE = Path("evidence_store.json")
 
+try:
+    STORE_DATA: dict = json.loads(STORE.read_text())
+except FileNotFoundError:
+    STORE_DATA = {}
+
+STORE_KEYS = list(STORE_DATA)
+
 def lookup_store(ingredient: str) -> dict | None:
     """Return a precomputed entry if we have one."""
-    try:
-        store = json.loads(STORE.read_text())
-    except FileNotFoundError:
-        return None
-    return store.get(ingredient)
+    return STORE_DATA.get(ingredient)
 
-@app.post("/evidence", response_model=EvidenceResponse)
+@app.post(
+    "/evidence",
+    response_model=EvidenceResponse,
+    responses={404: {"description": "No precomputed evidence for this ingredient."}},
+)
 def evidence(request: EvidenceRequest):
     """Return stored evidence if we have it, otherwise run the crew."""
     default_probe = EvidenceRequest.model_fields["probe"].default
@@ -96,4 +110,41 @@ def evidence(request: EvidenceRequest):
             "This API serves evidence generated in advance; "
             "it does not run live searches."
         ),
+    )
+
+@app.get(
+    "/product/{product_id}",
+    response_model=ProductResponse,
+    responses={404: {"description": "No product found with this id."}},
+)
+def product(product_id: str):
+    """Every ingredient in a product, with stored evidence where we have it."""
+    rows = dataset.product_ingredient_rows(product_id)
+    if not rows:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No product found with id '{product_id}'.",
+        )
+
+    results = []
+    for row in rows:
+        ingredient_id = row["ingredient_id"]
+        key, how = dataset.match_store_key(ingredient_id, STORE_KEYS)
+        stored = lookup_store(key) if key else None
+        results.append(
+            ProductIngredientEvidence(
+                ingredient_id=ingredient_id,
+                canonical_name=dataset.canonical_name(ingredient_id),
+                matched_key=key,
+                match_type=how,
+                evidence=IngredientEvidence(**stored["evidence"]) if stored else None,
+            )
+        )
+
+    matched = sum(1 for r in results if r.evidence is not None)
+    return ProductResponse(
+        product_id=product_id,
+        ingredients=results,
+        matched_count=matched,
+        unmatched_count=len(results) - matched,
     )

@@ -38,6 +38,29 @@ def find_products(query: str) -> list[dict]:
     ]
     return matches.to_dict("records")
 
+def canonical_name(ingredient_id: str) -> str | None:
+    """The dictionary's canonical name for an ingredient."""
+    row = ingredients[ingredients["ingredient_id"] == ingredient_id]
+    if row.empty:
+        return None
+    return row.iloc[0]["canonical_name"]
+
+def nutrient_names(ingredient_id: str) -> list[str]:
+    """Every name this ingredient goes by: canonical first, then synonyms."""
+    row = ingredients[ingredients["ingredient_id"] == ingredient_id]
+    if row.empty:
+        return []
+    names = [row.iloc[0]["canonical_name"]]
+    synonyms = row.iloc[0]["synonyms"]
+    if not pd.isna(synonyms) and synonyms:
+        names += [s.strip() for s in synonyms.split(";")]
+    seen = set()
+    out = []
+    for n in names:
+        if n and n.lower() not in seen:
+            seen.add(n.lower())
+            out.append(n)
+    return out
 
 def nutrient_name(ingredient_id: str) -> str | None:
     """The everyday nutrient name for an ingredient, from its synonyms."""
@@ -59,3 +82,45 @@ def product_ingredient_rows(product_id: str) -> list[dict]:
         row["nutrient_name"] = nutrient_name(row["ingredient_id"])
     return rows
 
+def normalise(name: str) -> str:
+    """Lowercase, strip hyphens and collapse spaces, for tolerant matching."""
+    return " ".join(name.lower().replace("-", " ").replace("'", "").split())
+
+
+ALIASES = {
+    "folic acid": "Folate",
+    "l methylfolate": "Folate",
+    "phytomenadione": "Vitamin K",
+    "vitamin k2": "Vitamin K",
+    "food grown vitamin d3": "Vitamin D",
+    "food grown thiamine": "Thiamin",
+}
+
+MODIFIERS = ("food grown", "extract", "root extract", "leaf extract", "seed extract")
+
+
+def match_store_key(ingredient_id: str, store_keys: list[str]) -> tuple[str | None, str]:
+    """Find the store key for an ingredient.
+
+    Returns (key, how) where how is one of: exact, alias, modifier, none.
+    """
+    lookup = {normalise(k): k for k in store_keys}
+    names = [normalise(n) for n in nutrient_names(ingredient_id)]
+
+    for n in names:
+        if n in lookup:
+            return lookup[n], "exact"
+
+    for n in names:
+        if n in ALIASES:
+            return ALIASES[n], "alias"
+
+    for n in names:
+        stripped = n
+        for m in MODIFIERS:
+            stripped = stripped.replace(m, "")
+        stripped = " ".join(stripped.split())
+        if stripped and stripped in lookup:
+            return lookup[stripped], "modifier"
+
+    return None, "none"
