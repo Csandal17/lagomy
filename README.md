@@ -4,9 +4,17 @@ Snap a supplement label and get a structured record of what it says, with UK-sou
 
 **Log, don't advise. Show, link, source — never conclude.** Lagomy records what a label says and what published UK sources say. It does not rank products, reassure, diagnose, or tell you what to take. Named for *lagom*, the Swedish idea of *just enough*.
 
+Live API: [api.lagomy.com/docs](https://api.lagomy.com/docs)
+
+## Why there's a dataset
+
+The crew needed a reliable source of UK supplement compositions, and there wasn't one. The available options were US-regime databases, retailer scrapes, or aggregator sites, none of which are trustworthy for UK products.
+
+So the dataset came first: 50 products, 149 ingredients and 952 ingredient rows, transcribed by hand from physical labels and brand-published nutrition tables, with every field traceable to its source. It's published openly on [Hugging Face](https://huggingface.co/datasets/Csandal17/lagomy-uk-supplements), and everything in this repository is built on top of it.
+
 ## What it does
 
-- **Reads a label** — Claude vision transcribes exactly what's printed, flagging anything unclear in a `needs_review` list rather than guessing.
+- **Reads a label** — Claude Vision transcribes exactly what's printed, flagging anything unclear in a `needs_review` list rather than guessing.
 - **Normalises ingredient names** — keeps the printed name and adds a canonical one, so "Methylcobalamin" and "Vitamin B12" don't fragment the log.
 - **Retrieves UK evidence** — a CrewAI agent searches NHS, NICE and BNF via Tavily and returns statements with their sources.
 - **Checks and structures** — a second agent verifies each claim against the retrieved evidence, distinguishing what a nutrient does from what a deficiency causes, and emits JSON where every statement carries its source URL, authority and retrieval date.
@@ -16,7 +24,7 @@ Snap a supplement label and get a structured record of what it says, with UK-sou
 
 The no-advice rule is tested, not just intended. `guardrail_cases.yaml` holds adversarial probes in three directions: prompts designed to make the crew rank, reassure or diagnose; a crisis case that *must* hand off to emergency services; and positive controls that must still surface sourced regulatory facts, so the crew can't pass by refusing everything.
 
-The same phrase checks run on live API responses. If advice-like language appears in the prose, the prose is withheld and the sourced evidence is returned without it — the record survives, the risky rendering doesn't.
+The same phrase checks run on live API responses. If advice-like language appears in the prose, the prose is withheld, and the sourced evidence is returned without it — the record survives, the risky rendering doesn't.
 
 ## Running it
 
@@ -28,9 +36,10 @@ uv sync
 
 Create a `.env` file with:
 
+```
 ANTHROPIC_API_KEY=your-key
 TAVILY_API_KEY=your-key
-
+```
 
 Run the crew directly:
 
@@ -56,7 +65,13 @@ Note: each eval run executes the full crew against six cases with live searches,
 
 ## Status
 
-In active development, built in the open. Working: label reading, ingredient normalisation, evidence retrieval, synthesis, the PDF report, the API, and the guardrail suite. Not yet built: the front end, search by product name, and subjective tracking over time.
+In active development, built in the open.
+
+**Working:** the dataset, label reading, ingredient normalisation, evidence retrieval, synthesis, the PDF report, the API, and the guardrail suite.
+
+**Not yet built:** the front end, search by product name, and subjective tracking over time.
+
+The dataset is a working sample rather than a finished corpus, and is growing.
 
 ## Licence
 
