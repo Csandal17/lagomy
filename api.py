@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from pathlib import Path
-
+import pandas as pd
 from guardrails import find_banned_phrases
 import dataset
 
@@ -148,3 +148,29 @@ def product(product_id: str):
         matched_count=matched,
         unmatched_count=len(results) - matched,
     )
+
+class ProductSummary(BaseModel):
+    """One product in the catalogue listing."""
+    product_id: str
+    brand_name: str
+    product_name: str
+    form: str | None = None
+    ingredient_count: int
+
+@app.get("/products", response_model=list[ProductSummary])
+def products():
+    """Every product in the dataset, for listing and selection."""
+    counts = dataset.product_ingredients.groupby("product_id").size().to_dict()
+    out = []
+    for row in dataset.products.itertuples():
+        form = getattr(row, "form", None)
+        out.append(
+            ProductSummary(
+                product_id=row.product_id,
+                brand_name=row.brand_name,
+                product_name=row.product_name,
+                form=None if pd.isna(form) else form,
+                ingredient_count=counts.get(row.product_id, 0),
+            )
+        )
+    return out
