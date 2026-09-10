@@ -2,6 +2,7 @@ import json
 from datetime import date
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pathlib import Path
 import pandas as pd
@@ -61,6 +62,13 @@ app = FastAPI(
     description="Sourced UK supplement evidence. Records, never advises.",
     version="0.1.0",
 )  
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
+)
 
 @app.get("/health")
 def health():
