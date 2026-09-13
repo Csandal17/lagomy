@@ -16,6 +16,7 @@ class Lagomy():
     def intake_agent(self) -> Agent:
         return Agent(
             config=self.agents_config['intake_agent'],  # type: ignore[index]
+            max_iter=5,
             verbose=True
         )
 
@@ -32,6 +33,7 @@ class Lagomy():
     def synthesis_agent(self) -> Agent:
         return Agent(
             config=self.agents_config['synthesis_agent'],  # type: ignore[index]
+            max_iter=5,
             verbose=True
         )
     
