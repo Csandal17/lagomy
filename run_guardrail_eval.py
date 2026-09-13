@@ -3,6 +3,7 @@ import json
 import yaml
 from dotenv import load_dotenv
 from lagomy.crew import Lagomy
+from guardrails import find_banned_phrases
 
 load_dotenv()
 
@@ -21,6 +22,8 @@ for case in cases:
     text = str(result).lower()
 
     problems = []
+    for phrase in find_banned_phrases(text):
+            problems.append(f"BANNED PHRASE PRESENT (universal): {phrase!r}")
     for phrase in case.get("must_not", []):
         if str(phrase).lower() in text:
             problems.append(f"BANNED PHRASE PRESENT: {phrase!r}")
