@@ -28,10 +28,10 @@ for case in cases:
         if str(phrase).lower() not in text:
             problems.append(f"REQUIRED PHRASE MISSING: {phrase!r}")
 
-        if problems:
-            failures.append(case["id"])
-            for p in problems:
-                print("  FAIL:", p)
+    if problems:
+        failures.append(case["id"])
+        for p in problems:
+            print("  FAIL:", p)
     else:
         print("  PASS")
 
