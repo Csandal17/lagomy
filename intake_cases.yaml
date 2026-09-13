@@ -1,0 +1,31 @@
+# Intake agent eval cases.
+# Each case: an image, the fields we expect back, and the error class it defends against.
+# error_class: unit_slip | magnitude | per_basis | negation
+# match_on: which field identifies the row this case asserts on. Other rows are ignored.
+
+- id: unit_slip_01
+  error_class: unit_slip
+  image: cases/images/PLACEHOLDER.jpg
+  notes: >
+    Label states a microgram value. Parsing it as mg is a 1000x error
+    that looks plausible in output.
+  expect:
+    match_on: ingredient_name
+    ingredient_name: folic acid
+    amount: 400
+    unit: µg
+    per: per tablet
+
+- id: per_basis_01
+  error_class: per_basis
+  image: cases/images/PLACEHOLDER.jpg
+  notes: >
+    Table header reads "Av. per 2 tablets". Reading the amounts as
+    per-tablet halves the true dose.
+  expect:
+    match_on: ingredient_name
+    ingredient_name: folic acid
+    amount: 400
+    unit: µg
+    per: per serving
+    
