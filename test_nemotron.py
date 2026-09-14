@@ -39,10 +39,11 @@ tools = [{
 
 r2 = client.chat.completions.create(
     model=model,
-    messages=[{"role": "user", "content": "Find NHS guidance on magnesium intake."}],
+    messages=[{"role": "user", "content": "You are a UK Supplement Evidence Researcher. Research the supplement ingredient 'Magnesium' using ONLY authoritative UK sources: NHS, NICE, BNF. Gather role, food sources, reference intake, upper limit and regulatory status. Report only what sources state, attribute everything to a URL, and never give advice. Aim for one search per field, six at most."}],
     tools=tools,
-    max_tokens=500,
+    max_tokens=3000,
 )
+
 m2 = r2.choices[0].message
 print("content:", repr(m2.content))
 print("finish_reason:", r2.choices[0].finish_reason)

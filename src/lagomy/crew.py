@@ -10,6 +10,7 @@ nemotron = LLM(
     model="openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
     base_url=os.environ["NEBIUS_BASE_URL"],
     api_key=os.environ["NEBIUS_API_KEY"],
+    max_tokens=8000,
 )
 
 @CrewBase
