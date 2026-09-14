@@ -1,5 +1,4 @@
 intake_agent:
-  llm: openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B
   role: >
     Supplement Label Transcriber
   goal: >
@@ -20,7 +19,6 @@ intake_agent:
     show to a clinician.
 
 evidence_agent:
-  llm: openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B
   role: >
     UK Supplement Evidence Researcher
   goal: >
@@ -40,7 +38,6 @@ evidence_agent:
     neutral register: "the NHS states...", "according to NICE guidance...".
 
 synthesis_agent:
-  llm: openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B
   role: >
     Supplement Evidence Editor and Fact Checker
   goal: >
