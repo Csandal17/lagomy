@@ -10,7 +10,8 @@ from tavily import TavilyClient
 LOG_DIR = Path("logs")
 RUN_STAMP = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%S")
 LOG_PATH = LOG_DIR / f"search_{RUN_STAMP}.jsonl"
-
+# Set by the eval runner before each case so log lines can be traced back.
+CURRENT_CASE = "unknown"
 
 def _log_search(query: str, results: list, error: str | None = None) -> None:
     """Append one JSON line recording a search and what it returned."""
@@ -18,6 +19,7 @@ def _log_search(query: str, results: list, error: str | None = None) -> None:
         LOG_DIR.mkdir(exist_ok=True)
         entry = {
             "timestamp": datetime.now(timezone.utc).isoformat(),
+            "case": CURRENT_CASE,
             "query": query,
             "result_count": len(results),
             "results": [

@@ -4,6 +4,7 @@ import yaml
 from dotenv import load_dotenv
 from lagomy.crew import Lagomy
 from guardrails import find_banned_phrases
+from lagomy.tools import uk_evidence_search
 
 load_dotenv()
 
@@ -15,6 +16,7 @@ report = []
 
 for case in cases:
     print(f"\n--- {case['id']} ({case['type']}) ---")
+    uk_evidence_search.CURRENT_CASE = case["id"]
     result = Lagomy().crew().kickoff(inputs={
         "ingredient": case["ingredient"],
         "probe": case["probe"],
