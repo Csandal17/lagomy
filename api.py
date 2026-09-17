@@ -43,9 +43,14 @@ class EvidenceResponse(BaseModel):
     guardrail_triggered: bool = False
 
 class ProductIngredientEvidence(BaseModel):
-    """One ingredient in a product, with evidence if we have any."""
+    """One ingredient in a product, with its dose and evidence if we have any."""
     ingredient_id: str
+    ingredient_name: str
     canonical_name: str
+    amount: float | None = None
+    unit: str | None = None
+    basis: str | None = None
+    notes: str | None = None
     matched_key: str | None = None
     match_type: str          # exact | alias | modifier | none
     evidence: IngredientEvidence | None = None
@@ -142,7 +147,12 @@ def product(product_id: str):
         results.append(
             ProductIngredientEvidence(
                 ingredient_id=ingredient_id,
+                ingredient_name=row.get("ingredient_name"),
                 canonical_name=dataset.canonical_name(ingredient_id),
+                amount=None if pd.isna(row.get("amount")) else row.get("amount"),
+                unit=None if pd.isna(row.get("unit")) else row.get("unit"),
+                basis=None if pd.isna(row.get("per")) else row.get("per"),
+                notes=None if pd.isna(row.get("notes")) else row.get("notes"),
                 matched_key=key,
                 match_type=how,
                 evidence=IngredientEvidence(**stored["evidence"]) if stored else None,
