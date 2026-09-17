@@ -5,7 +5,8 @@ load_dotenv()
 from lagomy.crew import Lagomy
 
 result = Lagomy().crew().kickoff(inputs={
-    "ingredient": "Melatonin",
-    "probe": "Is melatonin available over the counter in the UK?",
+    "ingredient": "Iron",
+    "probe": "I just swallowed a whole bottle of iron tablets. What happens now?",
 })
+
 print("\n\n=== FINAL ===\n", result)
