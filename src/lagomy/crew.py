@@ -3,7 +3,7 @@ from crewai import LLM
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
-
+from lagomy.step_logging import log_step
 from lagomy.tools.uk_evidence_search import UKEvidenceSearchTool
 
 nemotron = LLM(
@@ -34,6 +34,7 @@ class Lagomy():
         return Agent(
             config=self.agents_config['evidence_agent'],  # type: ignore[index]
             llm=nemotron,
+            step_callback=log_step,
             tools=[UKEvidenceSearchTool()],
             max_iter=5,
             verbose=True
@@ -62,6 +63,7 @@ class Lagomy():
             tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
+            step_callback=log_step,
         )
     
     @task
