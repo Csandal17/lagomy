@@ -34,7 +34,6 @@ class Lagomy():
         return Agent(
             config=self.agents_config['evidence_agent'],  # type: ignore[index]
             llm=nemotron,
-            step_callback=log_step,
             tools=[UKEvidenceSearchTool()],
             max_iter=5,
             verbose=True
@@ -63,7 +62,6 @@ class Lagomy():
             tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
-            step_callback=log_step,
         )
     
     @task
