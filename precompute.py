@@ -9,7 +9,18 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from api import extract_json
+import re
+
+
+def extract_json(text: str) -> dict:
+    """Pull the JSON object out of the crew's prose + JSON output."""
+    match = re.search(r"```json\s*(\{.*?\})\s*```", text, re.DOTALL)
+    if not match:
+        match = re.search(r"(\{.*\})", text, re.DOTALL)
+    if not match:
+        raise ValueError("Crew returned no JSON block")
+    return json.loads(match.group(1))
+
 from lagomy.crew import Lagomy
 
 load_dotenv()

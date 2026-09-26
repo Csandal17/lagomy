@@ -2355,5 +2355,295 @@
     },
     "prose": "## Evening Primrose Oil \u2014 Evidence Summary\n\nAccording to Cambridge University Hospitals NHS Foundation Trust, evening primrose oil contains gamma-linolenic acid (GLA), a fatty acid that is described as being involved in regulating tissue response to normal hormone levels. The NHS lists evening primrose oil among herbal products sold to help relieve menopause symptoms, without further elaboration on its physiological function. No UK source in the evidence retrieved specifies food sources for evening primrose oil or GLA, nor is a reference intake or upper limit published by NHS, NICE, or BNF for this substance. From a regulatory standpoint, NICE guidance on atopic eczema in children notes that in 2002 the MHRA (then the Medicines Control Agency) withdrew marketing authorisations for two major evening primrose oil preparations. NHS England's prescribing policy guidance states that evening primrose oil (gamolenic acid) is among the products that should not routinely be prescribed in primary care, noting that it does not appear in the BNF and is not recognised as a supplement in the NHS Drug Tariff.",
     "computed_on": "2026-08-29"
+  },
+  "Kelp": {
+    "evidence": {
+      "canonical_name": "Kelp",
+      "role": [
+        {
+          "text": "Kelp is discussed by UK authoritative sources as a source of iodine. The NHS states that iodine helps make thyroid hormones, which help keep cells and the metabolic rate healthy.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Iodine helps make thyroid hormones, which help keep cells and the metabolic rate healthy.",
+          "source_url": "http://111.wales.nhs.uk/encyclopaedia/v/article/Vitaminsandminerals",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good food sources of iodine include cows' milk and dairy products, eggs, sea fish, and shellfish. Iodine can also be found in plant foods such as cereals and grains, but levels vary depending on iodine in the soil.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Although seaweed is a concentrated source of iodine, it can provide excessive amounts, particularly brown seaweed such as kelp.",
+          "source_url": "https://www.nhs.uk/pregnancy/keeping-well/vegetarian-or-vegan-and-pregnant",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Seaweed has a high concentration of iodine but contains variable amounts. Brown seaweed such as kelp is a food source likely to lead to excessive iodine intake.",
+          "source_url": "https://library.sheffieldchildrens.nhs.uk/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Seaweed, kelp, and laverbread are listed among foods to be avoided on a low-iodine diet in the context of radioactive iodine treatment.",
+          "source_url": "https://www.uhbristol.nhs.uk/media/4558760/low_iodine_diet.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Adults need 140 micrograms (\u03bcg) of iodine a day.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The recommended iodine intake for adults is 150 mcg/day; for pregnancy and breastfeeding this rises to 200 mcg/day.",
+          "source_url": "https://library.sheffieldchildrens.nhs.uk/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Taking 0.5 mg or less a day of iodine supplements is unlikely to cause any harm. Taking high doses of iodine for long periods of time could change the way the thyroid gland works.",
+          "source_url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "As a rough guide, iodine intake in adults should not exceed 600 mcg/day. Kelp and seaweed are food sources likely to lead to excessive iodine intake.",
+          "source_url": "https://library.sheffieldchildrens.nhs.uk/iodine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "A stakeholder comment in a NICE hypertension guideline consultation document notes that herbal remedies including kelp should be checked as some can affect blood pressure. This is a stakeholder comment, not formal NICE guidance.",
+          "source_url": "https://www.nice.org.uk/guidance/ng136/documents/consultation-comments-and-responses-3",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "Kelp is a type of seaweed discussed by UK authoritative sources primarily in the context of its iodine content. The NHS states that iodine \"helps make thyroid hormones, which help keep cells and the metabolic rate (the speed at which chemical reactions take place in the body) healthy\" (https://www.nhs.uk/conditions/vitamins-and-minerals/iodine). The NHS notes that good food sources of iodine include cows' milk and dairy products, eggs, sea fish, and shellfish, and separately that seaweed \u2014 including brown seaweed such as kelp \u2014 is a concentrated source of iodine. The NHS gives the adult reference intake for iodine as 140 micrograms per day, and states that taking 0.5 mg or less per day of iodine supplements is unlikely to cause harm. A BDA resource hosted via Sheffield Children's NHS Library states that intake in adults should not exceed 600 mcg/day as a rough guide, and notes that kelp and seaweed are food sources likely to lead to excessive iodine intake. No published NHS, NICE, or BNF page attributes a distinct physiological role to kelp itself beyond its iodine content, and no UK source provides a reference intake specific to kelp as a supplement.",
+    "computed_on": "2026-09-26"
+  },
+  "Honey": {
+    "evidence": {
+      "canonical_name": "Honey",
+      "role": [
+        {
+          "text": "Classified by the NHS as a free or added sugar. Medical-grade honey is described by NICE as having antimicrobial and anti-inflammatory properties when used as a topical wound dressing agent.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/how-to-cut-down-on-sugar-in-your-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Medical grade honey has antimicrobial and anti-inflammatory properties, and is often used within wound dressings to reduce or stop the growth of a wide range of bacteria commonly found in wound beds.",
+          "source_url": "https://www.nice.org.uk/advice/esmpb2/chapter/full-evidence-summary-medicines-and-prescribing-briefing",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Medical honey is described as a natural, non-toxic agent that has been used to treat wounds for thousands of years and is often used within wound dressings to reduce or stop the growth of a wide range of bacteria.",
+          "source_url": "https://www.oxfordhealth.nhs.uk/wp-content/uploads/2015/08/Medical_Honey_Simplified_-_Patients-leaflet.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Honey is identified as an example of a free or added sugar, alongside fruit juice, syrups, and nectars.",
+          "source_url": "https://www.nhs.uk/healthier-families/food-facts/sugar",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Added sugars such as table sugar, honey, and syrups are listed as sources of free sugars in the diet.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/how-to-cut-down-on-sugar-in-your-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Free sugars include table sugar, syrup, treacles, honeys, coconut sugar, and fruit juice.",
+          "source_url": "https://www.bedfordshirehospitals.nhs.uk/our-services/nutrition-and-dietetics/further-information-on-eating-well",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [
+        {
+          "text": "Added sugars, including honey, should not make up more than 5% of daily energy intake; for anyone aged 11 and older this equates to approximately 30 g per day.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/how-to-cut-down-on-sugar-in-your-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Adults should consume no more than 30 grams of free sugar (approximately seven teaspoons) per day; honeys are counted within free sugars.",
+          "source_url": "https://www.bedfordshirehospitals.nhs.uk/our-services/nutrition-and-dietetics/further-information-on-eating-well",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The reference intake for total sugars is 90 g per day, which includes the 30 g of free sugars.",
+          "source_url": "https://www.wchc.nhs.uk/children-young-people/parents-carers/family-weight-management/nutrition-labels-and-sugars",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "upper_limit": [
+        {
+          "text": "Added sugars, including honey, should not make up more than 5% of daily energy, equating to no more than approximately 30 g per day for anyone aged 11 and older; the recommended maximum for children aged 7 to 10 is 24 g per day.",
+          "source_url": "https://www.nhs.uk/healthier-families/food-facts/sugar",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS states that honey should not be given to children under 12 months old, as honey can contain the bacteria that causes botulism.",
+          "source_url": "https://www.nhs.uk/conditions/botulism",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS advises not to give honey to babies until they are over 1 year old.",
+          "source_url": "https://www.nhs.uk/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "Medical-grade honey dressings are referenced within the BNF antimicrobial dressings section; NICE notes that a topical antimicrobial dressing can be used to reduce the level of bacteria at the wound surface but will not eliminate a spreading infection.",
+          "source_url": "https://www.nice.org.uk/advice/esmpb2/chapter/full-evidence-summary-medicines-and-prescribing-briefing",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A soft alginate dressing impregnated with 100% medical-grade Manuka honey is listed in the West Herts NHS Formulary for community and primary care use only, reserved for non-healing, infected, or colonised wounds.",
+          "source_url": "https://www.westhertsformulary.nhs.uk/AmmedmentTrackerAllviewItem.asp?FormularyID=5708",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NICE guidance on leg ulcer infection references honey preparations, including calcium alginate dressing impregnated with Manuka honey, in the context of antimicrobial prescribing decisions.",
+          "source_url": "https://www.nice.org.uk/guidance/ng152/resources/leg-ulcer-infection-antimicrobial-prescribing-pdf-66141836924101",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Honey \u2014 Evidence Summary\n\nUK sources do not describe honey as a dietary nutrient with a distinct physiological role in the body. The NHS classifies honey as a free or added sugar, alongside table sugar, syrups, and nectars. According to the NHS, added sugars \u2014 explicitly including honey \u2014 should not make up more than 5% of daily energy intake, equating to no more than approximately 30 g per day for anyone aged 11 and older. In a separate and distinct context, NICE and NHS trust publications describe medical-grade honey as a topical agent with antimicrobial and anti-inflammatory properties used in wound dressings; this is a clinical application rather than a dietary one. The NHS states that honey should not be given to children under 12 months old, as honey can contain bacteria associated with botulism.",
+    "computed_on": "2026-09-26"
+  },
+  "Ashwagandha": {
+    "evidence": {
+      "canonical_name": "Ashwagandha",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The NHS states that herbal medicines are not available on the NHS and that herbal medicines and complementary therapies are not tested in the same way as standard medicines to see how well they work. This is a general statement about herbal medicines as a category and does not refer to Ashwagandha specifically.",
+          "source_url": "https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS Specialist Pharmacy Service notes that NICE advise that complementary products should be part of medicines reconciliation and medication reviews. This is a general statement and does not refer to Ashwagandha specifically.",
+          "source_url": "https://sps.nhs.uk/articles/advising-on-complementary-products-and-conventional-medicines",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Ashwagandha: Evidence Summary from Published UK Sources\n\nSearches of the NHS (nhs.uk), NICE (nice.org.uk), and the British National Formulary (bnf.nice.org.uk) returned no published pages containing specific information about Ashwagandha's role or function in the body, its food sources, a UK reference intake figure, an upper intake limit, or a specific regulatory determination applicable to Ashwagandha alone. The NHS states, in general terms about herbal medicines as a category, that \"herbal medicines and complementary therapies are not tested in the same way as standard medicines to see how well they work\" and that \"herbal medicines are not available on the NHS\" (NHS \u2013 Herbal medicines and complementary therapies: https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies). The NHS Specialist Pharmacy Service notes that \"NICE advise that complementary products should be part of medicines reconciliation and medication reviews\" (NHS SPS: https://sps.nhs.uk/articles/advising-on-complementary-products-and-conventional-medicines), though neither source makes any specific statement about Ashwagandha. No further claims can be attributed to these sources for this ingredient.",
+    "computed_on": "2026-09-26"
+  },
+  "Malt extract": {
+    "evidence": {
+      "canonical_name": "Malt extract",
+      "role": [
+        {
+          "text": "Barley malt extract is described as a flavouring often added in small amounts to breakfast cereals.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/gluten-free-labelling-for-coeliac-disease",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Barley malt extract improves the taste and texture of food.",
+          "source_url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Patient%20Information%20Leaflets/Integrated%20and%20Community%20Care%20Services/Dietetics/The%20Gluten-Free%20Diet.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Barley malt extract is a flavouring often added in small amounts to breakfast cereals.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/gluten-free-labelling-for-coeliac-disease",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Barley malt extract is listed as an ingredient in malted milk biscuits in the context of foods suitable for children tolerating baked milk.",
+          "source_url": "https://library.sheffieldchildrens.nhs.uk/foods-suitable-for-tolerating-baked-milk",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Malt loaf is referenced as a food item in the context of eating less saturated fat.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eat-less-saturated-fat",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Malt drink powder is referenced as a component of nourishing drinks.",
+          "source_url": "https://www.nhft.nhs.uk/dietetics/1000",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Malt extract (at 500 mg per 5 ml) is listed as an ingredient in Vitabiotics Wellkid multivitamin liquid.",
+          "source_url": "https://leedscommunityhealthcare.nhs.uk/our-services-a-z/nutrition-and-dietetics-child/nutrients-3",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "By law, pre-packaged foods using barley malt extract must be labelled as containing barley no matter how much or how little is used.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/gluten-free-labelling-for-coeliac-disease",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "Malt extract does not have a standalone physiological role described by NHS, NICE, or BNF sources. Cambridge University Hospitals NHS Foundation Trust describes barley malt extract as \"a flavouring often added in small amounts to breakfast cereals,\" and the University Hospitals Coventry & Warwickshire NHS Trust states that it \"improves the taste and texture of the food.\" NHS sources identify malt extract as an ingredient present in a range of foods, including breakfast cereals, malted milk biscuits, malt loaf, malt drinks, and children's multivitamin liquids. Cambridge University Hospitals NHS Foundation Trust also notes that, by law, pre-packaged foods using barley malt extract must be labelled as containing barley regardless of the quantity used. No UK reference intake, upper limit, or supplement regulatory classification for malt extract was found in the sources searched.",
+    "computed_on": "2026-09-26"
+  },
+  "Silicon": {
+    "evidence": {
+      "canonical_name": "Silicon",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "The published UK sources consulted for this report \u2014 including the NHS vitamins and minerals pages, NICE guidance, and the British National Formulary \u2014 do not contain any specific information about silicon as a dietary supplement ingredient. The NHS does publish a page on silicosis (https://www.nhs.uk/conditions/silicosis), which concerns a lung disease caused by inhaling silica dust in occupational settings; however, this is unrelated to silicon as a dietary or nutritional ingredient and has not been used to populate any field in this summary. No role, food sources, reference intake, upper limit, or regulatory status for silicon could be identified from NHS, NICE, or BNF sources.",
+    "computed_on": "2026-09-26"
   }
 }
