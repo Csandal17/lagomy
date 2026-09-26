@@ -2645,5 +2645,1416 @@
     },
     "prose": "The published UK sources consulted for this report \u2014 including the NHS vitamins and minerals pages, NICE guidance, and the British National Formulary \u2014 do not contain any specific information about silicon as a dietary supplement ingredient. The NHS does publish a page on silicosis (https://www.nhs.uk/conditions/silicosis), which concerns a lung disease caused by inhaling silica dust in occupational settings; however, this is unrelated to silicon as a dietary or nutritional ingredient and has not been used to populate any field in this summary. No role, food sources, reference intake, upper limit, or regulatory status for silicon could be identified from NHS, NICE, or BNF sources.",
     "computed_on": "2026-09-26"
+  },
+  "L-cysteine": {
+    "evidence": {
+      "canonical_name": "L-Cysteine",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "E910 (L-cysteine improving agent) is listed among food additives to be avoided in a vegan diet in an NHS Norfolk and Waveney resource on feeding vegan infants and under-5s.",
+          "source_url": "https://www.justonenorfolk.nhs.uk/media/ocagvmhe/eating-well-vegans-web-compressed.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A Cystine Amino Acid Supplement is listed as Non Formulary in the North Central London NHS Joint Formulary under borderline substances and nutritional supplements. This entry refers to cystine (the oxidised dimer form) and not explicitly to L-cysteine.",
+          "source_url": "https://ncl-jointformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## L-Cysteine: Summary of UK Published Source Evidence\n\nSearches of NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk) returned very limited published material on L-cysteine as a nutrient or supplement ingredient. An NHS Norfolk and Waveney resource (*Eating well: vegan infants and under-5s*, published via Just One Norfolk) references L-cysteine solely as a food additive (E910, described as an \"improving agent\") listed among additives to be avoided in a vegan diet; it does not describe natural dietary sources of the compound. The North Central London NHS Joint Formulary lists a \"Cystine Amino Acid Supplement\" \u2014 noting that cystine is the oxidised dimer form, not explicitly L-cysteine \u2014 with a status of \"Non Formulary\", indicating it is not included in that NHS formulary. No published NHS, NICE, or BNF page was found stating a physiological role, natural food sources, recommended daily intake, or upper tolerable limit for L-cysteine as a nutrient.",
+    "computed_on": "2026-09-26"
+  },
+  "L-cystine": {
+    "evidence": {
+      "canonical_name": "L-Cystine",
+      "role": [
+        {
+          "text": "Cystine is an amino acid. Amino acids are building blocks for proteins.",
+          "source_url": "https://library.sheffieldchildrens.nhs.uk/cystinuria",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Foods high in methionine (a precursor to cystine) include meat, fish, eggs, milk, and cheese. This information is given in the context of dietary management of cystinuria.",
+          "source_url": "https://library.sheffieldchildrens.nhs.uk/cystinuria",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Foods high in methionine (a precursor to cystine) include certain fish (dried cod, tuna, sardines), shellfish (lobster, crayfish), liver, poultry, beef, cheese, and eggs. This information is given in the context of dietary management of cystinuria.",
+          "source_url": "https://www.rightdecisions.scot.nhs.uk/shared-content/ggc-clinical-guidelines/paediatrics/kidney-diseases/nephrolithiasis-andor-nephrocalcinosis-management-and-evaluation-973",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "A product called Cystine Amino Acid Supplement is listed under Appendix 2 borderline substances and classified as Non Formulary in the North Central London joint formulary.",
+          "source_url": "https://ncl-jointformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A product called Cystine Amino Acid Supplement is listed under Appendix 2 borderline substances and classified as Non Formulary in the North Cheshire and Mersey (Warrington Halton Hospitals) formulary.",
+          "source_url": "https://www.warringtonhaltonhospitalsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A product called Cystine Amino Acid Supplement is listed under Appendix 2 borderline substances and classified as Non Formulary in the Frimley ICS Medicines Optimisation Board formulary.",
+          "source_url": "https://www.frimleyhealthformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2.07&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## L-Cystine: Summary from UK Published Sources\n\nSheffield Children's NHS Foundation Trust describes cystine as an amino acid, noting that amino acids are \"building blocks for proteins.\" No further description of a broader physiological role for L-cystine was found in the retrieved NHS, NICE, or BNF sources.\n\nNo UK source was found stating a reference intake or upper limit for L-cystine as a supplement or dietary constituent.\n\nRegarding food sources, Sheffield Children's NHS Foundation Trust and NHS Scotland (via Right Decisions / GGC Paediatric Guidelines) both list foods high in methionine \u2014 a precursor to cystine \u2014 in the context of clinical dietary management of cystinuria. Sheffield Children's NHS Foundation Trust states that foods high in methionine include meat, fish, eggs, milk, and cheese; NHS Scotland similarly lists dried cod, tuna, sardines, shellfish, liver, poultry, beef, cheese, and eggs. These statements are made in a clinical management context, not as general nutritional guidance on L-cystine as a supplement ingredient.\n\nOn regulatory status, multiple NHS regional formularies (North Central London, North Cheshire and Mersey, and Frimley ICS) list a product called \"Cystine Amino Acid Supplement\" under Appendix 2 borderline substances, classified as \"Non Formulary\" in each case. These formulary entries reference the BNF and children's BNF, though the full BNF entry text was not retrieved in the available evidence.\n\n---",
+    "computed_on": "2026-09-26"
+  },
+  "L-glutamine": {
+    "evidence": {
+      "canonical_name": "L-Glutamine",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "NICE was asked to conduct a Single Technology Appraisal of L-glutamine for preventing painful crises in sickle cell disease in people aged 5 years and over; the appraisal was discontinued after the Committee for Medicinal Products for Human Use (CHMP) adopted a negative opinion in June 2019, recommending refusal of the marketing authorisation for this indication.",
+          "source_url": "https://www.nice.org.uk/guidance/discontinued/gid-ta10452",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The South West London NHS Joint Medicines Formulary lists glutamine (Dipeptiven, solution for infusion) with a Formulary Red Hospital status, indicating it is restricted to hospital use under formulary control.",
+          "source_url": "https://www.swljointmedicinesformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NICE's nutrition support guideline for adults (CG32) notes that the use of novel substrates such as glutamine were not included in the scope of that guideline.",
+          "source_url": "https://www.nice.org.uk/guidance/cg32/evidence/full-guideline-194889853",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## L-Glutamine: Summary from UK Published Sources\n\nThe NHS vitamins and minerals guide does not include an entry for L-glutamine, and no NHS, NICE, or BNF page retrieved for this review publishes a description of L-glutamine's role as a nutrient or supplement for the general population. NICE's nutrition support guideline for adults (CG32) references glutamine only in a scoping context, noting that \"the use of novel substrates such as glutamine were not included in the scope of this guideline,\" according to the full guideline document at https://www.nice.org.uk/guidance/cg32/evidence/full-guideline-194889853. No UK reference intake figure, food source list, or published upper limit for L-glutamine was found in any retrieved NHS, NICE, or BNF source.\n\nOn regulatory matters, NICE records that it was asked to carry out a Single Technology Appraisal of L-glutamine for preventing painful crises in sickle cell disease; however, that appraisal was subsequently discontinued following a negative opinion from the Committee for Medicinal Products for Human Use (CHMP) in June 2019, which recommended refusal of the marketing authorisation for this indication, according to https://www.nice.org.uk/guidance/discontinued/gid-ta10452. Separately, the South West London NHS Joint Medicines Formulary lists glutamine in an intravenous preparation (Dipeptiven, solution for infusion) with a \"Formulary Red Hospital\" status, indicating restriction to hospital use under formulary control, according to https://www.swljointmedicinesformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100.\n\n---",
+    "computed_on": "2026-09-26"
+  },
+  "L-glutathione": {
+    "evidence": {
+      "canonical_name": "L-Glutathione",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "NICE guidance NG257 on fertility problems lists L-glutathione as a component of antioxidant supplement combinations studied in clinical trials (e.g. 'l-glutathione 40 mg' and 'L-glutathione 2.5 mg' within multi-ingredient products) and notes such products are 'likely to be purchased by person requiring antioxidant', indicating availability without prescription. No dedicated regulatory classification of L-glutathione itself is made.",
+          "source_url": "https://www.nice.org.uk/guidance/ng257/evidence/s-sperm-dna-fragmentation-pdf-563921039736",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "L-glutathione is referenced in a small number of UK clinical documents, but no dedicated NHS, NICE, or BNF published page covering its role, food sources, reference intake, upper limit, or regulatory status as a supplement ingredient was identified. NICE guidance NG257 (*Fertility problems: assessment and treatment*) lists L-glutathione as a component of antioxidant supplement combinations examined in clinical trials \u2014 for example as \"l-glutathione 40 mg\" and \"L-glutathione 2.5 mg\" within multi-ingredient products \u2014 and notes that such products are \"likely to be purchased by person requiring antioxidant,\" indicating they are available without prescription; however, NG257 does not provide a dedicated regulatory classification or functional description of L-glutathione itself. No NHS, NICE, or BNF source was found that describes what L-glutathione does in the body, lists foods containing it, or states a UK reference intake or upper limit.",
+    "computed_on": "2026-09-26"
+  },
+  "L-tyrosine": {
+    "evidence": {
+      "canonical_name": "L-Tyrosine",
+      "role": [
+        {
+          "text": "A NICE evidence review on sapropterin for phenylketonuria states that phenylalanine is an essential amino acid provided by protein in the diet, and that a small amount is used for protein synthesis with the rest converted to another amino acid called tyrosine.",
+          "source_url": "https://www.nice.org.uk/Media/Default/About/NICE-Communities/Medicines-prescribing/ER-NHSE-sapropterin-PKU.pdf",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "An NHS Greater Glasgow & Clyde neonatal guideline states that taurine, tyrosine, and cysteine are likely conditionally essential amino acids that should be used for compounding parenteral nutrition for preterm and term infants.",
+          "source_url": "https://clinicalguidelines.scot.nhs.uk/ggc-paediatric-guidelines/ggc-paediatric-guidelines/neonatology/parenteral-feeding-of-preterm-and-term-infant",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The North Central London Joint Formulary lists L-tyrosine and tyrosine amino acid supplement products under borderline substances and nutritional products (Chapter 25: A2.07), classified as Non Formulary, in the context of metabolic conditions such as phenylketonuria and tyrosinaemia.",
+          "source_url": "https://www.ncl-jointformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2.07&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The West Hertfordshire Hospitals Medicines Formulary lists L-tyrosine and tyrosine amino acid supplement products under borderline substances and nutritional products (Chapter 25: A2.07), classified as Non Formulary.",
+          "source_url": "https://www.westhertsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2.07&SubSectionID=A100&Expanded=0",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The Warrington & Halton Hospitals (North Cheshire and Mersey) Formulary lists L-tyrosine and tyrosine amino acid supplement products under borderline substances and nutritional products (Chapter 25: A2), classified as Non Formulary.",
+          "source_url": "https://www.warringtonhaltonhospitalsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The Bradford Teaching Hospitals Formulary lists L-tyrosine and tyrosine amino acid supplement products under borderline substances and nutritional products (Chapter 25: A2), classified as Non Formulary.",
+          "source_url": "https://www.bradfordhospitalsformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The Joint Warwickshire (SWFT) Formulary lists L-tyrosine and tyrosine amino acid supplement products under borderline substances and nutritional products (Chapter 25: A2), classified as Non Formulary.",
+          "source_url": "https://www.swftformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=25&SubSectionRef=A2&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## L-Tyrosine: Summary of UK Published Source Evidence\n\nThe available UK authoritative sources contain limited information about L-tyrosine in the context of general nutrition or supplementation. A NICE evidence review on sapropterin for phenylketonuria notes that phenylalanine \u2014 an essential amino acid obtained from dietary protein \u2014 is converted in the body to tyrosine. An NHS Greater Glasgow & Clyde neonatal guideline identifies tyrosine, alongside taurine and cysteine, as likely conditionally essential for preterm and term infants receiving parenteral nutrition. Several NHS local medicines formularies list L-tyrosine and tyrosine amino acid supplement products under their borderline substances and nutritional products sections (Chapter 25: A2), classifying them as \"Non Formulary\" items; these listings appear in the context of managing metabolic conditions such as phenylketonuria and tyrosinaemia. No UK source retrieved in this evidence set states a reference intake, upper limit, or food sources for L-tyrosine, nor does any retrieved source address its regulatory status as an over-the-counter supplement for the general population.",
+    "computed_on": "2026-09-26"
+  },
+  "Alpha lipoic acid": {
+    "evidence": {
+      "canonical_name": "Alpha lipoic acid",
+      "role": [
+        {
+          "text": "Identified as an antioxidant; listed among complementary approaches some people with peripheral neuropathy may try, with the NHS noting that the evidence for them is not always clear.",
+          "source_url": "https://www.nhs.uk/conditions/peripheral-neuropathy/treatment",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A Hull University Teaching Hospitals NHS Trust patient leaflet states there is some evidence to support the use of Alpha Lipoic Acid supplements in the context of Burning Mouth Syndrome.",
+          "source_url": "https://www.hey.nhs.uk/patient-leaflet/burning-mouth-syndrome",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Alpha lipoic acid is identified by the NHS as an antioxidant, listed among complementary approaches that some people with peripheral neuropathy may try; the NHS notes that \"while some people may find these helpful, the evidence for them is not always clear.\" A patient leaflet published by Hull University Teaching Hospitals NHS Trust states that \"there is also some evidence to support the use of Alpha Lipoic Acid supplements\" in the context of Burning Mouth Syndrome. No food sources, reference intake, upper limit, or formal regulatory classification for alpha lipoic acid were identified in NHS, NICE, or BNF published sources.",
+    "computed_on": "2026-09-26"
+  },
+  "Apple pectin": {
+    "evidence": {
+      "canonical_name": "Apple Pectin",
+      "role": [
+        {
+          "text": "Pectin is described as a soluble non-starch polysaccharide important for the health of the colon and to maintain bacterial fermentation.",
+          "source_url": "https://www.cheshire-epaige.nhs.uk/wp-content/uploads/2019/02/nutrition-dementia-workbook.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Soluble fibre, the category to which pectin belongs, absorbs water to become a gel-like substance that is digested by bacteria in the gut, and can help with symptoms of both diarrhoea and constipation.",
+          "source_url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/low-fibre-diet-sheet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Good sources of soluble fibre (the broader group that includes pectin) include brown pastas, rice, bread, most fruits and vegetables, and bran-based breakfast cereals.",
+          "source_url": "https://www.cheshire-epaige.nhs.uk/wp-content/uploads/2019/02/nutrition-dementia-workbook.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Apple pectin is a form of soluble fibre. According to a nutrition workbook published by Cheshire ePAIGE NHS, pectin belongs to the soluble non-starch polysaccharide group, noted as \"important for the health of the colon and to maintain bacterial fermentation.\" UCLH NHS Foundation Trust describes soluble fibre \u2014 the category to which pectin belongs \u2014 as a substance that \"absorbs water to become a gel like substance that is digested by bacteria in the gut,\" and states it \"can help with symptoms of both diarrhoea and constipation.\" The same Cheshire ePAIGE NHS workbook lists good sources of soluble fibre (the broader group including pectin) as \"brown pastas, rice, bread, most fruits and vegetables and bran based breakfast cereals.\" No NHS, NICE, or BNF source was found that publishes a reference intake, upper limit, or regulatory status specifically for apple pectin or for pectin as a standalone supplement ingredient.",
+    "computed_on": "2026-09-26"
+  },
+  "Artichoke extract": {
+    "evidence": {
+      "canonical_name": "Artichoke extract",
+      "role": [],
+      "food_sources": [
+        {
+          "text": "North Bristol NHS Trust lists artichoke among high-potassium vegetables: 'High potassium [vegetables]: Artichoke, fresh beetroot, celeriac, corn on cob, sweet potato, courgette, fennel, fresh mushrooms, Swiss chard, parsnips, tomato puree, tomato pasta sauces, spinach, okra\u2026'",
+          "source_url": "https://www.nbt.nhs.uk/our-services/a-z-services/nutrition-dietetics/nutrition-dietetics-patient-information-kidney-disease/low-potassium-diet-information-kidney-patients",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "University College London Hospitals NHS Foundation Trust lists Jerusalem artichoke among prebiotic foods: 'Prebiotic foods support the growth of good bacteria in the gut health. They include foods such as: Jerusalem artichoke, chicory root, red onions, spinach, broccoli, asparagus, seaweed, leeks, garlic, dandelion greens, olives, apples (stewed) and green banana.'",
+          "source_url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/ulcerative-colitis-my-diet-during-remission",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Gloucestershire Hospitals NHS Foundation Trust lists artichoke among dietary sources of fructo-oligosaccharides: 'Main dietary sources of [fructo-oligosaccharides] are wheat products (bread/breakfast cereal/pasta), some vegetables (e.g. onion, garlic, artichoke) and as an ingredient added to some processed foods as a prebiotic (e.g. FOS, oligofructose or inulin).'",
+          "source_url": "https://www.gloshospitals.nhs.uk/media/documents/FODMAP_dietsheet_for_website.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Gloucestershire Hospitals NHS Foundation Trust lists artichoke among foods that may affect bowel function: 'Cabbage, cauliflower, sprouts and artichoke' are noted among gas-producing foods.",
+          "source_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/improving-bowel-function-and-control",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "## Artichoke Extract: Summary of UK Published Sources\n\nThe searches of NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk) returned no published statements from those authoritative bodies describing a specific physiological role for artichoke extract, nor any UK reference intake, upper tolerable limit, or regulatory classification. NICE clinical guideline CG61 (Irritable Bowel Syndrome) includes a bibliographic appendix that lists a third-party journal article concerning artichoke leaf extract, but this is a citation to external research rather than a statement by NICE itself. Several NHS trust patient-information pages refer to artichoke as a whole food: North Bristol NHS Trust identifies it among high-potassium vegetables; University College London Hospitals NHS Foundation Trust lists Jerusalem artichoke among prebiotic foods that support gut bacteria; and Gloucestershire Hospitals NHS Foundation Trust notes artichoke as a dietary source of fructo-oligosaccharides and among foods that may affect bowel function. No UK source found describes food sources of artichoke *extract* specifically as a supplement ingredient, and no reference intake, upper limit, or regulatory flag was identified in the evidence retrieved.",
+    "computed_on": "2026-09-26"
+  },
+  "Beetroot": {
+    "evidence": {
+      "canonical_name": "Beetroot",
+      "role": [],
+      "food_sources": [
+        {
+          "text": "Beetroot is a vegetable that counts toward the 5 A Day recommendation. An adult portion of salad vegetables is described as 7 slices of beetroot or 3 small whole beetroot.",
+          "source_url": "https://www.nhs.uk/healthier-families/food-facts/5-a-day",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Beetroot is listed as a food source of potassium, grouped alongside tomatoes and orange juice under Fruits and Vegetables.",
+          "source_url": "https://nwknowledgenow.nhs.uk/wp-content/uploads/2026/01/NWICB-Diet-high-blood-pressure.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Fresh beetroot is categorised as a high-potassium food; pickled beetroot is categorised as a low-potassium food, in guidance for kidney patients on a low-potassium diet.",
+          "source_url": "https://www.nbt.nhs.uk/our-services/a-z-services/nutrition-dietetics/nutrition-dietetics-patient-information-kidney-disease/low-potassium-diet-information-kidney-patients",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Beets (including the beet root and top/greens) are listed as particularly high in oxalates in low-oxalate dietary advice for patients who have had a bowel resection.",
+          "source_url": "https://www.royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/low-oxalate-advice-patients-who-have-had-a-bowel-resection",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Raw beetroot is listed in low-FODMAP diet guidance with a portion limit of 2 slices (25 g).",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/low-fodmap-diet-reducing-fermentable-carbohydrates-in-your-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "## Beetroot: Summary from Published UK Sources\n\nAccording to NHS Healthier Families, beetroot is a vegetable that counts toward the 5 A Day recommendation; an adult portion of salad vegetables is described as seven slices of beetroot or three small whole beetroot. A dietitian-produced document from NHS Norfolk and Waveney Integrated Care Board lists beetroot alongside tomatoes and orange juice as a food source of potassium, in the context of nutrients relevant to blood pressure. North Bristol NHS Trust's patient information for kidney patients distinguishes between fresh beetroot, which it categorises as a high-potassium food, and pickled beetroot, which it categorises as a low-potassium food. Royal Free London NHS Foundation Trust's patient leaflet on low-oxalate dietary advice lists beets (including the root and greens) as particularly high in oxalates. Cambridge University Hospitals NHS Foundation Trust's low-FODMAP diet guidance notes a portion limit of two slices (25 g) for raw beetroot.\n\nNo UK source from NHS, NICE, or BNF was found stating a specific functional role for beetroot in the body, a general reference intake figure, a general upper limit, or a regulatory status for beetroot or beetroot-based supplements.\n\n---",
+    "computed_on": "2026-09-26"
+  },
+  "Betaine hydrochloride": {
+    "evidence": {
+      "canonical_name": "Betaine hydrochloride",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Betaine anhydrous (a related but distinct compound) is described as a licensed powder for oral solution for the adjunctive treatment of homocystinuria, specialist use only; tablets are unlicensed. No regulatory information specific to betaine hydrochloride was found in this source.",
+          "source_url": "https://primarycare.northeastlondon.icb.nhs.uk/wp-content/uploads/2023/08/Specials.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Betaine anhydrous (a related but distinct compound) is listed as a restricted drug for adjunctive treatment of homocystinuria in patients who are not responsive to vitamin B6 treatment, referencing SMC 407/07. No regulatory information specific to betaine hydrochloride was found in this source.",
+          "source_url": "https://www.grampianformulary.scot.nhs.uk/chaptersSubDetails.asp?FormularySectionID=9&SubSectionRef=09&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "The three principal UK authoritative sources searched \u2014 NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk) \u2014 do not appear to publish information about betaine hydrochloride as a supplement ingredient. No UK source was identified covering its physiological role, food sources, reference intake, or upper limit in that context. The only related content found in NHS sources concerns the chemically distinct compound betaine anhydrous, which the North East London NHS ICB Specials Information Pack describes as a licensed powder for oral solution for the adjunctive treatment of homocystinuria, under specialist use only. NHS Grampian's formulary similarly lists betaine anhydrous as a restricted drug for adjunctive treatment of homocystinuria in patients unresponsive to vitamin B6. These references relate specifically to betaine anhydrous as a licensed medicine, not to betaine hydrochloride as sold in supplements.",
+    "computed_on": "2026-09-26"
+  },
+  "Bilberry extract": {
+    "evidence": {
+      "canonical_name": "Bilberry extract",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Bilberry extract is a plant-derived ingredient obtained from *Vaccinium myrtillus*. Searches of NHS (nhs.uk), NICE (nice.org.uk), and the British National Formulary (bnf.nice.org.uk) returned no authored, published pages from those bodies covering bilberry extract's function in the body, food sources, reference intake, upper intake limit, or regulatory status in the UK. No claims about this ingredient can therefore be attributed to those authorities. Because the evidence researcher's findings contain no traceable statements from NHS, NICE, or BNF sources, no substantive information about bilberry extract is included in the record below.",
+    "computed_on": "2026-09-26"
+  },
+  "Black pepper extract": {
+    "evidence": {
+      "canonical_name": "Black pepper extract",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "The published UK sources reviewed \u2014 NHS, NICE, and the BNF \u2014 contain no substantive, dedicated information about black pepper extract (or its primary constituent piperine) as a supplement ingredient. The NHS page on salt in the diet (https://www.nhs.uk/live-well/eat-well/food-types/salt-in-your-diet) mentions black pepper solely as a culinary flavouring that can be used in place of salt; it makes no claim about a physiological role or function of black pepper extract. An NHS Wales Medicines Information Centre page (https://www.wmic.wales.nhs.uk/turmeric-potential-interactions) references piperine only in the context of a drug-interaction study involving a curcumin/piperine preparation and midazolam, without addressing black pepper extract's function, intake levels, or regulatory standing. No UK reference intake, upper limit, or regulatory classification for black pepper extract or piperine was found in any of the sources searched.",
+    "computed_on": "2026-09-26"
+  },
+  "Blackcurrant seed oil": {
+    "evidence": {
+      "canonical_name": "Blackcurrant Seed Oil",
+      "role": [
+        {
+          "text": "Listed as a supplement ingredient providing omega-6 and omega-9 fatty acids.",
+          "source_url": "https://leedscommunityhealthcare.nhs.uk/our-services-a-z/nutrition-and-dietetics-child/nutrients-3",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Blackcurrant Seed Oil Capsules are listed in the NHSBSA Drug Tariff (September 2026) in the context of NHS prescribing restrictions.",
+          "source_url": "https://www.nhsbsa.nhs.uk/sites/default/files/2026-08/Drug%20Tariff%20September%202026_0.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Blackcurrant Seed Oil Capsules are listed in NHS Scotland Circular PCA(M)(2010)22 in the context of NHS prescribing restrictions.",
+          "source_url": "https://www.publications.scot.nhs.uk/files/pca2010-m-22.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "Blackcurrant seed oil appears in UK published sources primarily in regulatory and product-listing contexts rather than in dedicated nutritional guidance. NHS Leeds Community Healthcare describes blackcurrant seed oil as an ingredient in a children's multivitamin supplement (Abidec Advanced), noting that it provides omega-6 and omega-9 fatty acids; no further statement about its physiological role in the body is made on that page. No dedicated NHS, NICE, or BNF page, monograph, or guidance document for blackcurrant seed oil as a standalone ingredient was identified. Two NHS-published documents \u2014 the NHSBSA Drug Tariff (September 2026) and NHS Scotland Circular PCA(M)(2010)22 \u2014 list \"Blackcurrant Seed Oil Capsules\" by name in the context of NHS prescribing restrictions. No reference intake, food sources in diet, or upper limit for blackcurrant seed oil was found in any of these sources.",
+    "computed_on": "2026-09-26"
+  },
+  "Chondroitin sulphate": {
+    "evidence": {
+      "canonical_name": "Chondroitin sulphate",
+      "role": [
+        {
+          "text": "A compound normally found in joint cartilage; some studies suggest that taking supplements may improve the health of damaged cartilage.",
+          "source_url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Hand_therapy/Heberdens_nodes_Osteoarthritis_of_the_hand.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Listed among supplements often tried for osteoarthritis.",
+          "source_url": "https://www.royaldevon.nhs.uk/services/rheumatology-musculoskeletal-system-joints/conditions-we-treat/osteoarthritis",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "NICE guideline CG177 states: 'Do not offer glucosamine or chondroitin products for the management of osteoarthritis.'",
+          "source_url": "https://www.hey.nhs.uk/wp/wp-content/uploads/2016/03/glucosamine.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS North West prescribing document states that glucosamine (with or without chondroitin) in any form is not recommended by NICE and NHS England, and that new patients should not be started on any such preparations.",
+          "source_url": "https://nwknowledgenow.nhs.uk/wp-content/uploads/2024/03/RestrictionGlucosamine_PPMO_Nutrition_20102025.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS South West London ICB position statement recommends that clinicians do not prescribe glucosamine and chondroitin products on NHS prescriptions.",
+          "source_url": "https://swlimo.southwestlondon.icb.nhs.uk/wp-content/uploads/2021/06/SWL-Position-statement-glucosamine-FINAL-V2-glucosamine-January-2018.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Chondroitin sulphate in bladder instillation form (e.g. Gepan Instill, 0.2%) is listed in the NHS Drug Tariff Part IXA as a reimbursable appliance.",
+          "source_url": "https://www.nhsbsa.nhs.uk/sites/default/files/2023-06/Drug%20Tariff%20July%202023.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Sodium hyaluronate with sodium chondroitin sulfate bladder instillation (iAluRil) is listed as Restricted \u2014 Urology Consultants only on the NHS Tayside Area Formulary.",
+          "source_url": "https://taysideformulary.scot.nhs.uk/reports/Archive/A0003.asp",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Sodium hyaluronate with sodium chondroitin sulfate bladder instillation is listed as Specialist use ONLY on the NHS Somerset Formulary.",
+          "source_url": "https://www.somersetformulary.nhs.uk/reports/Archive/A0003.asp",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Sodium hyaluronate with sodium chondroitin sulfate bladder instillation is listed as Specialist use ONLY on the Manchester University NHS Foundation Trust Formulary.",
+          "source_url": "https://mft.nhs.uk/app/uploads/sites/7/2026/07/FORMULARY-v10.19-July-2026.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Chondroitin Sulphate \u2014 UK Source Summary\n\nNHS University Hospitals Dorset states that chondroitin sulphate is a compound normally found in joint cartilage, and that \"some studies suggest that taking supplements may improve the health of damaged cartilage.\" NHS Royal Devon notes that chondroitin is among the supplements often tried for osteoarthritis, without specifying a mechanism. No NHS, NICE, or BNF source identifies food sources of chondroitin sulphate, and no UK reference intake or upper tolerable limit has been established or published in the sources retrieved. NICE guideline CG177, as cited in NHS prescribing documents from Hull and East Yorkshire and NHS North West, states that glucosamine and chondroitin products should not be offered for the management of osteoarthritis, and NHS South West London ICB similarly states that clinicians should not prescribe glucosamine and chondroitin products on NHS prescriptions. In a distinct clinical context, chondroitin sulphate in bladder instillation form appears in the NHS Drug Tariff (Part IXA) as a listed appliance, and several NHS local formularies list sodium hyaluronate with sodium chondroitin sulfate bladder instillation products as restricted to specialist or urology consultant use for interstitial cystitis and bladder pain syndrome.",
+    "computed_on": "2026-09-26"
+  },
+  "Collagen type II": {
+    "evidence": {
+      "canonical_name": "Collagen type II",
+      "role": [
+        {
+          "text": "A NICE assessment report on knee cartilage defects notes, in a clinical and anatomical context, that cells used in characterised chondrocyte implantation are identified by their likelihood of producing hyaline cartilage with predominantly type II collagen, rather than fibrocartilage which produces mainly type I collagen. This statement is made in a surgical intervention context and does not describe the function of collagen type II as a dietary supplement.",
+          "source_url": "https://www.nice.org.uk/guidance/gid-tag446/documents/knee-cartilage-defects-autologous-chondrocyte-implantation-id686-assessment-report2",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Across the NHS, NICE, and BNF sources searched, no published UK authoritative source addresses collagen type II specifically as a dietary supplement ingredient. The only relevant mention located in a UK authoritative source appears in a NICE assessment report on knee cartilage interventions, where collagen type II is referenced in a clinical and anatomical context: the report notes that cells used in characterised chondrocyte implantation are identified by their likelihood of producing hyaline cartilage containing predominantly type II collagen, as distinct from fibrocartilage which produces mainly type I collagen. This statement describes a biological distinction within a surgical intervention context and does not describe the role, food sources, reference intake, upper limit, or regulatory status of collagen type II as an oral supplement. No NHS, NICE, or BNF page was found that covers any of those fields for this ingredient in a supplement context.",
+    "computed_on": "2026-09-26"
+  },
+  "Dandelion root": {
+    "evidence": {
+      "canonical_name": "Dandelion root",
+      "role": [],
+      "food_sources": [
+        {
+          "text": "Dandelion greens are listed among prebiotic foods said to support the growth of good bacteria in the gut, alongside Jerusalem artichoke and chicory root.",
+          "source_url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/ulcerative-colitis-my-diet-during-remission",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Dandelion tea is listed among high-FODMAP drinks to be tested during low-FODMAP diet re-challenge, grouped with chicory root and oligofructose/inulin/FOS-containing items.",
+          "source_url": "https://www.gloshospitals.nhs.uk/media/documents/FODMAP_reintroduction_information_oct_20.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Dandelion tea is listed among drinks to avoid on a low-FODMAP diet.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/low-fodmap-diet-reducing-fermentable-carbohydrates-in-your-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The NHS states that herbal medicines are not available on the NHS and are not tested in the same way as standard medicines to see how well they work.",
+          "source_url": "https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Dandelion Root: Summary from UK Published Sources\n\nThe NHS states, in its published guidance on herbal medicines and complementary therapies, that such treatments \"are not tested in the same way as standard medicines to see how well they work\" and that herbal medicines are not available on the NHS (https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies). No UK source \u2014 across NHS (nhs.uk), NICE (nice.org.uk), or the BNF (bnf.nice.org.uk) \u2014 was found that describes a specific physiological role for dandelion root, establishes a reference intake, or sets an upper limit. Incidental references to dandelion in dietary contexts appear in NHS trust patient-information materials: a UCLH NHS Foundation Trust page on diet in ulcerative colitis remission lists dandelion greens among prebiotic foods said to \"support the growth of good bacteria in the gut\" (https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/ulcerative-colitis-my-diet-during-remission), while Gloucestershire Hospitals NHS Foundation Trust and Cambridge University Hospitals NHS Foundation Trust both list dandelion tea among high-FODMAP drinks in low-FODMAP diet guidance. No publicly accessible BNF monograph for dandelion root was identified.",
+    "computed_on": "2026-09-26"
+  },
+  "Fenugreek": {
+    "evidence": {
+      "canonical_name": "Fenugreek",
+      "role": [
+        {
+          "text": "Listed among supplements that could reduce blood glucose levels, in the context of potential interactions with other medicines.",
+          "source_url": "https://www.wmic.wales.nhs.uk/turmeric-potential-interactions",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Fenugreek is a spice often present in curries and curry spice mixes. Lupin and fenugreek are both legumes which might be found in small quantities in foods.",
+          "source_url": "https://www.plymouthhospitals.nhs.uk/eden-gp-information",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Curries, containing fenugreek, an Indian spice, the seeds of which are a legume.",
+          "source_url": "https://library.sheffieldchildrens.nhs.uk/legume-allergy",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Fenugreek seeds listed as a food ingredient within spice and condiment tables.",
+          "source_url": "https://www.leedsth.nhs.uk/patients/resources/potassium-a-guide-to-lowering-the-potassium-in-your-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Classified under 'Herbal preparations/Food supplements' that may interact with warfarin.",
+          "source_url": "https://www.nottsapc.nhs.uk/media/rgshhhd4/warfarin-prescribing-information-sheet.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Included in a table of herbal and supplement interactions with anticoagulants; a modest rise in INR was noted in a patient taking boldo and fenugreek in combination.",
+          "source_url": "https://mot.southyorkshire.icb.nhs.uk/sheffield/files/Sheffield%20Guideline%20ANTICOAGULATION%20MONITORING%20SERVICE%20SOP.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Fenugreek: Summary from Published UK Sources\n\nFenugreek is described in NHS Trust patient information as a spice commonly found in curries and curry spice mixes, and is classified as a legume. According to the University Hospitals Plymouth NHS Trust, \"lupin and fenugreek are both legumes which might be found in small quantities in foods,\" and Sheffield Children's NHS Foundation Trust states that curries may contain fenugreek, \"an Indian spice, the seeds of which are a legume.\" The Welsh Medicines Information Centre (part of NHS Wales) lists fenugreek among supplements that could reduce blood glucose levels, in the context of potential interactions with other medicines. The Nottinghamshire Area Prescribing Committee classifies fenugreek under \"Herbal preparations/Food supplements\" in the context of warfarin interactions, and South Yorkshire ICB's Anticoagulation Monitoring Service SOP includes fenugreek in a table of herbal and supplement interactions with anticoagulants. No UK reference intake, upper limit, or formal regulatory licensing statement for fenugreek was found on nhs.uk, nice.org.uk, or bnf.nice.org.uk. A NICE consultation comments document references a third-party submission mentioning fenugreek in the context of breastfeeding support, but NICE explicitly states that such submissions are not endorsed by NICE, its officers, or advisory committees.",
+    "computed_on": "2026-09-26"
+  },
+  "Flaxseed lignans": {
+    "evidence": {
+      "canonical_name": "Flaxseed lignans",
+      "role": [],
+      "food_sources": [
+        {
+          "text": "Linseed oils (flax) and linseeds are listed among foods described as rich sources of phytoestrogens, alongside other seeds (sunflower, sesame, pumpkin, poppy), cereals (oats, barley, rye, brown rice, couscous, bulgar wheat), pulses and beans (soya beans and soya-based products, chickpeas, kidney beans, haricot beans, broad beans, green split peas), and vegetables (red onions, green beans, celery, sweet peppers, garlic, broccoli, tomatoes). The source uses the term 'phytoestrogens' and does not distinguish lignans specifically from other phytoestrogen classes.",
+          "source_url": "https://flipbooks.leedsth.nhs.uk/LN001794.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Flaxseed lignans do not appear as a named ingredient in any dedicated entry on NHS (nhs.uk), NICE (nice.org.uk), or the BNF (bnf.nice.org.uk). The Evidence Researcher's searches returned no UK published source describing a specific physiological role for flaxseed lignans, no UK reference intake, no published upper limit, and no specific regulatory classification for this ingredient. One NHS Trust patient information document \u2014 published by Leeds Teaching Hospitals NHS Trust \u2014 lists linseed (flax) and linseed oils among foods described as \"richest sources of phytoestrogens,\" alongside other seeds, cereals, pulses, and vegetables; however, that source uses the broader category term \"phytoestrogens\" and does not distinguish flaxseed lignans specifically from other phytoestrogen classes such as isoflavones. No claim about the role, intake, upper limit, or regulatory status of flaxseed lignans could be verified against a named UK source, and those fields are therefore left empty below.",
+    "computed_on": "2026-09-26"
+  },
+  "Flaxseed oil": {
+    "evidence": {
+      "canonical_name": "Flaxseed oil",
+      "role": [
+        {
+          "text": "Flaxseed (linseed) oil is a source of omega-3 fatty acids, described by the NHS as essential fats that support day-to-day function. The omega-3 it contains is alpha-linolenic acid (ALA), a short-chain omega-3 fat.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The body can convert a small proportion of ALA (the short-chain omega-3 found in flaxseed oil) into long-chain omega-3 fats.",
+          "source_url": "https://www.nhs.uk/pregnancy/keeping-well/vegetarian-or-vegan-and-pregnant",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "ALA present in flaxseed oil is poorly converted into DHA and EPA, the fatty acids associated with better heart health and found in fish oils.",
+          "source_url": "https://www.justonenorfolk.nhs.uk/media/ocagvmhe/eating-well-vegans-web-compressed.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Evidence suggests that vegetarian sources of omega-3 fatty acids, such as flaxseed oil, may not have the same benefits for reducing the risk of heart disease as those in oily fish.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Flaxseed (linseed) oil is listed as a source of omega-3 fatty acids suitable for vegetarians, alongside rapeseed oil, walnuts, flaxseeds, chia seeds, pumpkin seeds, and omega-3-enriched eggs.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Ground linseed (flaxseed) oil is listed among plant-based omega-3 sources on the NHS vegan diet page, alongside vegetable (rapeseed) oil, chia seeds, shelled hemp seeds, and walnuts.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Flaxseed (linseed) oil is listed as a source of omega-3 fatty acids suitable for vegetarians.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Flaxseed oil is identified by the NHS as a plant-based source of omega-3 fatty acids, specifically alpha-linolenic acid (ALA). According to the NHS *Facts about fat* page, it is listed among sources of omega-3 fatty acids suitable for vegetarians, alongside rapeseed oil, walnuts, and omega-3-enriched eggs. The NHS notes that ALA, the type of omega-3 found in flaxseed oil, is a short-chain omega-3 fat, and that the body can convert only a small proportion of it into the long-chain omega-3 fatty acids (DHA and EPA) associated with better heart health and found in fish oils. An NHS-published resource (NHS Just One Norfolk) states that ALA from vegetable sources such as flaxseed is poorly converted into DHA and EPA. The NHS also notes, on its vegetarian diet page, that evidence suggests vegetarian sources of omega-3 may not carry the same benefits for reducing the risk of heart disease as those found in oily fish. No UK reference intake specific to flaxseed oil, no published upper limit, and no regulatory classification for flaxseed oil were identified in the retrieved NHS, NICE, or BNF sources.",
+    "computed_on": "2026-09-26"
+  },
+  "Ginger root extract": {
+    "evidence": {
+      "canonical_name": "Ginger Root Extract",
+      "role": [
+        {
+          "text": "The NHS states there is 'some evidence ginger may help reduce nausea and vomiting'.",
+          "source_url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A Royal Orthopaedic Hospital NHS Foundation Trust patient guide states that 'foods with ginger have been known to have anti-sickness properties'.",
+          "source_url": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/eating-well-before-and-after-surgery-patients-guide",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS Scotland guidance reports that a large cross-sectional survey of 512 women with hyperemesis gravidarum found that ginger foodstuffs or over-the-counter tablets have 'little or no efficacy' and caused unpleasant adverse effects or worsening of symptoms in over half (54%) of participants.",
+          "source_url": "https://www.rightdecisions.scot.nhs.uk/m/uohhpife/the-management-of-nausea-and-vomiting-in-pregnancy-1158.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "The NHS references 'foods or drinks containing ginger' as a relevant dietary form.",
+          "source_url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A Royal Orthopaedic Hospital NHS Foundation Trust patient guide lists fresh root ginger, ginger biscuits, ginger tea, and flat non-alcoholic ginger beer or ale as ginger-containing foods and drinks.",
+          "source_url": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/eating-well-before-and-after-surgery-patients-guide",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A UCLH NHS Foundation Trust page lists crystallised ginger as a ginger-containing food.",
+          "source_url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/coping-nausea",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The NHS states that herbal medicines are not available on the NHS and are treatments 'not part of standard medicine'.",
+          "source_url": "https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS Specialist Pharmacy Service states that almost all alternative treatments are not supported by the NHS due to weak or no evidence of effectiveness, and that NICE advises complementary products should be part of medicines reconciliation and medication reviews.",
+          "source_url": "https://sps.nhs.uk/articles/advising-on-complementary-products-and-conventional-medicines",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Ginger Root Extract\n\nAccording to NHS pregnancy guidance, there is \"some evidence ginger may help reduce nausea and vomiting\" (NHS \u2013 *Vomiting and morning sickness*: https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness). A patient guide published by the Royal Orthopaedic Hospital NHS Foundation Trust states that \"foods with ginger have been known to have anti-sickness properties\" (https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/eating-well-before-and-after-surgery-patients-guide). NHS Scotland guidance notes, however, that a large cross-sectional survey of 512 women with hyperemesis gravidarum found that ginger foodstuffs or over-the-counter tablets had \"little or no efficacy\" and caused unpleasant adverse effects or worsening of symptoms in over half of participants (NHS Scotland / Right Decisions \u2013 *The management of nausea and vomiting in pregnancy*: https://www.rightdecisions.scot.nhs.uk/m/uohhpife/the-management-of-nausea-and-vomiting-in-pregnancy-1158.pdf). Ginger-containing foods and drinks cited by NHS and NHS Trust sources include fresh root ginger, ginger biscuits, ginger tea, flat non-alcoholic ginger beer or ale, and crystallised ginger. No UK reference intake or published upper limit for ginger root extract was identified in NHS, NICE, or BNF sources. The NHS states that herbal medicines are not available on the NHS and are treatments \"not part of standard medicine\" (NHS \u2013 *Herbal medicines and complementary therapies*: https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies).",
+    "computed_on": "2026-09-26"
+  },
+  "Grape seed extract": {
+    "evidence": {
+      "canonical_name": "Grape seed extract",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "**Grape Seed Extract \u2014 Evidence Summary**\n\nA thorough search of NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk) returned no published, attributed statements from these three authoritative UK sources covering the role, food sources, reference intake, upper limit, or regulatory status of grape seed extract specifically. Mentions of grape seed extract that did appear within NICE documents were contained within third-party stakeholder consultation responses, which NICE explicitly notes are \"not endorsed by NICE, its officers or advisory committees\" (https://www.nice.org.uk/guidance/ng136/documents/consultation-comments-and-responses-3); those cannot be reported here as authoritative NICE statements. No further traceable claims could be verified against the evidence provided, and so all five structured fields below are returned as empty lists in accordance with the evidence policy applied throughout this record.",
+    "computed_on": "2026-09-26"
+  },
+  "Grapefruit extract": {
+    "evidence": {
+      "canonical_name": "Grapefruit Extract",
+      "role": [],
+      "food_sources": [
+        {
+          "text": "Half a grapefruit counts as one portion toward the 5 A Day recommendation.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/5-a-day/portion-sizes",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Half a grapefruit is listed as an example of a single adult fruit portion.",
+          "source_url": "https://www.nhs.uk/healthier-families/food-facts/5-a-day",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Grapefruit is listed among citrus fruits described as foods high in vitamin C.",
+          "source_url": "https://www.nhslanarkshire.scot.nhs.uk/patient-information-leaflets/nutrition-dietetics/pil-wondhl-18-01515-l",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Food supplements are defined by the Food Supplements (England) Regulations (2003) as 'any food, the purpose of which is to supplement the normal diet'. A Traditional Herbal Medicinal Product (THMP) in the UK is a herbal medicine registered under the Traditional Herbal Registration (THR) scheme; they must prove quality and safety under the Human Medicines Regulations 2012.",
+          "source_url": "https://www.sps.nhs.uk/articles/understanding-food-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS states: 'Do not eat grapefruit or drink grapefruit juice while you're being treated with hydrocortisone tablets. Grapefruit can change the way hydrocortisone works and increases the risk of side effects.'",
+          "source_url": "https://www.nhs.uk/medicines/hydrocortisone-tablets/how-and-when-to-take-hydrocortisone-tablets",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS states: 'Do not drink grapefruit juice while taking colchicine because it can increase the amount of the medicine in your blood, which can be dangerous.'",
+          "source_url": "https://www.nhs.uk/medicines/colchicine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS states: 'Do not eat grapefruit or drink grapefruit juice if you're taking felodipine.'",
+          "source_url": "https://www.nhs.uk/medicines/felodipine",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS states to 'avoid drinking grapefruit juice as it can stop the medicine working properly' in the context of simvastatin.",
+          "source_url": "https://www.nhs.uk/medicines/simvastatin",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS Tayside Formulary states 'Avoid grapefruit and grapefruit juice' alongside simvastatin prescribing guidance.",
+          "source_url": "https://taysideformulary.scot.nhs.uk/reports/Archive/A0003.asp",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Grapefruit Extract: Summary of UK Published Sources\n\nUK authoritative sources (NHS, NICE, and BNF) do not describe a specific physiological role or function for grapefruit extract as a supplement ingredient. The NHS mentions grapefruit as a whole fruit in dietary guidance \u2014 for example, stating that half a grapefruit constitutes one portion toward the 5 A Day recommendation \u2014 but no reference intake or upper limit for grapefruit extract as a supplement was identified in any of these sources. The NHS Specialist Pharmacy Service notes that food supplements in the UK are defined under the Food Supplements (England) Regulations 2003 as foods intended to supplement the normal diet, and that Traditional Herbal Medicinal Products must meet quality and safety standards under the Human Medicines Regulations 2012, though no specific regulatory classification for grapefruit extract as a product was found. Multiple NHS medicines pages note that grapefruit and grapefruit juice interact with certain prescription medicines \u2014 including hydrocortisone tablets, colchicine, felodipine, and simvastatin \u2014 by affecting how those medicines work or increasing their concentration in the blood; these statements concern grapefruit or grapefruit juice in those specific medicinal contexts, and are recorded here as found in the sources without further interpretation.",
+    "computed_on": "2026-09-26"
+  },
+  "Hesperidin": {
+    "evidence": {
+      "canonical_name": "Hesperidin",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The NHS Business Services Authority dm+d lists a product entry for 'Diosmin 450mg / Hesperidin 50mg tablets' under the product name 'Daflon 500mg tablets (Imported...)' with SNOMED code 24640511000001100, start date 10 June 2014.",
+          "source_url": "https://dmd-browser.nhsbsa.nhs.uk/amp/view/93281",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "An NHS Scotland prescribing circular (PCA(M)(2010)13) includes 'Ascorbic Acid & Hesperidin Capsules (Regent Laboratories)' within its list of drugs subject to prescribing controls.",
+          "source_url": "https://www.publications.scot.nhs.uk/files/pca2010-m-13.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "Hesperidin is not addressed in the publicly available NHS, NICE, or BNF sources that were searched for this report. No UK authoritative source was found describing hesperidin's physiological role, food sources, reference intake, or upper limit. Two entries touching on hesperidin were identified in NHS-published materials. The NHS Business Services Authority's Dictionary of Medicines and Devices (dm+d) lists a product entry for \"Diosmin 450mg / Hesperidin 50mg tablets\" under the product name \"Daflon 500mg tablets (Imported...)\" with SNOMED code 24640511000001100, with a start date of 10 June 2014. Separately, an NHS Scotland prescribing circular (PCA(M)(2010)13) includes \"Ascorbic Acid & Hesperidin Capsules (Regent Laboratories)\" within its list of drugs subject to prescribing controls.",
+    "computed_on": "2026-09-26"
+  },
+  "Hibiscus flower extract": {
+    "evidence": {
+      "canonical_name": "Hibiscus flower extract",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Hibiscus flower extract is not addressed as a specific ingredient in any dedicated page identified on NHS (nhs.uk), NICE (nice.org.uk), or the British National Formulary (bnf.nice.org.uk). The NHS page on herbal medicines and complementary therapies notes, in general terms, that herbal medicines are not available on the NHS and are not tested in the same way as standard medicines to see how well they work, but that page does not mention hibiscus flower extract specifically. A patient information leaflet published by North Cumbria Integrated Care NHS Foundation Trust lists \"fruit teas containing hibiscus\" among drinks to be eliminated in the context of bladder irritation management, but does not characterise hibiscus as a nutrient or describe its properties more broadly. No UK reference intake, upper limit, or regulatory classification specific to hibiscus flower extract was identified in any of the three authoritative sources searched. Because no attributable UK source material was found for role, food sources, reference intake, upper limit, or regulatory status of this ingredient specifically, all corresponding fields below are empty.",
+    "computed_on": "2026-09-26"
+  },
+  "Horsetail extract": {
+    "evidence": {
+      "canonical_name": "Horsetail extract",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "A clinical guideline for the management of hyperkalaemia in adults states that some herbal medicines including horsetail contain potassium and should be avoided in patients with or at risk of hyperkalaemia.",
+          "source_url": "https://www.nnuh.nhs.uk/publication/download/hyperkalaemia-in-adults-jcg0020-v6",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Horsetail Extract \u2014 Summary of Published UK Source Evidence\n\nThe NHS, NICE, and BNF do not appear to publish dedicated pages on horsetail extract as a supplement ingredient. Across an exhaustive search of these three authoritative sources, only one incidental mention was identified: a Norfolk and Norwich University Hospitals NHS Foundation Trust clinical guideline on the management of hyperkalaemia in adults (JCG0020 v6, approved August 2024), which notes that certain herbal medicines \u2014 including horsetail \u2014 contain potassium, and states that they \"should be avoided in patients with or at risk of hyperkalaemia.\" This reference does not describe horsetail's physiological role, its food sources, any recommended intake, or its regulatory status; it is a clinical caution appearing within a broader list of potassium-containing herbal medicines. No reference intake, upper limit, or UK regulatory classification for horsetail extract was located in any of these three sources. All other fields \u2014 role, food sources, reference intake, upper limit, and regulatory flags \u2014 return no traceable evidence from NHS, NICE, or BNF and are therefore left empty below.",
+    "computed_on": "2026-09-26"
+  },
+  "Lemon verbena leaf extract": {
+    "evidence": {
+      "canonical_name": "Lemon verbena leaf extract",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "## Lemon Verbena Leaf Extract: Published UK Source Summary\n\nA search of NHS (nhs.uk), NICE (nice.org.uk), and the British National Formulary (bnf.nice.org.uk) returned no published information specifically about lemon verbena leaf extract across any of the standard fields \u2014 including physiological role, food sources, reference intake, upper limit, or regulatory status. No claims about this ingredient can therefore be attributed to these UK authoritative sources. The absence of findings is itself the finding: these bodies have not published accessible information on this ingredient in the areas searched.\n\n---",
+    "computed_on": "2026-09-26"
+  },
+  "Marine collagen": {
+    "evidence": {
+      "canonical_name": "Marine collagen",
+      "role": [
+        {
+          "text": "A Mendip Vale NHS Foundation Trust patient information document states that collagen is essential for bones, gut, skin, nails and hair, and that collagen production decreases during the menopause; this statement refers to collagen generally and is not specific to marine collagen.",
+          "source_url": "https://mendipvale.nhs.uk/media/cagddhop/alternativestohrt-02-2024-11-27-09-04-05-349.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "The Royal Marsden NHS Foundation Trust states that supplement products carrying a product licence (PL) or traditional herbal medicines (THR) number or logo have been assessed by the MHRA for safety and correct manufacture; no regulatory classification specific to marine collagen was identified.",
+          "source_url": "https://patientinfolibrary.royalmarsden.nhs.uk/document/download/1340",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "Marine collagen does not have a dedicated entry on NHS, NICE, or BNF sources. A Mendip Vale NHS Foundation Trust patient information document (*Alternatives to HRT*, February 2024) states that collagen \u2014 not distinguished specifically as marine collagen \u2014 \"is essential for your bones, gut, skin, nails and hair,\" and notes that collagen production decreases during the menopause. The same document references a general collagen dosage range of 2.5 to 15 g daily, described as \"safe and effective,\" though this appears in a locally produced patient information leaflet rather than an official UK Dietary Reference Value publication. The Royal Marsden NHS Foundation Trust's *Cancer and Dietary Supplements* document notes that supplement products carrying a product licence (PL) or traditional herbal medicines (THR) number have been assessed by the MHRA for safety and correct manufacture. No food sources, upper limit, or reference intake for marine collagen specifically were identified in any NHS, NICE, or BNF source reviewed.",
+    "computed_on": "2026-09-26"
+  },
+  "Octacosanol": {
+    "evidence": {
+      "canonical_name": "Octacosanol",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Viobin Octacosanol Tablets 50000mcg is listed in Scottish NHS Memorandum MEL(1993)136 among preparations in Schedule 2A subject to NHS prescribing restrictions.",
+          "source_url": "https://www.publications.scot.nhs.uk/files/1993-136.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Viobin Octacosanol Tablets 5000mcg is listed in NHS Circular PCA(M)(2004)11 among drugs subject to prescribing controls.",
+          "source_url": "https://www.publications.scot.nhs.uk/files/pca2004-m-11.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Viobin Octacosanol Tablets 5000mcg is listed in NHS Circular PCA(M)(2010)13 among drugs subject to prescribing controls.",
+          "source_url": "https://www.publications.scot.nhs.uk/files/pca2010-m-13.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Viobin Octacosanol Tablets 5000mcg is listed in NHS Circular PCA(M)(2010)22 among drugs subject to prescribing controls.",
+          "source_url": "https://www.publications.scot.nhs.uk/files/pca2010-m-22.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Octacosanol \u2014 UK Source Summary\n\nSearches of NHS, NICE, and BNF sources returned no published statements describing octacosanol's role in the human body, its food sources, a reference intake figure, or an upper limit. The only attributable content from UK authoritative sources relates to regulatory status in Scotland.\n\nViobin Octacosanol Tablets (in 5,000 mcg and 50,000 mcg strengths) appear by name in several Scottish NHS prescribing circulars, where they are listed among preparations subject to NHS prescribing controls. Scottish NHS Memorandum MEL(1993)136 lists \"Viobin Octacosanol Tablets 50,000 mcg\" in a schedule of drugs subject to prescribing restrictions, according to https://www.publications.scot.nhs.uk/files/1993-136.pdf. NHS Circular PCA(M)(2004)11, NHS Circular PCA(M)(2010)13, and NHS Circular PCA(M)(2010)22 each list \"Viobin Octacosanol Tablets 5,000 mcg\" among drugs subject to prescribing controls. These circulars list the product by name and dose but do not elaborate further on the nature of the controls. No entry for octacosanol was found in the BNF or in NICE guidance.\n\n---",
+    "computed_on": "2026-09-26"
+  },
+  "Olive oil": {
+    "evidence": {
+      "canonical_name": "Olive Oil",
+      "role": [
+        {
+          "text": "Monounsaturated fats, of which olive oil is a primary source, help protect the heart by maintaining levels of good HDL cholesterol while reducing levels of bad LDL cholesterol in the blood, according to the NHS. Fat also helps the body absorb the fat-soluble vitamins A, D, and E.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Unsaturated fats including olive oil have been shown to increase levels of good cholesterol and help reduce any blockage in the arteries.",
+          "source_url": "https://www.nhs.uk/conditions/coronary-heart-disease/prevention",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS Tayside lists olive oil among unsaturated fats described as healthier options within a balanced diet, noting that fat helps the body absorb vitamins and provides essential fatty acids the body cannot produce.",
+          "source_url": "https://www.nhstayside.scot.nhs.uk/OurServicesA-Z/PublicHealth/PROD_390875/index.htm",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "The NHS lists olive oil as a food high in monounsaturated fats, alongside rapeseed oil, spreads made from these oils, avocados, and some nuts such as almonds, brazils, and peanuts.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/food-types/different-fats-nutrition",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS Lanarkshire lists plant oils including olive oil as food sources of Vitamin E.",
+          "source_url": "https://www.nhslanarkshire.scot.nhs.uk/patient-information-leaflets/nutrition-dietetics/pil-fodsrc-21-12986-l",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "NHS Greater Glasgow and Clyde Minor Ailment Service Formulary lists Olive Oil Ear Drops \u2014 described as olive oil packaged in a suitable container \u2014 as a supply item, noting that simple remedies such as olive or almond oil are just as effective as proprietary preparations and less likely to cause irritation. The BNF is cited as considering all proprietary products less suitable for prescribing for earwax.",
+          "source_url": "https://www.communitypharmacy.scot.nhs.uk/documents/nhs_boards/glasgow/NHSGGC_MAS_Formulary_2011_110708_.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS Fife Minor Ailments Service Formulary similarly states that simple remedies including olive oil are just as effective as proprietary preparations for earwax and less likely to cause irritation, citing the BNF view that all proprietary products are considered less suitable for prescribing.",
+          "source_url": "https://www.communitypharmacy.scot.nhs.uk/documents/fife_mas_formulary_march_2011_000.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "University Hospitals of Derby and Burton Formulary lists Paraldehyde in olive oil enema as an unlicensed drug for use in refractory status epilepticus in children in secondary care, where olive oil functions as the diluent vehicle.",
+          "source_url": "https://www.uhdbformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=4&SubSectionRef=04&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Oxfordshire CCG Formulary likewise classifies Paraldehyde in olive oil enema as an unlicensed preparation used in secondary care for refractory status epilepticus in children.",
+          "source_url": "https://www.oxfordshireformulary.nhs.uk/chaptersSubDetails.asp?FormularySectionID=4&SubSectionRef=04&SubSectionID=A100",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Olive Oil \u2014 UK Source Summary\n\nAccording to the NHS \"Facts about fat\" page, monounsaturated fats \u2014 of which olive oil is listed as a primary source \u2014 \"help protect your heart by maintaining levels of 'good' HDL cholesterol while reducing levels of 'bad' LDL cholesterol in your blood.\" The same page notes that fat in general helps the body absorb the fat-soluble vitamins A, D, and E. The NHS coronary heart disease prevention page states that unsaturated fats, including olive oil, \"have been shown to increase levels of good cholesterol and help reduce any blockage in your arteries.\" NHS Lanarkshire additionally lists plant oils including olive oil as a food source of Vitamin E.\n\nNo specific reference intake or upper limit for olive oil as a standalone ingredient has been identified in NHS, NICE, or BNF sources. In clinical contexts, NHS formulary documents record olive oil as used in ear drops for earwax softening and, in unlicensed form, as a vehicle for paraldehyde enema in refractory paediatric status epilepticus.",
+    "computed_on": "2026-09-26"
+  },
+  "Phosphatidylcholine": {
+    "evidence": {
+      "canonical_name": "Phosphatidylcholine",
+      "role": [
+        {
+          "text": "Pulmonary surfactant is composed of several phospholipids which lower the surface tension forces of the alveolar walls, important for the initial opening of the alveoli and the prevention of subsequent atelectasis. The major constituent of surfactant is lecithin (phosphatidylcholine), comprising 50\u201375% of all the phospholipids.",
+          "source_url": "https://www.clinicalguidelines.scot.nhs.uk/media/1503/yor-picu-061-ecls-manual-aug-2013.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Choline is important for normal cell function and is used for making different types of fats in human brown fat.",
+          "source_url": "https://www.cso.scot.nhs.uk/wp-content/uploads/SCAF.17.02-Final-Report.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Choline is described as an essential nutrient for brain function, with research suggesting it aids in lifting brain fog and improving memory function.",
+          "source_url": "https://www.hey.nhs.uk/wp/wp-content/uploads/2017/07/P4BR-Nutrtion-Booklet.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Eggs are identified as a food source of choline.",
+          "source_url": "https://www.hey.nhs.uk/wp/wp-content/uploads/2017/07/P4BR-Nutrtion-Booklet.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Soybean phosphatidylcholine is listed as an excipient (inactive ingredient) in the licensed medicine Buvidal\u00ae (long-acting injectable buprenorphine). It is identified as a substance to which patients may have hypersensitivity, alongside other inactive ingredients such as glycerol dioleate.",
+          "source_url": "https://www.rightdecisions.scot.nhs.uk/nhs-borders-clinical-guidelines/mental-health-learning-disabilities/long-acting-injectable-buprenorphine-buvidal-protocol",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Soybean phosphatidylcholine is listed among the inactive substances in Buvidal\u00ae in NHS Scotland community pharmacy opioid substitution therapy prescribing guidelines, in the context of contraindications relating to hypersensitivity.",
+          "source_url": "https://www.communitypharmacy.scot.nhs.uk/media/8605/ost-guidelines-for-medication-assisted-treatment-v12-jun-23.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Phosphatidylcholine: Summary of UK Published Sources\n\nPhosphatidylcholine is identified in an NHS Scotland clinical guideline as the major constituent of pulmonary surfactant \u2014 the substance that lowers surface tension in the alveolar walls of the lungs \u2014 comprising 50\u201375% of all surfactant phospholipids, according to NHS Lothian / NHS PICU Clinical Guidelines. Separately, an NHS Scotland research report states that choline (the parent nutrient delivered in dietary form primarily as phosphatidylcholine) is important for normal cell function and is used in making different types of fats in human brown fat. An NHS Hull University Teaching Hospitals nutrition booklet identifies eggs as a food source of choline, and notes that choline is described as an essential nutrient for brain function, with research cited as suggesting it aids brain fog and memory function; that booklet's claim relates to choline broadly, not to phosphatidylcholine as a standalone supplement. No UK reference intake, upper limit, or standalone regulatory classification for phosphatidylcholine was identified across NHS, NICE, or BNF sources. Soybean phosphatidylcholine appears in NHS Scotland prescribing documentation solely as an excipient (inactive ingredient) in the licensed medicine Buvidal\u00ae, where it is listed among substances that may cause hypersensitivity reactions.\n\n---",
+    "computed_on": "2026-09-26"
+  },
+  "Phosphatidylserine": {
+    "evidence": {
+      "canonical_name": "Phosphatidylserine",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Food supplements are foods, not medicines. They are defined by the Food Supplements (England) Regulations (2003) as 'any food, the purpose of which is to supplement the normal diet, and which is a concentrated source of a vitamin or mineral or other substance with a nutritional or physiological effect, alone or in combination and is sold in dose form'.",
+          "source_url": "https://sps.nhs.uk/articles/explaining-the-licensed-status-of-medicines",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Lower regulatory standards apply to food supplements. It is therefore not possible to prove suitability of a food supplement in the same way as for a medicine.",
+          "source_url": "https://www.sps.nhs.uk/articles/using-food-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "FSMPs are regulated as foods, but the manufacturer must notify the 'competent authority' when an FSMP is placed on the market. In England, this is the Department of Health and Social Care (DHSC). The DHSC does not regulate FSMPs, but notification allows Trading Standards to undertake monitoring activities.",
+          "source_url": "https://sps.nhs.uk/articles/understanding-food-supplements",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Phosphatidylserine: Summary from Published UK Sources\n\nSearches of NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk) did not return any dedicated pages describing phosphatidylserine's role, food sources, reference intake, or upper limit. Phosphatidylserine appears in NICE documentation only incidentally \u2014 as a search term within an evidence review for neonatal parenteral nutrition (NICE NG154), as a cited trial compound in appendices to the NICE dementia guideline (NG97), and as a referenced intervention ingredient in a NICE ADHD dietary interventions addendum (NG87) \u2014 but none of these documents contain an attributable functional description of the substance. No claim about what phosphatidylserine does, or what foods contain it, can be traced to a specific statement in any of these sources.\n\nRegarding regulatory status, the NHS Specialist Pharmacy Service (SPS) states that food supplements are classified as foods rather than medicines under the Food Supplements (England) Regulations 2003, and that \"lower regulatory standards apply to food supplements.\" No specific regulatory classification for phosphatidylserine as an individual ingredient was found in any NHS, NICE, or BNF source.",
+    "computed_on": "2026-09-26"
+  },
+  "Pumpkin seed oil": {
+    "evidence": {
+      "canonical_name": "Pumpkin seed oil",
+      "role": [],
+      "food_sources": [
+        {
+          "text": "Pumpkin seeds are listed as a source of omega-3 fatty acids suitable for vegetarians, alongside flaxseeds and chia seeds.",
+          "source_url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A 10 g (1 tablespoon) portion of pumpkin seeds provides 0.6 g of fibre.",
+          "source_url": "https://www.cuh.nhs.uk/patient-information/improving-bowel-function-in-constipation",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Pumpkin seed oil does not appear as a named ingredient in any published NHS, NICE, or BNF page identified during this research. The NHS does mention **pumpkin seeds** (not the oil specifically) as a source of omega-3 fatty acids suitable for vegetarians, stating that \"sources of omega-3 fatty acids suitable for vegetarians include\u2026 seeds, including flaxseeds, chia seeds and pumpkin seeds\" (NHS, *The Vegetarian Diet*, https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet). An NHS Trust patient information leaflet also notes that pumpkin seeds (10 g portion) contribute 0.6 g of fibre (NHS Cambridge University Hospitals, *Improving Bowel Function in Constipation*, https://www.cuh.nhs.uk/patient-information/improving-bowel-function-in-constipation). No published NHS, NICE, or BNF statement was found describing the role, reference intake, upper limit, or regulatory status of pumpkin seed oil as a distinct product. The BNF carries no monograph for it.",
+    "computed_on": "2026-09-26"
+  },
+  "Quercetin": {
+    "evidence": {
+      "canonical_name": "Quercetin",
+      "role": [
+        {
+          "text": "An NHS Scotland patient education document states that quercetin and folic acid both help your lungs work properly.",
+          "source_url": "https://www.thexprogramme.scot.nhs.uk/wp-content/uploads/2021/03/Dietary-variety-and-food-groups-Dave-Rex.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "An NHS Scotland patient education document states that apples, berries, cherries, and oranges contain quercetin.",
+          "source_url": "https://www.thexprogramme.scot.nhs.uk/wp-content/uploads/2021/03/Dietary-variety-and-food-groups-Dave-Rex.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "An NHS Business Services Authority forum post states that strawberries contain quercetin.",
+          "source_url": "https://faq.nhsbsa.nhs.uk/public/1c285160-3fcd-ef11-b8e8-002248c60b03/forum-posts",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "## Quercetin: Summary from UK Published Sources\n\nQuercetin is a naturally occurring compound found in certain fruits. An NHS Scotland patient education document (The X Programme) states that apples, berries, cherries, and oranges contain quercetin, and that \"quercetin and folic acid both help your lungs work properly.\" An NHS Business Services Authority forum post additionally notes that strawberries contain quercetin. Neither NICE nor the BNF publishes a dedicated entry on quercetin. No UK reference intake, upper safe level, or regulatory classification for quercetin was identified across NHS, NICE, or BNF sources. The NHS Scotland document cited is a patient education resource rather than formal clinical guidance, and the NHSBSA source is a forum post rather than a clinical publication.",
+    "computed_on": "2026-09-26"
+  },
+  "Red clover extract": {
+    "evidence": {
+      "canonical_name": "Red Clover Extract",
+      "role": [
+        {
+          "text": "Red clover contains plant hormones described as acting in a similar way to oestrogen; the NHS states this may help with some menopause symptoms but that this is not supported by scientific evidence.",
+          "source_url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/alternatives-to-hormone-replacement-therapy-hrt/herbal-remedies-and-complementary-medicines-for-menopause-symptoms",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Red clover is sometimes sold for symptoms of menopause or perimenopause, but the NHS states there is very little evidence to show how well it works or how safe it is.",
+          "source_url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/treatment",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Red clover works by having a hormone-like effect and can stimulate hormone receptors even though it is plant-based.",
+          "source_url": "https://www.rightdecisions.scot.nhs.uk/scottish-cancer-network-clinical-management-pathways/breast-cancer/breast-supportive-care/specific-symptom-issues/management-of-menopausal-symptoms-after-breast-cancer",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Red clover is listed among supplements stated to have oestrogenic effects, noted as relevant to hormone-sensitive conditions such as some breast, uterine, and ovarian cancers.",
+          "source_url": "https://patientinfolibrary.royalmarsden.nhs.uk/document/download/1340",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NICE states there is some evidence that isoflavones (the class of compounds found in red clover) may relieve vasomotor symptoms associated with menopause, but notes that the safety of multiple available preparations is uncertain and that interactions with other medicines have been reported.",
+          "source_url": "https://www.nice.org.uk/guidance/ng23/chapter/Recommendations",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Red clover is identified as one of the richest sources of phytoestrogens. Other dietary sources of phytoestrogens include soya and soya-based products, linseed oils, cereals (oats, barley, rye, brown rice, couscous, bulgar wheat), seeds (sunflower, sesame, pumpkin, poppy, flax and linseeds), pulses and beans (chickpeas, kidney beans, haricot beans, broad beans, green split peas), and vegetables (red onions, green beans, celery, sweet peppers, garlic, broccoli, tomatoes). Phytoestrogens can also be taken as a supplement such as red clover.",
+          "source_url": "https://flipbooks.leedsth.nhs.uk/LN001794.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Dietary sources of phytoestrogens include soya products, seeds, beans, pulses, brown rice, and cereals such as oats, barley and rye, hops, fruits and vegetables such as broccoli, tomatoes, celery, sage and garlic.",
+          "source_url": "https://mendipvale.nhs.uk/media/cagddhop/alternativestohrt-02-2024-11-27-09-04-05-349.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Herbal medicines, including red clover, are not subject to the same trials and regulations as conventional medicine, so the content and strength of such treatments is not regulated in the same way.",
+          "source_url": "https://www.rightdecisions.scot.nhs.uk/scottish-cancer-network-clinical-management-pathways/breast-cancer/breast-supportive-care/specific-symptom-issues/management-of-menopausal-symptoms-after-breast-cancer",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS Somerset prescribing guidelines state that red clover should not be offered to treat menopausal symptoms in people with breast cancer.",
+          "source_url": "https://nhssomerset.nhs.uk/prescribing-and-medicines-management/prescribing-guidelines-by-clinical-area/menopause-and-hormone-replacement-therapy",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Red Clover Extract \u2014 UK Source Summary\n\nAccording to the NHS, red clover is a herbal remedy that contains plant hormones described as acting in a similar way to oestrogen, and it is sometimes used in relation to menopause symptoms, though the NHS states this is not supported by scientific evidence. NHS Scotland's Right Decisions resource similarly states that red clover works by having a hormone-like effect, stimulating hormone receptors. NICE Guideline NG23 notes, in relation to isoflavones \u2014 the class of compounds found in red clover \u2014 that there is some evidence these may relieve vasomotor symptoms associated with menopause, while also stating that the safety of such preparations is uncertain and that interactions with other medicines have been reported. The Royal Marsden NHS Foundation Trust lists red clover among supplements stated to have oestrogenic effects, noting relevance to hormone-sensitive conditions.\n\nLeeds Teaching Hospitals NHS Trust identifies red clover itself as one of the richest sources of phytoestrogens, and notes that phytoestrogens can be obtained either through dietary intake of foods such as soya, seeds, pulses, cereals, and certain vegetables, or via supplements such as red clover. No UK national source provides a formal reference intake or numerical upper limit for red clover extract. NHS Scotland states that herbal medicines are not subject to the same trials and regulations as conventional medicines. NHS Somerset's prescribing guidelines state that red clover should not be offered to treat menopausal symptoms in people with breast cancer. No BNF entry for red clover extract was identified in the evidence retrieved.\n\n---",
+    "computed_on": "2026-09-26"
+  },
+  "Rutin": {
+    "evidence": {
+      "canonical_name": "Rutin",
+      "role": [],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "Named Rutin-containing tablet products ('Nature's Plus Rutin Tablets 500mg' and 'Rutin Plus Tablets (Gerard)') appear in an NHS Scotland list of drugs subject to prescribing controls (PCA(M)(2010)13). No further detail about regulatory category or prescribing status is provided in the document.",
+          "source_url": "https://www.publications.scot.nhs.uk/files/pca2010-m-13.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "Rutin is a flavonoid compound found in certain plants. Searches of NHS (nhs.uk), NICE (nice.org.uk), and the BNF (bnf.nice.org.uk) returned no published pages addressing the physiological role, food sources, reference intake, or upper safe limit of Rutin. The only identifiable mention of Rutin in a qualifying UK source is within an NHS Scotland document (PCA(M)(2010)13), which lists named Rutin-containing tablet products \u2014 \"Nature's Plus Rutin Tablets 500mg\" and \"Rutin Plus Tablets (Gerard)\" \u2014 within a list titled *List of drugs subject to prescribing controls*. No further narrative about the regulatory category, prescribing status, or legal classification of these products is provided in that document beyond their inclusion in the named list.",
+    "computed_on": "2026-09-26"
+  },
+  "Sage extract": {
+    "evidence": {
+      "canonical_name": "Sage extract",
+      "role": [
+        {
+          "text": "A Mendip Vale NHS patient information document states that sage has anti-inflammatory and anti-oxidant effects, improving memory and cognition, and that 300 mg once daily can reduce the severity of hot flushes by up to 40% in those for whom it is effective.",
+          "source_url": "https://mendipvale.nhs.uk/media/cagddhop/alternativestohrt-02-2024-11-27-09-04-05-349.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A Torbay and South Devon NHS Foundation Trust patient information document states that sage reduces flushes by up to 40% and improves cognition at 300 mg daily.",
+          "source_url": "https://www.torbayandsouthdevon.nhs.uk/uploads/26008.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "The NHS states generally of herbal and complementary products for menopausal symptoms that they are not regulated, it is not clear how safe they are, and the quality, purity and ingredients cannot always be guaranteed.",
+          "source_url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/alternatives-to-hormone-replacement-therapy-hrt/herbal-remedies-and-complementary-medicines-for-menopause-symptoms",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "A Mendip Vale NHS document lists sage among dietary sources of phytoestrogens, alongside soya products, seeds, beans, pulses, brown rice, cereals, hops, fruits and vegetables such as broccoli, tomatoes, celery and garlic.",
+          "source_url": "https://mendipvale.nhs.uk/media/cagddhop/alternativestohrt-02-2024-11-27-09-04-05-349.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "A Hull University Teaching Hospitals NHS Trust document lists sage among brain-boosting herbs alongside basil, chives, oregano, parsley and thyme.",
+          "source_url": "https://www.hey.nhs.uk/wp/wp-content/uploads/2017/07/P4BR-Nutrtion-Booklet.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [
+        {
+          "text": "A Mendip Vale NHS document states, in the context of phytoestrogens, that there is no current recommended dose or upper limit, and that the evidence suggests higher doses do not necessarily help symptoms more.",
+          "source_url": "https://mendipvale.nhs.uk/media/cagddhop/alternativestohrt-02-2024-11-27-09-04-05-349.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "regulatory_flags": [
+        {
+          "text": "The NHS states generally of herbal and complementary products for menopausal symptoms that they are not regulated and it is not clear how safe they are.",
+          "source_url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/alternatives-to-hormone-replacement-therapy-hrt/herbal-remedies-and-complementary-medicines-for-menopause-symptoms",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "**Sage Extract \u2014 UK Published Sources Summary**\n\nPatient information documents published by NHS trusts describe sage extract in the context of managing menopausal symptoms. A Mendip Vale NHS document states that sage has \"anti-inflammatory and anti-oxidant effects, improving memory and cognition,\" and notes that at 300 mg once daily it \"can reduce how severe your flushes are by up to 40%\" in those for whom it is effective. A Torbay and South Devon NHS Foundation Trust document similarly states that sage \"reduces flushes by up to 40%, improves cognition (300mg daily).\" The NHS (nhs.uk) notes generally of herbal and complementary products in this category that \"they're not regulated and it's not clear how safe they are\" and that \"the quality, purity and ingredients cannot always be guaranteed.\" No official UK reference intake or upper limit for sage extract has been identified in the sources retrieved. The Mendip Vale NHS document states, in the context of phytoestrogens (a category in which sage is listed as a dietary source): \"There is no current recommended dose or upper limit.\"\n\n---",
+    "computed_on": "2026-09-26"
+  },
+  "Starflower oil": {
+    "evidence": {
+      "canonical_name": "Starflower Oil",
+      "role": [
+        {
+          "text": "Royal Cornwall Hospitals NHS Trust states that treatment with GLA oil should overcome inefficient production of gamolenic acid in the body and raise levels of polyunsaturated fatty acids, therefore relieving breast pain.",
+          "source_url": "https://doclibrary-rcht.cornwall.nhs.uk/DocumentsLibrary/RoyalCornwallHospitalsTrust/PatientInformation/Breast/RCHT0611BreastPain.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Bedfordshire Hospitals NHS Foundation Trust states that taking gamma-linolenic acid (GLA) in high doses (320 mg per day) for three months can also be useful for cyclical breast lumpiness and pain.",
+          "source_url": "https://www.bedfordshirehospitals.nhs.uk/ms/breast-unit/breast-problems/benign-breast-problems",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Mendip Vale NHS states that evening primrose and starflower oil can be helpful for breast tenderness and in some people may help mood swings and joint pain.",
+          "source_url": "https://mendipvale.nhs.uk/media/cagddhop/alternativestohrt-02-2024-11-27-09-04-05-349.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Royal Cornwall Hospitals NHS Trust states that GLA is found in borage/starflower/evening primrose oil.",
+          "source_url": "https://doclibrary-rcht.cornwall.nhs.uk/DocumentsLibrary/RoyalCornwallHospitalsTrust/PatientInformation/Breast/RCHT0611BreastPain.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Bedfordshire Hospitals NHS Foundation Trust states that GLA is found in Evening Primrose Oil and Starflower Oil, both of which can be purchased from health shops/pharmacies.",
+          "source_url": "https://www.bedfordshirehospitals.nhs.uk/ms/breast-unit/breast-problems/benign-breast-problems",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": [
+        {
+          "text": "North East London NHS Integrated Care Board states that evening primrose oil or starflower oil preparations are not to be prescribed on NHS prescriptions, in the context of menopause management.",
+          "source_url": "https://primarycare.northeastlondon.icb.nhs.uk/wp-content/uploads/2023/12/Menopause-management-guideline_12.2018.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS Right Decisions Scotland lists starflower oil as an over-the-counter purchase in the context of breast symptom management.",
+          "source_url": "https://www.rightdecisions.scot.nhs.uk/media/1652/hrt_guidance.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ]
+    },
+    "prose": "## Starflower Oil: Evidence Summary\n\nStarflower oil is a plant-derived oil whose active constituent is gamma-linolenic acid (GLA). Royal Cornwall Hospitals NHS Trust states that GLA \"is found in borage/starflower/evening primrose oil,\" and Bedfordshire Hospitals NHS Foundation Trust similarly identifies GLA as found in both Evening Primrose Oil and Starflower Oil, available from health shops and pharmacies. Royal Cornwall Hospitals NHS Trust further states that \"treatment with GLA oil should overcome inefficient production of gamolenic acid in the body and raise levels of polyunsaturated fatty acids, therefore relieving breast pain.\" Bedfordshire Hospitals NHS Foundation Trust notes that taking GLA in high doses (320 mg per day) for three months \"can also be useful\" for cyclical breast lumpiness and pain. Mendip Vale NHS states that \"evening primrose and starflower oil\u2026 can be helpful for breast tenderness and in some people may help mood swings and joint pain,\" and specifies a figure of 240 mg per day for two months in the context of menopausal symptoms, after which the dose may be reduced; these figures are clinical context doses, not population-level reference intakes. No official UK government reference intake or published upper limit for starflower oil or GLA was identified in any of the sources retrieved. North East London NHS Integrated Care Board notes that these preparations \"are not to be prescribed on NHS prescriptions,\" and NHS Right Decisions Scotland lists starflower oil as an over-the-counter purchase. No NICE guideline or BNF monograph entry for starflower oil was identified in the sources retrieved.",
+    "computed_on": "2026-09-26"
+  },
+  "Stinging nettle leaf": {
+    "evidence": {
+      "canonical_name": "Stinging nettle leaf",
+      "role": [
+        {
+          "text": "NICE surveillance documentation for guideline CG97 (lower urinary tract symptoms in men) records, in summarising external trial evidence, that one RCT and one systematic review indicated that IPSS, peak urinary flow rate, and prostate volume were improved significantly with Urtica dioica compared with placebo or controls.",
+          "source_url": "https://www.nice.org.uk/guidance/cg97/evidence/appendix-a-summary-of-evidence-from-surveillance-pdf-6965648750",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NICE 2019 surveillance of lower urinary tract symptoms in men (CG97) records, in summarising external trial evidence, that one RCT and one systematic review reported that IPSS was improved following treatments including Urtica dioica.",
+          "source_url": "https://www.nice.org.uk/consultations/645/2/summary-of-evidence-from-surveillance",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Stinging nettle leaf (*Urtica dioica*) does not have a dedicated entry on NHS Choices (nhs.uk), and no reference intake, upper limit, or regulatory classification for it has been published by the NHS, NICE, or the BNF. NICE surveillance documentation for its guideline on lower urinary tract symptoms in men (CG97) records, in the course of summarising external trial literature reviewed during guideline development, that one RCT and one systematic review indicated that the International Prostate Symptom Score (IPSS), peak urinary flow rate, and prostate volume were improved significantly with *Urtica dioica* compared with placebo or controls; a further NICE surveillance summary states that IPSS was improved following treatments including *Urtica dioica*. These statements reflect NICE's account of the published trial evidence considered during surveillance and do not constitute a NICE recommendation. No food-source information, reference intake, upper limit, or regulatory status for stinging nettle leaf was identified in any of the three UK sources searched.",
+    "computed_on": "2026-09-26"
+  },
+  "Tomato extract": {
+    "evidence": {
+      "canonical_name": "Tomato extract",
+      "role": [
+        {
+          "text": "In some studies, consumption of tomatoes and tomato products has been associated with a lower rate of some cancers (including prostate, lung and stomach cancer). A similar association has been found with lycopene, the compound responsible for the red colour in tomatoes.",
+          "source_url": "https://www.royalmarsden.nhs.uk/oafu/diet/fruits-vegetables",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Red fruits and vegetables contain lycopene, which may help protect against certain cancers.",
+          "source_url": "https://elht.nhs.uk/application/files/6916/7639/3728/eat_your_5_a_day.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NHS England's National School of Healthcare Science lists a research project titled 'Tomatoes and Sperm: Investigating the Role of Lycopene in Semen Quality', indicating the relationship between lycopene from tomatoes and semen quality was the subject of NHS-affiliated research.",
+          "source_url": "https://nshcs.hee.nhs.uk/research-projects/tomatoes-and-sperm-investigating-the-role-of-lycopene-in-semen-quality",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "NICE Fertility Guideline NG257 references lycopene as one component within a multi-ingredient antioxidant supplement studied in the context of sperm DNA fragmentation, listing lycopene at 2 mg per dose within the formulation.",
+          "source_url": "https://www.nice.org.uk/guidance/ng257/evidence/s-sperm-dna-fragmentation-pdf-563921039736",
+          "source_authority": "NICE",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "food_sources": [
+        {
+          "text": "Tomatoes and tomato products are identified as dietary sources of lycopene.",
+          "source_url": "https://www.royalmarsden.nhs.uk/oafu/diet/fruits-vegetables",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        },
+        {
+          "text": "Fresh or tinned tomatoes, pink grapefruit, red peppers, and watermelon are listed as sources of lycopene.",
+          "source_url": "https://elht.nhs.uk/application/files/6916/7639/3728/eat_your_5_a_day.pdf",
+          "source_authority": "NHS",
+          "retrieval_date": "2026-09-26"
+        }
+      ],
+      "reference_intake": [],
+      "upper_limit": [],
+      "regulatory_flags": []
+    },
+    "prose": "Tomato extract is most commonly associated with **lycopene**, the compound responsible for the red colour in tomatoes. The Royal Marsden NHS Foundation Trust notes that in some studies, consumption of tomatoes and tomato products has been associated with a lower rate of certain cancers, including prostate, lung, and stomach cancer, and that a similar association has been found with lycopene; East Lancashire Hospitals NHS Trust states that red fruits and vegetables contain lycopene, which may help protect against certain cancers. NHS England's National School of Healthcare Science lists a research project examining the relationship between lycopene from tomatoes and semen quality, and NICE Guideline NG257 references lycopene as one component within a multi-ingredient antioxidant supplement studied in the context of sperm DNA fragmentation. Food sources of lycopene identified by these sources include tomatoes and tomato products (Royal Marsden NHS Foundation Trust), as well as fresh or tinned tomatoes, pink grapefruit, red peppers, and watermelon (East Lancashire Hospitals NHS Trust). No UK reference intake, upper limit, or regulatory status for tomato extract or lycopene was found in the retrieved NHS, NICE, or BNF sources.",
+    "computed_on": "2026-09-26"
   }
 }
