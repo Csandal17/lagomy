@@ -94,6 +94,9 @@ ALIASES = {
     "vitamin k2": "Vitamin K",
     "food grown vitamin d3": "Vitamin D",
     "food grown thiamine": "Thiamin",
+    "coenzyme q10": "Co-enzyme Q10",
+    "n acetyl cysteine": "N-acetylcysteine",
+    "food grown n acetyl l cysteine": "N-acetylcysteine",
 }
 
 MODIFIERS = ("food grown", "extract", "root extract", "leaf extract", "seed extract")
