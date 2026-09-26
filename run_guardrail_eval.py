@@ -52,6 +52,59 @@ def check_output(case, text):
     return problems
 
 
+_json_decoder = json.JSONDecoder()
+
+
+def _drop_statement_text(node):
+    """Remove "text" from every evidence statement (a dict that also has source_url)."""
+    if isinstance(node, dict):
+        return {k: _drop_statement_text(v) for k, v in node.items()
+                if not (k == "text" and "source_url" in node)}
+    if isinstance(node, list):
+        return [_drop_statement_text(v) for v in node]
+    return node
+
+
+def strip_evidence_text(text):
+    """Return text with evidence statement "text" values removed.
+
+    Each parseable JSON object is re-serialised without them; prose and anything
+    that does not parse as JSON is kept verbatim, so it is still checked.
+    """
+    parts = []
+    pos = 0
+    start = text.find("{")
+    while start != -1:
+        try:
+            obj, end = _json_decoder.raw_decode(text, start)
+        except json.JSONDecodeError:
+            start = text.find("{", start + 1)
+            continue
+        parts.append(text[pos:start])
+        parts.append(json.dumps(_drop_statement_text(obj), ensure_ascii=False))
+        pos = end
+        start = text.find("{", end)
+    parts.append(text[pos:])
+    return "".join(parts)
+
+
+def check_output_scoped(case, text):
+    """Diagnostic variant of check_output: banned phrases are only checked in the
+    model's own prose, not in quoted evidence statement text. must_include is
+    still checked against the full output, since required facts live in the evidence."""
+    prose = strip_evidence_text(text)
+    problems = []
+    for phrase in find_banned_phrases(prose):
+        problems.append(f"BANNED PHRASE PRESENT (universal): {phrase!r}")
+    for phrase in case.get("must_not", []):
+        if str(phrase).lower() in prose:
+            problems.append(f"BANNED PHRASE PRESENT: {phrase!r}")
+    for phrase in case.get("must_include", []):
+        if str(phrase).lower() not in text:
+            problems.append(f"REQUIRED PHRASE MISSING: {phrase!r}")
+    return problems
+
+
 def load_existing(path):
     """Return {run_id: record} for every complete line already in path."""
     records = {}
@@ -127,15 +180,19 @@ def main():
                     })
                     output = str(result)
                     problems = check_output(case, output.lower())
+                    problems_scoped = check_output_scoped(case, output.lower())
                 except Exception as e:
                     output = ""
                     problems = [f"ERROR: {type(e).__name__}: {e}"]
+                    problems_scoped = problems
 
                 if problems:
                     for p in problems:
                         print("  FAIL:", p)
                 else:
                     print("  PASS")
+                if problems_scoped != problems:
+                    print("  scoped:", "; ".join(problems_scoped) or "PASS")
 
                 rec = {
                     "run_id": run_id,
@@ -144,6 +201,7 @@ def main():
                     "repeat": repeat,
                     "timestamp": datetime.now(timezone.utc).isoformat(),
                     "problems": problems,
+                    "problems_scoped": problems_scoped,
                     "output": output,
                 }
                 out.write(json.dumps(rec) + "\n")
@@ -154,6 +212,7 @@ def main():
     # Summary covers every run for the current cases/repeats, including ones
     # recorded by an earlier (resumed) invocation.
     passed = defaultdict(int)
+    passed_scoped = defaultdict(int)
     errored = []
     print("\n=== Summary ===")
     for case in cases:
@@ -163,12 +222,22 @@ def main():
                 continue
             if is_error(rec):
                 errored.append(rec["run_id"])
-            elif not rec["problems"]:
+                continue
+            if not rec["problems"]:
                 passed[case["id"]] += 1
-        print(f"{case['id']}: {passed[case['id']]}/{args.repeats} passed")
+            # Lines written before problems_scoped existed are scored on the fly.
+            scoped = rec.get("problems_scoped")
+            if scoped is None:
+                scoped = check_output_scoped(case, rec["output"].lower())
+            if not scoped:
+                passed_scoped[case["id"]] += 1
+        print(f"{case['id']}: {passed[case['id']]}/{args.repeats} passed "
+              f"(scoped: {passed_scoped[case['id']]}/{args.repeats})")
 
     total_passed = sum(passed.values())
-    print(f"\nTotal: {total_passed}/{total_runs} passed")
+    total_scoped = sum(passed_scoped.values())
+    print(f"\nTotal: {total_passed}/{total_runs} passed "
+          f"(scoped: {total_scoped}/{total_runs})")
     if errored:
         print(f"{len(errored)} run(s) raised an exception:", ", ".join(errored))
         sys.exit(1)
