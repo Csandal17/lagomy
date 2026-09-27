@@ -10,8 +10,15 @@ previous record in the file and at or before this record's timestamp. For the
 first record, the window starts when the logging process started.
 
 URLs are compared after light normalisation (http/https, host case, trailing
-slash, fragment). URLs in the prose are not checked, only source_url fields.
-Input files are only read. Exit status is 1 if any run is flagged.
+slash, fragment, query parameter order, HTML-escaped ampersands: "&amp;" and
+its percent-encoded form "&amp%3B" in some stored URLs). Query strings are never stripped in
+general, since pages such as formulary chaptersSubDetails.asp?FormularySectionID=9
+are identified by them. The one exception: a cited URL with no query string that
+equals a retrieved URL minus its query string is reported separately as
+"matched (query dropped)", not as clean and not as flagged.
+
+URLs in the prose are not checked, only source_url fields. Input files are only
+read. Exit status is 1 if any run is flagged or unverified.
 """
 import argparse
 import glob
@@ -22,6 +29,7 @@ from datetime import datetime
 from urllib.parse import urlsplit, urlunsplit
 
 SOURCE_URL = re.compile(r'"source_url"\s*:\s*("(?:[^"\\]|\\.)*")')
+ESCAPED_AMP = re.compile(r"&amp(?:;|%3B)", re.IGNORECASE)
 
 
 def parse_args():
@@ -32,10 +40,17 @@ def parse_args():
     return parser.parse_args()
 
 
-def normalise(url):
-    p = urlsplit(url.strip())
+def normalise(url, drop_query=False):
+    p = urlsplit(ESCAPED_AMP.sub("&", url.strip()))
     scheme = "https" if p.scheme in ("http", "https") else p.scheme
-    return urlunsplit((scheme, p.netloc.lower(), p.path.rstrip("/"), p.query, ""))
+    # Sort the raw key=value pieces so parameter order doesn't matter, without
+    # re-encoding anything.
+    query = "" if drop_query else "&".join(sorted(q for q in p.query.split("&") if q))
+    return urlunsplit((scheme, p.netloc.lower(), p.path.rstrip("/"), query, ""))
+
+
+def has_query(url):
+    return bool(urlsplit(url.strip()).query)
 
 
 def cited_urls(output):
@@ -96,6 +111,7 @@ def main():
         sys.exit(f"No search logs matched {args.search_logs}")
 
     flagged = []
+    query_dropped = []
     unverified = []
     checked = 0
     previous = None
@@ -118,21 +134,43 @@ def main():
             print(f"{head}, UNVERIFIED: no searches logged for this run")
             continue
 
-        returned = {normalise(r["url"]) for s in runs for r in s.get("results", []) if r.get("url")}
-        missing = [u for u in unique if normalise(u) not in returned]
+        returned_urls = [r["url"] for s in runs for r in s.get("results", []) if r.get("url")]
+        returned = {normalise(u) for u in returned_urls}
+        returned_sans_query = {normalise(u, drop_query=True)
+                               for u in returned_urls if has_query(u)}
+        missing, dropped = [], []
+        for u in unique:
+            if normalise(u) in returned:
+                continue
+            if not has_query(u) and normalise(u) in returned_sans_query:
+                dropped.append(u)
+            else:
+                missing.append(u)
+
+        notes = []
         if missing:
             flagged.append(run_id)
-            print(f"{head}, {len(missing)} NOT RETURNED by its {len(runs)} searches:")
+            notes.append(f"{len(missing)} NOT RETURNED")
+        if dropped:
+            query_dropped.append(run_id)
+            notes.append(f"{len(dropped)} matched (query dropped)")
+        if notes:
+            print(f"{head}, {', '.join(notes)} by its {len(runs)} searches:")
             for u in missing:
-                print(f"    {u}")
+                print(f"    NOT RETURNED:           {u}")
+            for u in dropped:
+                print(f"    matched (query dropped): {u}")
         else:
             print(f"{head}, all returned by its {len(runs)} searches")
 
     print(f"\n{checked} run(s) with citations checked; "
           f"{len(flagged)} cite URLs no search returned; "
+          f"{len(query_dropped)} cite a retrieved URL with its query dropped; "
           f"{len(unverified)} unverified (no searches logged)")
     if flagged:
         print("Flagged:", ", ".join(flagged))
+    if query_dropped:
+        print("Matched (query dropped):", ", ".join(query_dropped))
     if unverified:
         print("Unverified:", ", ".join(unverified))
     if flagged or unverified:
