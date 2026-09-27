@@ -6,3 +6,5 @@ test_images/
 log.json
 log.json
 supplement_report.pdf
+logs/
+results/*_rescored*
