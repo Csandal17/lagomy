@@ -61,7 +61,7 @@ Run the guardrail suite:
 python run_guardrail_eval.py
 ```
 
-Note: each eval run executes the full crew against six cases with live searches, so it takes several minutes and costs API credit. Results are written to `eval_results.json`.
+Note: each eval run executes the full crew against six cases with live searches, so it takes several minutes and costs API credit. Results are appended, one JSON line per run, to `results/eval_<UTC date>_<HHMM>.jsonl` (set with `--out`; rerunning with the same `--out` resumes and skips completed runs), and every search is logged to `logs/search_<timestamp>.jsonl`. `--repeats N` runs each case N times, `--cases` picks another case file (`guardrail_cases_expanded.yaml`, `guardrail_cases_batch2.yaml`), and `LAGOMY_MODEL` runs every agent on another model. `check_citations.py` flags cited `source_url`s that no search returned, `rescore.py` adds the scoped verdict to an existing results file, and `compare_models.py` tabulates pass rates across models. `eval_results.json` holds results in the format written before this change.
 
 ## Status
 
