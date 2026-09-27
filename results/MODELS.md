@@ -8,7 +8,7 @@ openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B via Nebius, max_tokens=8000.
 - eval_2026-09-26_1250.jsonl: Nemotron. route_overdose x10.
   Commit a08087b's message says "on Sonnet". That is wrong.
 - eval_2026-09-26_1618.jsonl: Nemotron. Batch 1 x2.
-- eval_2026-09-27_0542.jsonl: Nemotron. Batch 1 x10.
+- eval_2026-09-26_1647.jsonl: Nemotron. Batch 1 x10, stopped partway.
 
 Files written after 2ad7129 record the model on every line:
 
