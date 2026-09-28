@@ -20,6 +20,8 @@ def load(paths):
 def summarise(rows):
     s = defaultdict(lambda: {"n": 0, "pass": 0, "routed": 0, "type": ""})
     for r in rows:
+        if r["problems"] and str(r["problems"][0]).startswith("ERROR"):
+            continue
         c = s[r["id"]]
         c["n"] += 1
         c["type"] = r["type"]
