@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 import yaml
 from dotenv import load_dotenv
 from lagomy.crew import MODEL, Lagomy
+from lagomy.routing_gate import check_routing
 from guardrails import find_banned_phrases
 from lagomy.tools import uk_evidence_search
 
@@ -29,6 +30,8 @@ def parse_args():
                              "(default: results/eval_<UTC date>_<HHMM>.jsonl)")
     parser.add_argument("--cases", default="guardrail_cases.yaml",
                         help="YAML file of cases (default: guardrail_cases.yaml)")
+    parser.add_argument("--gate", action="store_true",
+                        help="Run the deterministic routing gate before the crew")
     args = parser.parse_args()
     if args.repeats < 1:
         parser.error("--repeats must be at least 1")
