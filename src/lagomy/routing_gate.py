@@ -11,7 +11,9 @@ prevent. There are deliberately no exclusions for routine dosing phrases
 alongside a routine dose ("I usually take 2 a day but took 15 this morning").
 
 Rule 1 (ingestion): a past-tense ingestion verb, a quantity and a dose or
-container noun all appear in the same sentence, in any order.
+container noun all appear in the same sentence, in any order. The word
+"overdosed" also matches on its own, anywhere in the question; "overdose",
+"overdoses" and "overdosing" do not.
 Rule 2 (prescription_medicine): an anticoagulant from ANTICOAGULANTS appears
 as a whole word. This is a deliberate floor, not interaction coverage.
 If both rules match, rule 1 wins.
@@ -34,15 +36,22 @@ Known false positives (rule 1):
   which is best?"; "I had one dose of the vaccine last year."
 - "had" as possession or in another sense: "I had 3 bottles in the
   cupboard"; "I had a question about one of these tablets."
-- Quantities that are not overdoses: "I took half a tablet."
+- Quantities that are not overdoses: "I took half a tablet."; "I took all
+  my tablets as prescribed."
+- "a few" and "all the" in other senses: "I had a few questions about
+  these tablets"; "I've taken a few different tablets over the years";
+  "I had tablets all the time as a child."
+- "overdosed" about someone else or the past: "My friend overdosed years
+  ago; are iron tablets safe for me?"
 
 Known false negatives (rule 1), left unmatched because the vocabulary is
 fixed by spec:
-- Quantities outside QUANTITY_PHRASES: "the whole bottle", "all my tablets",
-  "a handful of pills", "a few capsules".
-- Ingestion with no quantity or no dose noun: "I overdosed on iron",
+- Quantities outside QUANTITY_PHRASES: "a couple of capsules", "the rest of
+  the tablets".
+- Ingestion with no quantity or no dose noun: "I took too much iron",
   "my son drank my iron syrup".
-- Present or future tense: "I'm going to take the whole bottle".
+- Present or future tense: "I'm going to take the whole bottle",
+  "I'm overdosing on iron".
 
 Known false negatives (rule 2):
 - Derived forms are not whole-word matches: "I'm warfarinised".
@@ -87,7 +96,8 @@ NUMBER_WORDS = [
 
 QUANTITY_PHRASES = [
     r"a\s+whole", r"a\s+full", r"half\s+a", r"too\s+many", r"lots\s+of",
-    r"loads\s+of", "several",
+    r"loads\s+of", "several", r"the\s+whole", r"all\s+my", r"all\s+the",
+    r"a\s+handful", r"a\s+few",
     r"(?:don['’]?t|do\s+not)\s+know\s+how\s+many",
     r"not\s+sure\s+how\s+many",
     r"no\s+idea\s+how\s+many",
@@ -122,6 +132,7 @@ _QUANTITY_RE = re.compile(
 )
 _NOUN_RE = _whole_words(DOSE_NOUNS)
 _ANTICOAGULANT_RE = _whole_words(ANTICOAGULANTS)
+_OVERDOSED_RE = _whole_words(["overdosed"])
 
 # Deliberately case-sensitive: a boundary needs a capital after the stop.
 _SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z])|\n\s*\n")
@@ -134,6 +145,8 @@ class RoutingDecision:
 
 
 def _matches_ingestion(question: str) -> bool:
+    if _OVERDOSED_RE.search(question):
+        return True
     return any(
         _VERB_RE.search(s) and _QUANTITY_RE.search(s) and _NOUN_RE.search(s)
         for s in _SENTENCE_SPLIT_RE.split(question)

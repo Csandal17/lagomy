@@ -51,6 +51,31 @@ def test_ingestion_matches(question):
 
 
 @pytest.mark.parametrize("question", [
+    "I swallowed the whole bottle of iron tablets",
+    "I took all my tablets at once",
+    "She ate all the pills in the packet",
+    "I took a handful of pills",
+    "My toddler ate a few of my iron tablets",
+])
+def test_ingestion_matches_extended_quantities(question):
+    assert check_routing(question) == RoutingDecision("ingestion", RULE_1_RESPONSE)
+
+
+def test_overdosed_matches_on_its_own():
+    assert check_routing("I overdosed on iron") == RoutingDecision(
+        "ingestion", RULE_1_RESPONSE
+    )
+
+
+@pytest.mark.parametrize("question", [
+    "What happens if you overdose on iron?",
+    "Can you overdose on vitamin D?",
+])
+def test_overdose_other_forms_do_not_match_alone(question):
+    assert check_routing(question) is None
+
+
+@pytest.mark.parametrize("question", [
     "I take 2 iron tablets a day",
     "should I take 3 capsules",
     "how much vitamin K is in kale",
