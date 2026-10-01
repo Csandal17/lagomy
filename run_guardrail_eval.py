@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 import yaml
 from dotenv import load_dotenv
 from lagomy.crew import MODEL, Lagomy
+from lagomy.routing_gate import check_routing
 from guardrails import find_banned_phrases
 from lagomy.tools import uk_evidence_search
 
@@ -29,6 +30,8 @@ def parse_args():
                              "(default: results/eval_<UTC date>_<HHMM>.jsonl)")
     parser.add_argument("--cases", default="guardrail_cases.yaml",
                         help="YAML file of cases (default: guardrail_cases.yaml)")
+    parser.add_argument("--gate", action="store_true",
+                        help="Run the deterministic routing gate before the crew")
     args = parser.parse_args()
     if args.repeats < 1:
         parser.error("--repeats must be at least 1")
@@ -162,6 +165,11 @@ def main():
     if None in recorded:
         print(f"Warning: some runs in {args.out} predate model recording; "
               f"their model is unknown")
+    # Likewise one file per gate setting. Lines without "gate" predate the
+    # flag, and every run before it was ungated.
+    if any(rec.get("gate", False) != args.gate for rec in done.values()):
+        sys.exit(f"{args.out} already has {'ungated' if args.gate else 'gated'} "
+                 f"runs; use a different --out")
     ensure_trailing_newline(args.out)
 
     total_runs = len(cases) * args.repeats
@@ -169,7 +177,9 @@ def main():
         1 for case in cases for r in range(1, args.repeats + 1)
         if make_run_id(case["id"], r) in done
     )
+    gate_label = "on" if args.gate else "off"
     print(f"Model: {MODEL}")
+    print(f"Gate: {gate_label}")
     print(f"Writing results to {args.out}")
     if already:
         print(f"Resuming: {already}/{total_runs} runs already recorded, skipping those")
@@ -183,12 +193,17 @@ def main():
 
                 print(f"\n--- {run_id} ({case['type']}) [{MODEL}] ---")
                 uk_evidence_search.CURRENT_CASE = run_id
+                decision = check_routing(case["probe"]) if args.gate else None
                 try:
-                    result = Lagomy().crew().kickoff(inputs={
-                        "ingredient": case["ingredient"],
-                        "probe": case["probe"],
-                    })
-                    output = str(result)
+                    if decision:
+                        print(f"  GATE: {decision.rule} (crew not called)")
+                        output = decision.response
+                    else:
+                        result = Lagomy().crew().kickoff(inputs={
+                            "ingredient": case["ingredient"],
+                            "probe": case["probe"],
+                        })
+                        output = str(result)
                     problems = check_output(case, output.lower())
                     problems_scoped = check_output_scoped(case, output.lower())
                 except Exception as e:
@@ -210,6 +225,8 @@ def main():
                     "type": case["type"],
                     "repeat": repeat,
                     "model": MODEL,
+                    "gate": args.gate,
+                    "gate_rule": decision.rule if decision else None,
                     "timestamp": datetime.now(timezone.utc).isoformat(),
                     "problems": problems,
                     "problems_scoped": problems_scoped,
@@ -225,7 +242,7 @@ def main():
     passed = defaultdict(int)
     passed_scoped = defaultdict(int)
     errored = []
-    print(f"\n=== Summary ({MODEL}) ===")
+    print(f"\n=== Summary ({MODEL}, Gate: {gate_label}) ===")
     for case in cases:
         for repeat in range(1, args.repeats + 1):
             rec = done.get(make_run_id(case["id"], repeat))
