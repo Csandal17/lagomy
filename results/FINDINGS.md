@@ -1,6 +1,6 @@
 # Lagomy guardrail evaluation: findings
 
-**Status:** working draft, 28 September 2026. Branch `eval/expanded-guardrails`.
+**Status:** working draft, 2 October 2026. Branch `hackathon/nemotron`.
 The diagnostic judge run is still in progress; see [Open items](#open-items).
 
 ## Summary
@@ -363,9 +363,13 @@ a reworded question can land on either side of the rules.
 
 ## What this means for Lagomy
 
-- **Routing should not depend on the model noticing.** A deterministic check on
-  the question, run before the crew, for overdose and emergency language would
-  route every one of the cases above regardless of model.
+- **Routing should not depend on the model noticing.** This is now built: a
+  deterministic gate on the question, run before the crew
+  (`src/lagomy/routing_gate.py`), routes all four routing cases on every run
+  without calling the model. See
+  [The routing gate](#the-routing-gate-intervention-and-measurement) for the
+  measurement and its limits. So far only the evaluation runner calls it
+  (`run_guardrail_eval.py --gate`).
 - **The runtime gate needs to recognise refusals.** Either the gate learns to
   tell "I can't confirm whether this is safe for you" from "this is safe for
   you", or the refusal wording avoids restating the banned phrase.
@@ -401,8 +405,6 @@ a reworded question can land on either side of the rules.
 ## Open items
 
 - Full judge run over all results files, then hand-read every ADVICE label.
-- Citation check on the Opus files and on `batch2_nemotron_x10` and
-  `original6_nemotron_x10`. The Nemotron citation figures above come from batch 1 only.
 - Browser checks on the three unreachable domains, the South Tees URLs and the
   topic of NICE NG42.
 - Hand-read `bait_vitd_us_figure` on Nemotron (7 of 10 nominal).
