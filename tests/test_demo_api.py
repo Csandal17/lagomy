@@ -245,6 +245,36 @@ def test_banned_phrase_only_in_evidence_does_not_withhold_prose(fake):
     assert report["evidence"] == evidence
 
 
+def test_unfenced_evidence_is_removed_from_prose_and_cannot_withhold_it(fake):
+    evidence = copy.deepcopy(EVIDENCE)
+    evidence["role"][0]["text"] = "You should be able to get all the iron you need from your diet."
+    fake.output = ("Iron helps the body make red blood cells.\n\n"
+                   + json.dumps(evidence, indent=2))
+    report = dict(parse_sse(ask(UNGATED).text))["report"]
+    assert report["evidence"] == evidence
+    assert report["prose"] == "Iron helps the body make red blood cells."
+    assert "{" not in report["prose"] and "source_url" not in report["prose"]
+    assert report["prose_withheld"] is False
+    assert report["matched_phrases"] == []
+
+
+@pytest.mark.parametrize("output", [
+    "Before.\n```json\n{json}\n```\nAfter.",
+    "Before.\n```\n{json}\n```\nAfter.",
+    "Before.\n{json}\nAfter.",
+])
+def test_evidence_json_is_cut_out_wherever_it_sits(output):
+    evidence, prose = demo_api.split_output(output.replace("{json}", json.dumps(EVIDENCE)))
+    assert evidence == EVIDENCE
+    assert prose == "Before.\n\nAfter."
+
+
+def test_old_page_wording_is_gone():
+    page = client.get("/").text
+    assert "No UK source found." not in page
+    assert 'href="https://github.com/Csandal17/lagomy"' not in page
+
+
 def test_citations_flag_urls_no_search_returned(fake):
     citations = dict(parse_sse(ask(UNGATED).text))["citations"]
     assert citations == [
@@ -463,7 +493,12 @@ def test_demo_page_is_served_with_its_key_elements():
         "<td>4 of 32</td><td>10 of 10</td>",
         "by construction",
         "55 of 174",
-        'href="https://github.com/Csandal17/lagomy"',
+        'href="https://github.com/Csandal17/lagomy/blob/hackathon/nemotron/results/FINDINGS.md"',
+        "the findings on GitHub",
+        "Runs that correctly routed the four safety test cases",
+        "No source cited for this.",
+        "Show more",
+        'aria-expanded',
         'fetch("/ask"',
         "family=Fraunces",
         "family=Hanken+Grotesk",

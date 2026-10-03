@@ -111,25 +111,32 @@ def _reserve_run():
 
 # --- Crew output ------------------------------------------------------------
 
-def extract_evidence(text: str) -> dict:
-    """Pull the JSON evidence object out of the crew's prose + JSON output.
+_FENCED_JSON = re.compile(r"```json\s*(\{.*?\})\s*```", re.DOTALL)
+_BARE_JSON = re.compile(r"(\{.*\})", re.DOTALL)
+_FENCE_LINE = re.compile(r"^[ \t]*```(?:json)?[ \t]*$", re.MULTILINE)
+_BLANK_LINES = re.compile(r"(?:[ \t]*\n){3,}")
 
-    The same parse as extract_json in precompute.py on main. It is copied, not
+
+def split_output(text: str) -> tuple[dict, str]:
+    """Split the crew's output into (evidence, prose).
+
+    The evidence is found with the same parse as extract_json in precompute.py
+    on main: a ```json fenced object, else the outermost {...}. It is copied, not
     imported: on this branch precompute.py imports it from api.py, which no
     longer defines it, and importing precompute also loads .env and builds the
     crew.
+
+    The prose is everything else: the matched object (with its fence, if any)
+    is cut out wherever it sits, along with any fence lines left behind, so
+    the prose never contains the evidence JSON.
     """
-    match = re.search(r"```json\s*(\{.*?\})\s*```", text, re.DOTALL)
-    if not match:
-        match = re.search(r"(\{.*\})", text, re.DOTALL)
+    match = _FENCED_JSON.search(text) or _BARE_JSON.search(text)
     if not match:
         raise ValueError("Crew returned no JSON block")
-    return json.loads(match.group(1))
-
-
-def extract_prose(text: str) -> str:
-    """Everything before the fenced JSON block, as precompute.py stores it."""
-    return text.split("```json")[0].strip()
+    evidence = json.loads(match.group(1))
+    prose = text[:match.start()] + text[match.end():]
+    prose = _BLANK_LINES.sub("\n\n", _FENCE_LINE.sub("", prose))
+    return evidence, prose.strip()
 
 
 def cited_source_urls(node) -> list[str]:
@@ -148,10 +155,11 @@ def cited_source_urls(node) -> list[str]:
 
 
 def build_report(output: str) -> dict:
-    """The report payload. Banned phrases are checked in the prose only; on a
-    hit the prose is withheld and the evidence still ships, as in api.py."""
-    evidence = extract_evidence(output)
-    prose = extract_prose(output)
+    """The report payload. Banned phrases are checked in the prose only, after
+    the evidence JSON is removed from it, so quoted evidence text can never
+    withhold the prose. On a hit the prose is withheld and the evidence still
+    ships, as in api.py."""
+    evidence, prose = split_output(output)
     matched = find_banned_phrases(prose)
     return {
         "prose": None if matched else prose,

@@ -99,8 +99,8 @@
   }
   .button-secondary { background: transparent; border: 1px solid var(--text); }
   .button-secondary:hover { background: var(--sage-1); }
-  .button-primary { background: var(--sage-3); border: 1px solid var(--sage-3); font-weight: 600; }
-  .button-primary:hover { background: var(--sage-2); border-color: var(--sage-2); }
+  .button-primary { background: var(--ink); border: 1px solid var(--ink); color: var(--bg); font-weight: 600; }
+  .button-primary:hover { background: var(--text); border-color: var(--text); }
   button:disabled { cursor: not-allowed; opacity: 0.6; }
   .timing { font-size: 0.9375rem; margin: 1rem 0 0; }
 
@@ -115,7 +115,8 @@
     margin: 0 0 1rem;
   }
   .gate-response {
-    font-family: var(--display);
+    font-family: var(--body);
+    font-weight: 500;
     font-size: 1.375rem;
     line-height: 1.4;
     color: var(--ink);
@@ -130,12 +131,29 @@
   .page-title { font-weight: 600; margin: 0; }
   .address { font-size: 0.875rem; overflow-wrap: anywhere; margin: 0.125rem 0 0.375rem; }
   .snippet { font-size: 0.9375rem; margin: 0; }
+  .snippet.collapsed {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+  }
+  .show-more {
+    background: none;
+    border: 0;
+    padding: 0.25rem 0;
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
 
   .prose { white-space: pre-line; }
   .statements { list-style: none; margin: 0; padding: 0; }
   .statement { background: var(--surface); padding: 0.75rem 1rem; margin: 0 0 0.5rem; }
   .statement p { margin: 0; }
   .source { font-size: 0.875rem; overflow-wrap: anywhere; margin-top: 0.375rem !important; }
+  .statement .source-note { font-size: 0.875rem; margin-top: 0.125rem; }
   .sources { margin: 0; padding-left: 1.25rem; }
   .sources li { overflow-wrap: anywhere; margin-bottom: 0.5rem; }
   .source-note { display: block; font-size: 0.9375rem; }
@@ -221,7 +239,7 @@
         before any model sees it, and answers the ones that match with a fixed
         response.</p>
       <table>
-        <caption>Runs that sent the person to help, on the four routing test questions</caption>
+        <caption>Runs that correctly routed the four safety test cases</caption>
         <thead>
           <tr>
             <th scope="col">Question</th>
@@ -242,8 +260,8 @@
       <p>In about a third of the runs that cite anything (55 of 174), Nemotron cited
         a page its searches never returned, which is why every answer here lists its
         sources against the search results.</p>
-      <p>The full findings and the code are in the
-        <a href="https://github.com/Csandal17/lagomy">Lagomy repository on GitHub</a>.</p>
+      <p>The full results, with their limits, are in
+        <a href="https://github.com/Csandal17/lagomy/blob/hackathon/nemotron/results/FINDINGS.md">the findings on GitHub</a>.</p>
     </section>
   </main>
 
@@ -301,6 +319,49 @@
 
   let searches = 0;
   let answered = false;
+  let snippetCount = 0;
+  // [source_url, statement element] for every evidence card, for the citations event.
+  let cards = [];
+
+  // Tavily snippets are page extracts, often markdown. Drop table pipes,
+  // separator rows ("---"), heading markers and runs of whitespace.
+  function cleanSnippet(text) {
+    return String(text || "")
+      .split(/\r?\n/)
+      .map((line) => line.replace(/^\s*#{1,6}\s*/, ""))
+      .filter((line) => !/^[\s|:-]*-{3,}[\s|:-]*$/.test(line))
+      .join(" ")
+      .replace(/:?-{3,}:?/g, " ")
+      .replace(/\|/g, " ")
+      .replace(/(^|\s)#{1,6}(?=\s)/g, "$1")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  // Clamp a snippet to about three lines, with a button to show the rest.
+  // Called once the snippet is on the page, so its height can be measured.
+  function addShowMore(snippet, title) {
+    snippet.classList.add("collapsed");
+    if (snippet.scrollHeight <= snippet.clientHeight + 1) {
+      snippet.classList.remove("collapsed");
+      return;
+    }
+    snippetCount += 1;
+    snippet.id = "snippet-" + snippetCount;
+    const button = el("button", null, "show-more");
+    button.type = "button";
+    button.setAttribute("aria-controls", snippet.id);
+    button.setAttribute("aria-expanded", "false");
+    const label = el("span", "Show more");
+    button.append(label, el("span", " of the snippet from " + title, "visually-hidden"));
+    button.addEventListener("click", () => {
+      const expand = snippet.classList.contains("collapsed");
+      snippet.classList.toggle("collapsed", !expand);
+      button.setAttribute("aria-expanded", String(expand));
+      label.textContent = expand ? "Show less" : "Show more";
+    });
+    snippet.after(button);
+  }
 
   // The status area shows only while it has something to say.
   function syncProgress() {
@@ -329,6 +390,7 @@
   function reset() {
     searches = 0;
     answered = false;
+    cards = [];
     setStatus("");
     $("notice").hidden = true;
     $("notice").textContent = "";
@@ -345,16 +407,20 @@
     const pages = el("ul", null, "pages");
     const results = Array.isArray(data.results) ? data.results : [];
     if (results.length === 0) item.append(el("p", "This search returned no pages."));
+    const snippets = [];
     for (const r of results) {
       const page = el("li", null, "page");
       const title = el("p", null, "page-title");
       title.append(addressLink(r.url, r.title || r.url));
-      page.append(title, el("p", r.url || "", "address"), el("p", r.snippet || "", "snippet"));
+      const snippet = el("p", cleanSnippet(r.snippet), "snippet");
+      page.append(title, el("p", r.url || "", "address"), snippet);
       pages.append(page);
+      snippets.push([snippet, r.title || r.url || "this page"]);
     }
     if (results.length) item.append(pages);
     $("trail").append(item);
     $("research").hidden = false;
+    for (const [snippet, title] of snippets) addShowMore(snippet, title);
     searchingStatus();
   }
 
@@ -383,7 +449,7 @@
       body.append(el("h4", label));
       const statements = Array.isArray(evidence[key]) ? evidence[key] : [];
       if (statements.length === 0) {
-        body.append(el("p", "No UK source found."));
+        body.append(el("p", "No source cited for this."));
         continue;
       }
       const list = el("ul", null, "statements");
@@ -396,6 +462,7 @@
         source.append(addressLink(s && s.source_url, s && s.source_url ? s.source_url : "no address given"));
         item.append(source);
         list.append(item);
+        if (s && typeof s.source_url === "string") cards.push([s.source_url, item]);
       }
       body.append(list);
     }
@@ -406,6 +473,10 @@
   function onCitations(data) {
     const list = $("source-list");
     const citations = Array.isArray(data) ? data : [];
+    const unreturned = new Set(citations.filter((c) => !c.in_search_results).map((c) => c.url));
+    for (const [url, card] of cards) {
+      if (unreturned.has(url)) card.append(el("p", NOT_RETURNED, "source-note"));
+    }
     for (const c of citations) {
       const item = el("li");
       item.append(addressLink(c.url));
