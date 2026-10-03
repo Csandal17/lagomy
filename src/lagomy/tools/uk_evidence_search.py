@@ -12,6 +12,10 @@ RUN_STAMP = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%S")
 LOG_PATH = LOG_DIR / f"search_{RUN_STAMP}.jsonl"
 # Set by the eval runner before each case so log lines can be traced back.
 CURRENT_CASE = "unknown"
+# Optional callback(query, results), called after each successful search with
+# Tavily's raw result dicts. Set by the demo API for the duration of one run;
+# None (the default) leaves the tool's behaviour unchanged.
+ON_SEARCH = None
 
 def _log_search(query: str, results: list, error: str | None = None) -> None:
     """Append one JSON line recording a search and what it returned."""
@@ -62,6 +66,12 @@ class UKEvidenceSearchTool(BaseTool):
 
         hits = results["results"]
         _log_search(query, hits)
+        if ON_SEARCH is not None:
+            try:
+                ON_SEARCH(query, hits)
+            except Exception:
+                # Like logging, the hook must never break a run.
+                pass
 
         formatted = []
         for r in hits:
