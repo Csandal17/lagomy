@@ -17,6 +17,9 @@ about callers is stored.
 Keys (NEBIUS_*, TAVILY_API_KEY) are read from the environment by the crew and
 the search tool. This module never reads, logs or returns them.
 
+GET / serves the demo page (demo_page.html); GET /test serves a bare page that
+prints each event as it arrives, for debugging.
+
 Run locally:  uvicorn demo_api:app --port 8000
 """
 import asyncio
@@ -27,6 +30,7 @@ import queue
 import re
 import threading
 from datetime import datetime, timezone
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 from fastapi.exceptions import RequestValidationError
@@ -313,6 +317,14 @@ document.getElementById("ask").onsubmit = async (e) => {
 """
 
 
+DEMO_PAGE = (Path(__file__).parent / "demo_page.html").read_text(encoding="utf-8")
+
+
 @app.get("/", response_class=HTMLResponse)
+def demo_page():
+    return DEMO_PAGE
+
+
+@app.get("/test", response_class=HTMLResponse)
 def test_page():
     return TEST_PAGE

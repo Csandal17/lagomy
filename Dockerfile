@@ -20,7 +20,7 @@ RUN uv sync --frozen --no-dev --no-install-project
 COPY src ./src
 RUN uv sync --frozen --no-dev
 
-COPY demo_api.py guardrails.py check_citations.py ./
+COPY demo_api.py demo_page.html guardrails.py check_citations.py ./
 
 # The search tool appends to logs/; give the runtime user somewhere to write.
 RUN useradd --create-home lagomy && mkdir logs && chown lagomy logs

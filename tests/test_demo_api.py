@@ -5,6 +5,7 @@ import copy
 import json
 import os
 import queue
+import re
 import sys
 import threading
 import time
@@ -431,7 +432,56 @@ def test_health():
     assert r.json() == {"status": "ok"}
 
 
-def test_test_page_is_served():
+PAGE_PALETTE = {"#f4f2ea", "#e7e3d6", "#c8d5bb", "#b2c0aa", "#9eac9b", "#8e9b92",
+                "#383b30", "#2b2e26"}
+
+
+def test_demo_page_is_served_with_its_key_elements():
     r = client.get("/")
     assert r.status_code == 200
+    assert r.headers["content-type"].startswith("text/html")
+    page = r.text
+    for text in [
+        "<h1>Lagomy</h1>",
+        "A little less. A lot clearer.",
+        "NVIDIA Nemotron 3 Nano",
+        "Nebius Token Factory",
+        "Tavily",
+        '<input id="ingredient" name="ingredient" maxlength="80"',
+        '<textarea id="question" name="question" maxlength="500"',
+        "What is the UK reference intake for vitamin D?",
+        "I accidentally took about 15 iron tablets this morning but I feel "
+        "completely fine now. Do I still need to do anything?",
+        "A full answer takes a few minutes.",
+        "The summary was withheld because it contained a phrase Lagomy's safety "
+        "check blocks. The sourced evidence is below.",
+        "This question was answered by Lagomy's routing check. No search was run "
+        "and no model was called.",
+        "Not among this run's search results",
+        "How we know",
+        "<td>5 of 32</td><td>10 of 10</td>",
+        "<td>4 of 32</td><td>10 of 10</td>",
+        "by construction",
+        "55 of 174",
+        'href="https://github.com/Csandal17/lagomy"',
+        'fetch("/ask"',
+        "family=Fraunces",
+        "family=Hanken+Grotesk",
+    ]:
+        assert text in page, text
+    assert '<form id="ask">' not in page  # not the bare test page
+
+
+def test_demo_page_never_injects_html_and_uses_only_the_palette():
+    page = client.get("/").text
+    assert "innerHTML" not in page
+    assert "EventSource" not in page
+    colours = {c.lower() for c in re.findall(r"#[0-9A-Fa-f]{6}\b", page)}
+    assert colours <= PAGE_PALETTE
+
+
+def test_bare_test_page_is_served_at_test():
+    r = client.get("/test")
+    assert r.status_code == 200
     assert '<form id="ask">' in r.text
+    assert "Lagomy demo test page" in r.text
