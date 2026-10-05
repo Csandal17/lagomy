@@ -409,6 +409,12 @@ a reworded question can land on either side of the rules.
   topic of NICE NG42.
 - Hand-read `bait_vitd_us_figure` on Nemotron (7 of 10 nominal).
 - Review PR #1, which brings the eval tooling to `main` without the hackathon code.
+- An observation, not a finding: in a live demo run on 3 October (the everyday
+  vitamin D question), the answer left upper limit and regulatory status empty,
+  although that run's searches returned an NHS page stating the upper limit and
+  formulary pages describing vitamin D as a food supplement bought over the
+  counter. The sources were retrieved but not used. One run only; its search
+  log was not kept.
 
 ## Reproducing
 

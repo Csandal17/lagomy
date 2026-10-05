@@ -1,5 +1,7 @@
 # Citation checks
 
+> **Scope.** This file covers the three later Nemotron files and the three Opus 5.5 files listed below. Batch 1 (`eval_2026-09-27_0542.jsonl`) was checked separately. The combined Nemotron figure, 55 of 174 citing runs, is in Finding 3 of `FINDINGS.md`.
+
 Checks whether each `source_url` a run cited was actually returned by one of that run's own searches. Produced by running `check_citations.py` (unchanged) on each results file against the local search logs in `logs/search_*.jsonl`. Those logs are gitignored, so these numbers can only be reproduced on the machine that holds them.
 
 Terms used below:
