@@ -24,7 +24,7 @@ Otherwise the crew runs: Tavily retrieves UK sources, the agents produce a sourc
 
 **Nebius Token Factory** serves the model over an OpenAI-compatible endpoint, configured with `NEBIUS_BASE_URL` and `NEBIUS_API_KEY`.
 
-**NVIDIA Nemotron 3 Nano** (`nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`) is the model behind both agents, run through CrewAI 1.15.21 at `max_tokens` 8000. Reasoning tokens are drawn from that same budget. `LAGOMY_MODEL` selects a different model for comparison runs.
+**NVIDIA Nemotron 3 Nano** (`nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`) is the model behind the crew's agents, run through CrewAI 1.15.21 at `max_tokens` 8000. Reasoning tokens are drawn from that same budget. `LAGOMY_MODEL` selects a different model for comparison runs.
 
 **Where Token Factory accelerated the work.** Because the endpoint is OpenAI-compatible, moving the crew from Claude to Nemotron was a configuration change rather than a rewrite: the same agents, tasks and tools, with a different `base_url` and model string. Plain completions and tool calling both worked on the first smoke test. Per-token pricing low enough to repeat every evaluation case many times (240 Nemotron runs at 8000 tokens) is what turned one-off failures into measured rates.
 
@@ -45,13 +45,13 @@ Full write-up in [results/FINDINGS.md](results/FINDINGS.md). Six results, with t
 
 **Framing decides routing.** On the latent iron case, Nemotron routed correctly in 5 of 32 runs, against 16 of 16 for Sonnet and 29 of 30 for Opus. On the warfarin case, Nemotron routed correctly in 4 of 32.
 
-**Nemotron cites pages its searches never returned.** This appeared in 55 of 174 citing runs. Of 47 such URLs, 35 were dead, 1 was live, and 11 could not be determined. The comparison runs showed 0 of 202 for Opus and 2 of 179 for Sonnet, both of those real pages. This is the finding the deterministic citation check exists to catch.
+**Nemotron cites pages its searches never returned.** This appeared in 55 of 174 citing runs. The later 134 of those runs cited 47 distinct URLs that no search returned: 35 were dead, 1 was live, and 11 could not be determined. The comparison runs showed 0 of 202 for Opus and 2 of 179 for Sonnet, both of those real pages. This is the finding the deterministic citation check exists to catch.
 
 ### Limits
 
 - Output from this branch is not reliable on its own. Three runs of the vitamin D example on the live demo produced two answers containing an address no search returned, and one clean answer.
 - The citation check compares URLs exactly. It does not understand negation and it does not verify that a cited page supports the claim made from it.
-- The demo is stateless and stores no user data. It holds one crew run at a time and applies an in-memory daily cap.
+- The demo has no user accounts and no database. It holds one crew run at a time under an in-memory daily cap. Search queries, which the model writes from the question, are appended to `logs/` inside the container and are lost when it restarts.
 - Lagomy logs and sources. It does not advise, rank, reassure or diagnose, and the gate text is routing rather than clinical guidance.
 
 ### Running the demo locally
@@ -71,10 +71,12 @@ TAVILY_API_KEY=your-key
 DEMO_DAILY_RUN_LIMIT=30
 ```
 
+The server will not start without the two Nebius settings. Placeholder values are enough to load the page and try the routing gate, which calls no model and no search; a full crew run needs real keys.
+
 Serve the demo:
 
 ```bash
-uvicorn demo_api:app --reload
+uv run uvicorn demo_api:app --reload
 ```
 
 `/` is the demo page, `/test` a bare page without styling, `/health` a status check, and `POST /ask` the streaming endpoint. The deployed copy builds from the `Dockerfile` in this repository and listens on `$PORT`.
@@ -82,10 +84,14 @@ uvicorn demo_api:app --reload
 Run the tests:
 
 ```bash
-pytest tests/
+uv run pytest tests/
 ```
 
 All 64 tests should pass.
+
+---
+
+*The sections below describe Lagomy's main product, as it runs on `main` and at api.lagomy.com. To run this branch, use "Running the demo locally" above.*
 
 ## Why there's a dataset
 
