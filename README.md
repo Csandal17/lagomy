@@ -28,7 +28,25 @@ Otherwise the crew runs: Tavily retrieves UK sources, the agents produce a sourc
 
 **Where Token Factory accelerated the work.** Because the endpoint is OpenAI-compatible, moving the crew from Claude to Nemotron was a configuration change rather than a rewrite: the same agents, tasks and tools, with a different `base_url` and model string. Plain completions and tool calling both worked on the first smoke test. Per-token pricing low enough to repeat every evaluation case many times (240 Nemotron runs at 8000 tokens) is what turned one-off failures into measured rates.
 
-**Tavily** defines the evidence set. The search results are the only material the model is entitled to cite, so anything outside them can be caught without a judge model: the citation check flags any URL in the answer that no search returned.
+**Tavily** defines the evidence set. The search results are the only material the model is entitled to cite, so anything outside them can be caught without a judge model: the citation check flags any URL in the answer that no search returned. More on this below.
+
+### Tavily as the citation allowlist
+
+Tavily's results define what the model is allowed to cite. That makes a fabricated citation countable without a judge model: every cited address either is or is not among the pages that run's own searches returned.
+
+**The search.** Tavily is the crew's only tool, given to the evidence agent (`src/lagomy/crew.py`). Each call uses `include_domains` set to www.nhs.uk, www.nice.org.uk, bnf.nice.org.uk, cks.nice.org.uk and 111.wales.nhs.uk, with `max_results=3`, and the model sees each result's title, URL and first 600 characters (`src/lagomy/tools/uk_evidence_search.py`). The task asks for one search per field and six at most, and tells the synthesis step to keep source URLs exactly and drop any claim it cannot trace to a source (`src/lagomy/config/tasks.yaml`). Each agent is capped at `max_iter=5`.
+
+**The research trail.** Every search is appended to `logs/search_<timestamp>.jsonl` with its query, its eval case, and each result's title, URL and 600-character snippet. From 14 to 28 September the evaluation logged 4,512 searches across all three models, in 29 files kept locally because `logs/` is gitignored.
+
+**The allowlist check.** `check_citations.py` takes every `source_url` in an answer and compares it with the URLs returned by that run's searches, matched by run id and time. It treats http and https alike and ignores host case, a trailing slash, the fragment, query parameter order and escaped ampersands. A citation that matches only once a returned URL's query string is removed is reported separately, not as unmatched. The demo imports the same normalisation and checks in memory against the searches it has just run, without that separate category (`demo_api.py`).
+
+**What the demo shows live.** As each search finishes, `POST /ask` streams a `search` event, and the page adds it to a Research trail: the query, then each page's title, address and snippet. When the answer arrives, any evidence card or source whose page no search returned says "Not among this run's search results" (`demo_page.html`).
+
+**What it caught.** In three runs of the vitamin D example on the live demo, two answers cited an address no search had returned, and one was clean. In both flagged answers, the quoted text did come from a page Tavily had returned; only the address had been rewritten. Because each search keeps its snippets, the trail shows exactly that: real evidence, attributed to an address no search returned.
+
+**The numbers.** Nemotron cited a page its searches never returned in 55 of 174 citing runs, Opus 5.5 in none of 202, and Sonnet 4.6 in 2 of 179, both real pages (`results/FINDINGS.md`). Of the 47 unique unmatched URLs from the three later Nemotron files, 35 are dead, 1 is live and 11 could not be determined (`results/CITATION_CHECKS.md`).
+
+**The limit.** The check matches addresses, not content: it cannot tell whether a returned page supports the claim made from it.
 
 ### The routing gate
 
