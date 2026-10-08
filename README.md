@@ -26,6 +26,8 @@ Otherwise the crew runs: Tavily retrieves UK sources, the agents produce a sourc
 
 **NVIDIA Nemotron 3 Nano** (`nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`) is the model behind both agents, run through CrewAI 1.15.21 at `max_tokens` 8000. Reasoning tokens are drawn from that same budget. `LAGOMY_MODEL` selects a different model for comparison runs.
 
+**Where Token Factory accelerated the work.** Because the endpoint is OpenAI-compatible, moving the crew from Claude to Nemotron was a configuration change rather than a rewrite: the same agents, tasks and tools, with a different `base_url` and model string. Plain completions and tool calling both worked on the first smoke test. Per-token pricing low enough to repeat every evaluation case many times (240 Nemotron runs at 8000 tokens) is what turned one-off failures into measured rates.
+
 **Tavily** defines the evidence set. The search results are the only material the model is entitled to cite, so anything outside them can be caught without a judge model: the citation check flags any URL in the answer that no search returned.
 
 ### The routing gate
