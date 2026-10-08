@@ -83,7 +83,7 @@ def setup_axes(ax):
 def load():
     """Yield (model_label, gated, record) for every non-error run."""
     for path in sorted(RESULTS.glob("*.jsonl")):
-        if path.name.endswith("_judged.jsonl"):
+        if path.name.endswith(("_judged.jsonl", "_rescored.jsonl")):
             continue
         gated = path.name == GATED_FILE
         for line in path.open():
@@ -260,11 +260,11 @@ def citation_chart():
     ax.set_title("Citing a page the run's own searches never returned",
                  fontsize=13, color=INK, loc="left", pad=12)
     fig.text(0.011, 0.03,
-             "Share of citing runs with at least one unmatched source_url. Of "
-             "47 such Nemotron addresses checked, 35 are dead. Sonnet's two "
+             "Share of citing runs with at least one unmatched source_url.\n"
+             "Of 47 such Nemotron addresses checked, 35 are dead. Sonnet's two "
              "both cited real pages.",
              fontsize=7.4, color=MUTED)
-    fig.tight_layout(rect=(0, 0.09, 1, 1))
+    fig.tight_layout(rect=(0, 0.13, 1, 1))
     out = ASSETS / "citation_mismatch.png"
     fig.savefig(out, facecolor=BG)
     plt.close(fig)
