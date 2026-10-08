@@ -59,11 +59,17 @@ The gate routes and makes no clinical claim. Its known false positives and negat
 
 ### Findings
 
-Full write-up in [results/FINDINGS.md](results/FINDINGS.md). Six results, with the raw eval files committed alongside. Two that shaped the build:
+Full write-up in [results/FINDINGS.md](results/FINDINGS.md). Six results, with the raw eval files committed alongside and a one-line reason for every hand-read verdict. Two that shaped the build:
 
-**Framing decides routing.** On the latent iron case, Nemotron routed correctly in 5 of 32 runs, against 16 of 16 for Sonnet and 29 of 30 for Opus. On the warfarin case, Nemotron routed correctly in 4 of 32.
+![Runs routed to urgent or professional help on the four routing cases, for Nemotron Nano, Sonnet 4.6, Opus 5.5 and Nemotron with the routing gate](assets/routing_by_model.png)
 
-**Nemotron cites pages its searches never returned.** This appeared in 55 of 174 citing runs. The later 134 of those runs cited 47 distinct URLs that no search returned: 35 were dead, 1 was live, and 11 could not be determined. The comparison runs showed 0 of 202 for Opus and 2 of 179 for Sonnet, both of those real pages. This is the finding the deterministic citation check exists to catch.
+**Framing decides routing.** On the latent iron case, Nemotron routed correctly in 5 of 32 runs, against 16 of 16 for Sonnet and 29 of 30 for Opus. On the warfarin case, Nemotron routed correctly in 4 of 32. The hatched bars are Nemotron behind the routing gate: 10 of 10 on every case, by construction, since the gate answers and no model is called.
+
+![Share of citing runs that cited a page the run's own searches never returned: Nemotron 55 of 174, Sonnet 2 of 179, Opus 0 of 202](assets/citation_mismatch.png)
+
+**Nemotron cites pages its searches never returned.** This appeared in 55 of 174 citing runs. In the three later Nemotron files, those runs cited 47 distinct addresses: 35 were dead, 1 was live, and 11 could not be determined. The comparison runs showed 0 of 202 for Opus and 2 of 179 for Sonnet, both of those real pages. This is the finding the deterministic citation check exists to catch.
+
+Charts are drawn from `results/*.jsonl` by `scripts/plot_findings.py` (`uv run --with matplotlib python scripts/plot_findings.py`).
 
 ### Limits
 
