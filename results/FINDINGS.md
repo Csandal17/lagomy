@@ -355,9 +355,14 @@ a reworded question can land on either side of the rules.
 - **Retrieval gaps.** Live searches occasionally returned no usable evidence for
   well-documented nutrients (zinc, folate, iodine), and the crew reported the
   gap honestly rather than inventing content.
-- **Malformed Nemotron outputs.** In two batch 1 runs Nemotron printed its tool
-  call as text instead of making it, the failure mode first seen on 14 September
-  at lower token limits. It persists, rarely, at 8000 tokens.
+- **Malformed Nemotron outputs.** In 16 of 240 Nemotron runs (about 7%), Nemotron
+  printed its tool call as text instead of making it: 2 of 60 in batch 1, 10 of
+  80 in batch 2, 3 of 60 in the original six cases and 1 of 40 in the routing
+  focus set. This is the failure mode first seen on 14 September at lower token
+  limits, and it persists at 8000 tokens. Counted as runs containing
+  `<tool_call>` in the raw results files (`grep -c`); no Sonnet or Opus file
+  contains the markup. The gated routing runs are excluded, since the model
+  was not called.
 - **Opus and assistant prefill.** One Opus run failed: CrewAI sent an assistant
   prefill on an internal retry, which Opus 5.5 rejects. 1 of 120 runs.
 
