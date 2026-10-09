@@ -26,7 +26,7 @@ Otherwise the crew runs: Tavily retrieves UK sources, the agents produce a sourc
 
 **NVIDIA Nemotron 3 Nano** (`nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`) is the model behind the crew's agents, run through CrewAI 1.15.21 at `max_tokens` 8000. Reasoning tokens are drawn from that same budget. `LAGOMY_MODEL` selects a different model for comparison runs.
 
-**Where Token Factory accelerated the work.** Because the endpoint is OpenAI-compatible, moving the crew from Claude to Nemotron was a configuration change rather than a rewrite: the same agents, tasks and tools, with a different `base_url` and model string. Plain completions and tool calling both worked on the first smoke test. Per-token pricing low enough to repeat every evaluation case many times (240 Nemotron runs at 8000 tokens) is what turned one-off failures into measured rates.
+**Where Token Factory accelerated the work.** Because the endpoint is OpenAI-compatible, moving the crew from Claude to Nemotron was a configuration change rather than a rewrite: the same agents, tasks and tools, with a different `base_url` and model string. Plain completions and tool calling both worked on the first smoke test. Per-token pricing low enough to repeat every evaluation case many times (276 Nemotron runs at 8000 tokens) is what turned one-off failures into measured rates.
 
 **Tavily** defines the evidence set. The search results are the only material the model is entitled to cite, so anything outside them can be caught without a judge model: the citation check flags any URL in the answer that no search returned. More on this below.
 
@@ -59,7 +59,7 @@ The gate routes and makes no clinical claim. Its known false positives and negat
 
 ### Findings
 
-Full write-up in [results/FINDINGS.md](results/FINDINGS.md). Six results, with the raw eval files committed alongside and a one-line reason for every hand-read verdict. Two that shaped the build:
+Full write-up in [results/FINDINGS.md](results/FINDINGS.md). Six findings and the routing gate measurement, with the raw eval files committed alongside. Two that shaped the build:
 
 ![Runs routed to urgent or professional help on the four routing cases, for Nemotron Nano, Sonnet 4.6, Opus 5.5 and Nemotron with the routing gate](assets/routing_by_model.png)
 

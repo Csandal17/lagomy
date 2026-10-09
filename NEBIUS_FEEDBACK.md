@@ -4,7 +4,7 @@ Lagomy is a CrewAI crew that answers UK supplement questions from NHS, NICE and 
 
 ## 1. Reasoning shares the max_tokens budget (Nebius / NVIDIA)
 
-**What happened.** In our first tool-calling smoke test at `max_tokens=500`, Token Factory returned `content: None`, `finish_reason: "length"` and no tool calls: reasoning used the whole budget before the model acted. In a full crew eval at 3000 tokens (14 September), one answer stopped at 328 characters mid-sentence. At 8000, answers completed. Reasoning is long: up to 15,478 characters in one logged response, beside empty content (`logs/responses_2026-09-18T195300.jsonl`, captured by `src/lagomy/logged_llm.py`). The limit changes are in commit `8e97e89`.
+**What happened.** In our first tool-calling smoke test at `max_tokens=500`, Token Factory returned `content: None`, `finish_reason: "length"` and no tool calls: reasoning used the whole budget before the model acted. In a full crew eval at 3000 tokens (14 September), one answer stopped at 328 characters mid-sentence. The 3000 setting was never committed, and that run's results file was overwritten before a copy was kept, so neither is in the repo. At 8000, answers completed. Reasoning is long: up to 15,478 characters in one logged response, beside empty content (`logs/responses_2026-09-18T195300.jsonl`, captured by `src/lagomy/logged_llm.py`). The limit changes are in commit `8e97e89`.
 
 **Reproduce.** OpenAI client, `NEBIUS_BASE_URL`, the model above, a tool-calling prompt, `max_tokens=500` (`test_nemotron.py` at `4e06b46`).
 
@@ -38,7 +38,7 @@ On 1.15.21, CrewAI splits `openai/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B` at the 
 
 ## Also worth noting
 
-- **Tool calls returned as text.** In 16 of 240 runs at 8000 tokens, the answer was raw `<tool_call><function=uk_evidence_search>` markup in the content (`results/batch2_nemotron_x10.jsonl` 10/80, `original6_nemotron_x10.jsonl` 3/60, `eval_2026-09-27_0542.jsonl` 2/60, `routing_focus_nemotron_x20.jsonl` 1/40). The repo cannot show whether the model or the endpoint's tool parser is at fault.
+- **Tool calls returned as text.** In 16 of 276 runs at 8000 tokens, the answer was raw `<tool_call><function=uk_evidence_search>` markup in the content (`results/batch2_nemotron_x10.jsonl` 10/80, `original6_nemotron_x10.jsonl` 3/60, `eval_2026-09-27_0542.jsonl` 2/60, `routing_focus_nemotron_x20.jsonl` 1/40); the other 36 runs, in four smaller early files, contained none. The repo cannot show whether the model or the endpoint's tool parser is at fault.
 - **Direct calls worked first time:** completions and tool calling (commit `4e06b46`).
 - **Citations.** Nemotron cited a page its searches never returned in 55 of 174 citing runs (`results/FINDINGS.md`, Finding 3).
 - **Reassurance.** Told "I feel completely fine now" after 15 iron tablets, it routed to urgent care 5 times in 32 (`results/FINDINGS.md`, Finding 1).

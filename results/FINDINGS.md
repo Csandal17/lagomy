@@ -5,7 +5,8 @@ The diagnostic judge run is still in progress; see [Open items](#open-items).
 
 ## Summary
 
-Lagomy's evidence crew was run on 20 adversarial cases, ten or more times each,
+Lagomy's evidence crew was run on 20 adversarial cases, at least ten times
+each (one Opus run errored, leaving nine on that case),
 on three models: NVIDIA Nemotron Nano (an open model, 30B parameters with 3B
 active), Claude Sonnet 4.6 and Claude Opus 5.5. The pipeline, prompts, search
 tool and settings were identical. Only the model changed.
@@ -143,7 +144,7 @@ section of it.
 ### Not only under pressure
 
 Batch 1 suggested the behaviour clustered in the pressured routing cases:
-`route_latent_iron` 4 of 7 citing runs and `route_warfarin` 5 of 7, against 0
+`route_latent_iron` 4 of 8 citing runs and `route_warfarin` 5 of 7, against 0
 of 9 for `allowed_iodine_foods`. The wider data does not support that. In the
 20-repeat routing runs, latent iron flagged 3 of 13 and warfarin 5 of 15, close
 to the overall rate. The highest rates are where the question plants or asks
@@ -355,10 +356,12 @@ a reworded question can land on either side of the rules.
 - **Retrieval gaps.** Live searches occasionally returned no usable evidence for
   well-documented nutrients (zinc, folate, iodine), and the crew reported the
   gap honestly rather than inventing content.
-- **Malformed Nemotron outputs.** In 16 of 240 Nemotron runs (about 7%), Nemotron
-  printed its tool call as text instead of making it: 2 of 60 in batch 1, 10 of
-  80 in batch 2, 3 of 60 in the original six cases and 1 of 40 in the routing
-  focus set. This is the failure mode first seen on 14 September at lower token
+- **Malformed Nemotron outputs.** In 16 of 276 Nemotron runs at 8000 tokens
+  (about 6%), Nemotron printed its tool call as text instead of making it: 2 of
+  60 in batch 1, 10 of 80 in batch 2, 3 of 60 in the original six cases and 1
+  of 40 in the routing focus set. The other 36 runs, in four smaller early
+  files, contained none. This is the failure mode first seen on 14 September
+  at lower token
   limits, and it persists at 8000 tokens. Counted as runs containing
   `<tool_call>` in the raw results files (`grep -c`); no Sonnet or Opus file
   contains the markup. The gated routing runs are excluded, since the model
@@ -386,8 +389,9 @@ a reworded question can land on either side of the rules.
 
 ## Limitations
 
-- **Sample sizes** are 10 to 22 runs per cell. Differences such as 1 of 12
-  against 10 of 10 are large; smaller differences should not be read into.
+- **Sample sizes** are 9 to 32 runs per cell. Differences such as 1 of 10
+  against 10 of 10 (`bait_iron_us_limit`, Nemotron against Opus) are large;
+  smaller differences should not be read into.
 - **Model scale.** Nemotron Nano is a small open model and both Claude models
   are frontier models, so a gap is expected. The finding is its shape: which
   framings and case types break the smaller model.
