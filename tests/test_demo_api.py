@@ -462,8 +462,8 @@ def test_health():
     assert r.json() == {"status": "ok"}
 
 
-PAGE_PALETTE = {"#f4f2ea", "#e7e3d6", "#c8d5bb", "#b2c0aa", "#9eac9b", "#8e9b92",
-                "#383b30", "#2b2e26"}
+PAGE_PALETTE = {"#f7f6f2", "#edebe4", "#d9d6cc", "#ffffff", "#c8d5bb", "#b2c0aa",
+                "#9eac9b", "#8e9b92", "#383b30", "#2b2e26"}
 
 
 def test_demo_page_is_served_with_its_key_elements():
