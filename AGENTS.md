@@ -66,6 +66,8 @@ Chantal is the technical decision-maker on this repository. Your job is to carry
 - the register identifier
 - `match_type`: `exact`, `normalised` or `none`
 
+Define these as Pydantic models, as `api.py` does. The field names are Lagomy's own, chosen now. Mapping the register's columns onto them belongs to the later ingestion task.
+
 **Verbatim means verbatim.** Never paraphrase, summarise, correct, trim or tidy register text or the entered claim. A typo in the entered claim stays in the response.
 
 **Matching:**
@@ -76,10 +78,11 @@ Chantal is the technical decision-maker on this repository. Your job is to carry
 
 **What `normalised` ignores:** letter case, punctuation and runs of whitespace. Nothing else.
 - Words are never ignored. "contributes to a reduction" and "contributes to the reduction" are **not** a normalised match.
+- Punctuation means every character whose Unicode category starts with "P", including curly quotes and dashes. Each one is replaced with a space, never deleted, so "1.5" can never become "15". Symbols such as µ, + and ° are not punctuation and are kept.
 - Define the claims normaliser inside the claims module. Do not reuse or change `dataset.normalise()`, because changing it would change `/product` matching.
 - Only Chantal can widen this definition, by editing this file.
 
-**Prose:** prefer fixed field values to sentences. Any message string in a response must pass `find_banned_phrases()`.
+**Prose:** prefer fixed field values to sentences. Any text Lagomy writes in a response (field names, `match_type` values, messages) must pass `find_banned_phrases()` and must contain none of the verdict words above. Keep the verdict words as a list inside the claims module; `guardrails.py` stays unchanged. The entered claim and the register text are exempt, because verbatim always wins.
 
 ## Data and privacy
 
@@ -99,7 +102,7 @@ Chantal is the technical decision-maker on this repository. Your job is to carry
   - a miss returning `none` with no invented register fields
   - register wording and the entered claim returned byte-for-byte unchanged
   - more than one matching entry, all returned
-  - no forbidden verdict word anywhere in any response
+  - no forbidden verdict word in any text Lagomy writes (the entered claim and register text are exempt)
 - Never weaken, skip or delete a test to make it pass. If a test looks wrong, say so and stop.
 
 ## Do not run
