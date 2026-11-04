@@ -79,6 +79,30 @@ def test_liposomal_statements_stand_alone():
     assert all("a discussion paper reviewed by the Committee on Toxicity (COT)" in t.replace("A discussion", "a discussion") for t in annex_a)
 
 
+def test_bioavailability_entry():
+    bioavailability = DictionaryEntry.model_validate(load_entries()[DICTIONARY_DIR / "bioavailability.json"])
+    assert bioavailability.question == "What is bioavailability?"
+    assert bioavailability.category == "measurement"
+    assert bioavailability.status == "draft"  # until Chantal reviews it
+    assert bioavailability.related_terms == ["liposomal"]
+    assert bioavailability.what_it_doesnt_tell_you and bioavailability.what_the_evidence_says
+    assert all(s.source_authority == "COT" for _, s in bioavailability.statements())
+
+
+def test_bioavailability_statements_stand_alone():
+    """Same rule as liposomal: each statement names its own source in full."""
+    bioavailability = DictionaryEntry.model_validate(load_entries()[DICTIONARY_DIR / "bioavailability.json"])
+    for _, statement in bioavailability.statements():
+        text = statement.text
+        assert "the discussion paper" not in text.lower(), text
+        assert not text.lower().startswith(("it ", "in those", "the report", "the committee noted", "the committee said", "the committee recommended", "this ")), text
+        assert any(name in text for name in (
+            "A discussion paper reviewed by the Committee on Toxicity (COT)",
+            "The Committee on Toxicity (COT)",
+            "The COT report",
+        )), text
+
+
 # The format -------------------------------------------------------------------
 
 
@@ -217,4 +241,5 @@ def test_file_name_should_match_the_term():
 
 def test_cli(capsys):
     assert check_dictionary.main([]) == 0
-    assert "Dictionary check: 1 entry, 0 errors" in capsys.readouterr().out
+    entries = len(load_entries())
+    assert f"Dictionary check: {entries} {'entry' if entries == 1 else 'entries'}, 0 errors" in capsys.readouterr().out

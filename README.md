@@ -46,7 +46,7 @@ python check_dictionary.py
 
 It blocks sources off the trusted list (or labelled with the wrong authority, or regional NHS sites), the API guardrail's advice phrases, brand names, and two entries claiming the same word. It flags em dashes, questions that sound like accusations, and related terms with no entry yet.
 
-The first entry, `liposomal`, is a draft built from the Committee on Toxicity's 2025 report on novel supplement formulations.
+The first two entries, `liposomal` and `bioavailability`, are drafts built from the Committee on Toxicity's 2025 report on novel supplement formulations.
 
 ## Running it
 
