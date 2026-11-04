@@ -467,7 +467,7 @@ def check_product_ingredients(report, rows, product_ids, products, canonical):
 
         if per:
             if per in HEADER_LEFTOVERS:
-                report.error(tab, number, "per is 'per', a leftover header word in the dropdown.")
+                report.error(tab, number, f"per {per!r} is a leftover header word in the dropdown.")
             elif per not in PER_VALUES:
                 report.error(tab, number, f"per {per!r} isn't valid. Use 'per serving' and say what a serving is on the Products row.")
             elif per == "per serving" and product_id:

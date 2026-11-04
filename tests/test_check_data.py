@@ -229,7 +229,9 @@ def test_blank_amount_needs_a_reason(tmp_path):
     "per, expected",
     [
         ("per 2 tablets", "Use 'per serving'"),
-        ("per", "leftover header word"),
+        ("per", "per 'per' is a leftover header word"),
+        ("form", "per 'form' is a leftover header word"),
+        ("daily_dose_source", "per 'daily_dose_source' is a leftover header word"),
     ],
 )
 def test_per_values(tmp_path, per, expected):
