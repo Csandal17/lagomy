@@ -6,3 +6,6 @@ test_images/
 log.json
 log.json
 supplement_report.pdf
+
+# CSV downloads of the master sheet, for check_data.py. The dataset stays out of git.
+sheet_export/
