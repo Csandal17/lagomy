@@ -65,6 +65,20 @@ def test_liposomal_entry():
     assert liposomal.related_ingredients == ["ascorbic acid"]  # the dataset's canonical name
 
 
+def test_liposomal_statements_stand_alone():
+    """The app may show one statement on its own, so none may lean on another
+    for its subject, and Annex A lines name the discussion paper in full."""
+    liposomal = DictionaryEntry.model_validate(load_entries()[DICTIONARY_DIR / "liposomal.json"])
+    texts = [s.text for _, s in liposomal.statements()]
+    for text in texts:
+        lowered = text.lower()
+        assert "the discussion paper" not in lowered, text
+        assert not lowered.startswith(("it ", "in those", "the report", "the committee recommended", "the word on its own")), text
+    annex_a = [t for t in texts if "discussion paper" in t]
+    assert len(annex_a) == 6
+    assert all("a discussion paper reviewed by the Committee on Toxicity (COT)" in t.replace("A discussion", "a discussion") for t in annex_a)
+
+
 # The format -------------------------------------------------------------------
 
 
