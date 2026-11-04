@@ -63,6 +63,31 @@ python run_guardrail_eval.py
 
 Note: each eval run executes the full crew against six cases with live searches, so it takes several minutes and costs API credit. Results are written to `eval_results.json`.
 
+## Checking the dataset
+
+`check_data.py` checks the master sheet against the dataset's own rules before anything is published. It needs nothing beyond Python itself.
+
+1. In Google Sheets, download each of these tabs as CSV (File > Download > Comma-separated values): Products, Ingredients, Product_Ingredients, Product_Warnings, Product_Claims, Brands, Categories.
+2. Put the files in a folder called `sheet_export/` in this repo. It's in `.gitignore`, so the data never gets committed. Google's file names work as they are.
+3. Run:
+
+```bash
+python check_data.py sheet_export
+```
+
+It reports two kinds of finding, with the sheet's own row numbers:
+
+- **Errors** break a rule, and make the script exit with status 1. For example: an ingredient name that isn't the dictionary's exact canonical name, a unit that isn't on the list (`mcg` instead of `µg`, or a Greek μ that looks like µ but doesn't match), a `per` value that isn't on the list, a % NRV on a botanical (which has no NRV), a barcode with the wrong check digit, or a CAS number with the wrong check digit.
+- **Checks** are worth comparing with the label, but may be right as printed. For example: a % NRV that doesn't match the amount against the adult NRV, the same barcode on two products, or a TBC product that has ingredient rows (so the export would publish it).
+
+It also prints the next free IDs (P, I, W, C and B), so new rows don't need counting by hand.
+
+The tests use small made-up sheets, never the real data:
+
+```bash
+uv run --with pytest pytest
+```
+
 ## Status
 
 In active development, built in the open.
