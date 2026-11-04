@@ -1,0 +1,78 @@
+{
+  "term": "liposomal",
+  "question": "What does liposomal mean?",
+  "synonyms": [
+    "liposome",
+    "liposomes",
+    "liposomal formulation"
+  ],
+  "category": "formulation",
+  "what_it_means": [
+    {
+      "text": "A discussion paper reviewed by the Committee on Toxicity (COT) describes liposomes as spherical vesicular structures made of one or more phospholipid bilayers.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "The COT report looks at liposomal supplements as one of several novel formulations designed to increase how much of a supplement compound the body absorbs when it is taken by mouth (oral bioavailability).",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    }
+  ],
+  "what_it_doesnt_tell_you": [
+    {
+      "text": "The word on its own doesn't tell you what a product contains. The discussion paper says there is likely to be significant heterogeneity in the properties of supplements that are advertised as 'liposomal'.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "It doesn't tell you how a product was tested. The discussion paper says many of the products available lack testing and characterisation.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    }
+  ],
+  "what_the_evidence_says": [
+    {
+      "text": "The discussion paper found only a handful of controlled studies of the oral bioavailability of liposomal vitamin C in humans.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "In those pharmacokinetic studies, liposomal preparations of vitamin C appeared to increase oral bioavailability.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "In a study that also gave vitamin C intravenously, blood levels after liposomal vitamin C taken by mouth were significantly lower than after intravenous vitamin C at all time points.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "The report says there is a lack of evidence and a large degree of uncertainty about the impact of these changes in formulation.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "The committee recommended that novel formulations and their active ingredients be assessed case by case for how the body absorbs and handles them (toxicokinetics).",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    }
+  ],
+  "related_terms": [
+    "bioavailability"
+  ],
+  "related_ingredients": [
+    "ascorbic acid"
+  ],
+  "status": "draft",
+  "notes": "Source: COT Science Report 01/25, 'Novel formulations of supplement compounds designed to increase oral bioavailability', published on GOV.UK 19 Dec 2025 (an earlier version, TOX/2025/09, was dated Mar 2025). Statements from sections 8 onwards (Annex A) are the discussion paper reviewed by the COT, not an adopted COT output; the committee's own view is in sections 5 (discussion) and 7 (recommendations). Wording checked against the GOV.UK page on 4 Nov 2026: liposome definition (10.5, para 21), heterogeneity and lack of testing (12, para 62), handful of studies and appear to increase bioavailability (14.2, para 86), IV comparison (14.2, para 80, Davis et al. 2016), lack of evidence and uncertainty (2.2), case-by-case recommendation (2.2 and 7). Deliberately left out: the report's 'no liposomes' examples (from rival manufacturers' own tests, methods unreported) and the line about studies commissioned by manufacturers (the committee added that this is not a major issue for risk assessment, so quoting half of it would mislead)."
+}

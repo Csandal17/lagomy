@@ -1,5 +1,4 @@
 import json
-from datetime import date
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -7,6 +6,7 @@ from pydantic import BaseModel
 from pathlib import Path
 import pandas as pd
 from guardrails import find_banned_phrases
+from models import EvidenceStatement
 import dataset
 
 load_dotenv()
@@ -15,14 +15,6 @@ class EvidenceRequest(BaseModel):
     """What a caller sends us."""
     ingredient: str
     probe: str = "What do published UK sources say about this ingredient?"
-
-
-class EvidenceStatement(BaseModel):
-    """One sourced claim. The provenance unit of the whole API."""
-    text: str
-    source_url: str
-    source_authority: str   # e.g. "NHS", "NICE", "BNF"
-    retrieval_date: date
 
 
 class IngredientEvidence(BaseModel):
