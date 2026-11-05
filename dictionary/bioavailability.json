@@ -1,0 +1,93 @@
+{
+  "term": "bioavailability",
+  "question": "What is bioavailability?",
+  "synonyms": [
+    "bioavailable",
+    "oral bioavailability"
+  ],
+  "category": "measurement",
+  "what_it_means": [
+    {
+      "text": "A discussion paper reviewed by the Committee on Toxicity (COT) defines bioavailability as the proportion of a substance that reaches the body's general blood circulation unchanged after it is taken in a particular way, such as by mouth, and is therefore available to interact with its target sites in the body.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "A discussion paper reviewed by the Committee on Toxicity (COT) says the critical factors affecting the oral bioavailability of supplement compounds include how much of the dose is available for absorption (bioaccessibility), how much is absorbed, and how fast and how far the body breaks the compound down (biotransformation).",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "A discussion paper reviewed by the Committee on Toxicity (COT) says that to be absorbed when taken by mouth, a compound needs to dissolve in the watery contents of the gut and pass through the fatty membranes of the gut wall, so compounds that are very water-loving or very fat-loving are absorbed more poorly than those in between.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    }
+  ],
+  "what_it_doesnt_tell_you": [
+    {
+      "text": "A claim of improved bioavailability on its own doesn't tell you what a product is being compared with. A discussion paper reviewed by the Committee on Toxicity (COT) says many supplements make generic claims about improved bioavailability without indicating the supposed mechanism, and it is not clear what the point of comparison is.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "A figure for how much more of a supplement is absorbed doesn't tell you the evidence behind it. A discussion paper reviewed by the Committee on Toxicity (COT) says precise claims that some products make about their relative absorption are generally unreferenced or lack associated evidence.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "A bioavailability result on its own doesn't tell you whether it was measured after a meal or on an empty stomach. The Committee on Toxicity (COT) said that feeding state, such as the time since the last meal and what it contained, significantly affects the bioavailability of fat-soluble compounds taken by mouth.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    }
+  ],
+  "what_the_evidence_says": [
+    {
+      "text": "The COT report says that although novel supplement formulations are often marketed as having improved absorption compared with more traditional formulations, there is a lack of evidence and a large degree of uncertainty as to the impact of these changes.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "The COT report says that because the effects of supplement formulation on bioavailability are uncertain, their possible toxicological effects are similarly uncertain and of potential concern, particularly for under-characterised active ingredients or vulnerable populations.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "A discussion paper reviewed by the Committee on Toxicity (COT) says that in its three case studies (vitamin C, curcuminoids and cannabidiol), an increase in oral bioavailability was generally recorded for novel formulations compared with standard supplements, but that the studies are difficult to compare because they used different doses and reference formulations.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "The Committee on Toxicity (COT) noted that at standard doses vitamin C is fully bioavailable, and that although changing its formulation may affect how the body regulates it, fat-soluble molecules have more scope for increased bioavailability when formulated to increase their solubility and uptake.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "The Committee on Toxicity (COT) said that where health-based guidance values (intake levels set to protect health) already exist for a compound, for example curcumin, they may not be protective for formulations with increased bioavailability.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    },
+    {
+      "text": "The Committee on Toxicity (COT) recommended that feeding state (fed or fasted) be treated as a key determinant of bioavailability, and critically considered when comparing different formulations.",
+      "source_url": "https://www.gov.uk/government/publications/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability/novel-formulations-of-supplement-compounds-designed-to-increase-oral-bioavailability",
+      "source_authority": "COT",
+      "retrieval_date": "2026-11-04"
+    }
+  ],
+  "related_terms": [
+    "liposomal"
+  ],
+  "related_ingredients": [],
+  "status": "draft",
+  "notes": "Source: COT Science Report 01/25, 'Novel formulations of supplement compounds designed to increase oral bioavailability', published on GOV.UK 19 Dec 2025. Statements from sections 8 onwards (Annex A) are the discussion paper reviewed by the COT, not an adopted COT output; the committee's own view is in sections 5 (discussion) and 7 (recommendations); section 2.2 (executive summary) is attributed to 'the COT report', as in liposomal.json. Sections 3 and 4 were not used: they summarise the discussion paper rather than give the committee's view. Wording checked against the live GOV.UK page on 4 Nov 2026. what_it_means: definition (8, para 2, quoting COT 2023); critical factors (10.2, para 6); water- and fat-loving compounds (10.2, para 5). what_it_doesnt_tell_you: point of comparison (12, para 55); quantitative claims unreferenced (12, para 55); feeding state (5). what_the_evidence_says: lack of evidence and uncertainty (2.2); toxicological uncertainty (2.2); three case studies, difficult to compare (15, para 150); vitamin C fully bioavailable (5); health-based guidance values (5); feeding state recommendation (7, recommendation 3). Deliberately left out: the reporting-bias discussion (5 and 15, para 152), for the reason given in liposomal.json; and the curcumin and CBD fold-changes, which need their study context. related_ingredients is empty until the dataset's canonical names for curcumin and cannabidiol are confirmed."
+}

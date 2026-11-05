@@ -26,6 +26,28 @@ The no-advice rule is tested, not just intended. `guardrail_cases.yaml` holds ad
 
 The same phrase checks run on live API responses. If advice-like language appears in the prose, the prose is withheld, and the sourced evidence is returned without it — the record survives, the risky rendering doesn't.
 
+## The plain-words dictionary (in progress)
+
+Supplement labels lean on words like *liposomal*, *bioavailability* and *standardised extract*. The dictionary explains that language in plain words, with every line sourced. It explains the terms; it doesn't police the brands that use them, so it never names a brand or quotes brand marketing.
+
+Each entry in `dictionary/` answers one neutral question, such as "What does liposomal mean?", in three sections:
+
+- **What it means**: a plain explanation.
+- **What it doesn't tell you**: the limits of the term. Each line carries its own source, or it would be Lagomy's verdict.
+- **What the evidence says**: what independent UK sources say, with links.
+
+Every line is an `EvidenceStatement` (text, source URL, source authority, retrieval date), the same model the Evidence API uses (`models.py`), so `check_links.py` checks the dictionary's sources too.
+
+Check the entries with:
+
+```bash
+python check_dictionary.py
+```
+
+It blocks sources off the trusted list (or labelled with the wrong authority, or regional NHS sites), the API guardrail's advice phrases, brand names, and two entries claiming the same word. It flags em dashes, questions that sound like accusations, and related terms with no entry yet.
+
+The first two entries, `liposomal` and `bioavailability`, are drafts built from the Committee on Toxicity's 2025 report on novel supplement formulations. A third, `nrv` ("What does % NRV mean?"), is a draft built from the Department of Health and Social Care's guidance on nutrition labelling and on food supplements.
+
 ## Running it
 
 Requires Python 3.12 and [uv](https://docs.astral.sh/uv/).

@@ -1,10 +1,12 @@
-"""Check that every source_url in evidence_store.json still resolves."""
+"""Check that every source_url in evidence_store.json and dictionary/ still resolves."""
 
 import json
 import time
 import urllib.request
 import urllib.error
 from collections import defaultdict
+
+from dictionary_model import SECTIONS, load_entries
 
 STORE = "evidence_store.json"
 FIELDS = ["role", "food_sources", "reference_intake", "upper_limit", "regulatory_flags"]
@@ -16,6 +18,13 @@ for key, entry in store.items():
     for field in FIELDS:
         for s in entry["evidence"].get(field, []):
             cited_by[s["source_url"]].add(key)
+
+# The plain-words dictionary uses the same EvidenceStatement, so its
+# sources are checked here too.
+for path, entry in load_entries().items():
+    for section in SECTIONS:
+        for s in entry.get(section, []):
+            cited_by[s["source_url"]].add(f"dictionary/{path.name}")
 
 
 def status(url):
