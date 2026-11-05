@@ -267,3 +267,7 @@ def test_nrv_entry():
     for _, statement in nrv.statements():
         assert statement.source_authority == "DHSC"
         assert "Department of Health and Social Care (DHSC)" in statement.text, statement.text
+        # Food and supplement labels use the same Annex XIII values, so the entry
+        # must not set NRVs and RDAs up as separate systems.
+        assert "RDA" not in statement.text and "recommended daily allowance" not in statement.text.lower(), statement.text
+        assert "do not apply to food supplements" not in statement.text, statement.text
