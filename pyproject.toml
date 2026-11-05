@@ -29,3 +29,9 @@ build-backend = "hatchling.build"
 
 [tool.crewai]
 type = "crew"
+
+[tool.pytest.ini_options]
+# Only tests/ holds pytest tests. test_tavily.py and test_vision.py at the
+# root are scripts that make live API calls, so pytest must not collect them.
+testpaths = ["tests"]
+pythonpath = ["."]
