@@ -1,0 +1,74 @@
+{
+  "term": "NRV",
+  "question": "What does % NRV mean?",
+  "synonyms": [
+    "% NRV",
+    "nutrient reference value",
+    "nutrient reference values"
+  ],
+  "category": "measurement",
+  "what_it_means": [
+    {
+      "text": "Guidance on nutrition labelling from the Department of Health and Social Care (DHSC) describes nutrient reference values (NRVs) as guidelines about the amount of vitamins and minerals that it is recommended should be consumed on a daily basis in order to maintain a healthy diet.",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a8010d8e5274a2e87db7a62/Nutrition_Technical_Guidance.pdf",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    },
+    {
+      "text": "Guidance on nutrition labelling from the Department of Health and Social Care (DHSC) says that when vitamins or minerals are declared on a food label, they must also be given as a percentage of their NRVs, in addition to the actual amounts.",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a8010d8e5274a2e87db7a62/Nutrition_Technical_Guidance.pdf",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    },
+    {
+      "text": "Guidance on nutrition labelling from the Department of Health and Social Care (DHSC) says the NRVs for the vitamins and minerals that may be declared are set out in point 1 of Part A of Annex XIII of Regulation (EU) No 1169/2011 on the provision of food information to consumers.",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a8010d8e5274a2e87db7a62/Nutrition_Technical_Guidance.pdf",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    },
+    {
+      "text": "Guidance on nutrition labelling from the Department of Health and Social Care (DHSC) says the European Commission's decision is that, for labelling purposes, the generic term 'reference intakes' is used rather than NRVs.",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a8010d8e5274a2e87db7a62/Nutrition_Technical_Guidance.pdf",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    }
+  ],
+  "what_it_doesnt_tell_you": [
+    {
+      "text": "A % NRV figure on its own doesn't tell you which labelling rules a product follows. Guidance on nutrition labelling from the Department of Health and Social Care (DHSC) says its nutrition labelling rules do not apply to food supplements, which fall within the scope of the food supplements directive (Directive 2002/46/EC).",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a8010d8e5274a2e87db7a62/Nutrition_Technical_Guidance.pdf",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    },
+    {
+      "text": "Supplement labels follow their own rules. Guidance on food supplements from the Department of Health and Social Care (DHSC) says the amount of certain vitamins or minerals in a food supplement has to be expressed as a percentage of the relevant recommended daily allowance (RDA).",
+      "source_url": "https://www.gov.uk/government/publications/food-supplements-guidance-and-faqs/guidance-notes-on-legislation-implementing-directive-200246ec-on-food-supplements",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    }
+  ],
+  "what_the_evidence_says": [
+    {
+      "text": "Guidance on nutrition labelling from the Department of Health and Social Care (DHSC) says vitamins and minerals declared on a food label have to be present in 'significant amounts', which as a rule means 15% of the NRV per 100g or 100ml for products other than drinks, 7.5% of the NRV per 100ml for drinks, or 15% of the NRV per portion if the package contains only a single portion.",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a8010d8e5274a2e87db7a62/Nutrition_Technical_Guidance.pdf",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    },
+    {
+      "text": "Guidance on nutrition labelling from the Department of Health and Social Care (DHSC) says the percentage of the NRV on a food label must be given per 100g or per 100ml, and may also be given per portion.",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a8010d8e5274a2e87db7a62/Nutrition_Technical_Guidance.pdf",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    },
+    {
+      "text": "Guidance on food supplements from the Department of Health and Social Care (DHSC) says that if a supplement's recommended daily intake is 6 tablets, taken as 2 tablets 3 times a day, the amounts on the label should be given for the total daily intake.",
+      "source_url": "https://www.gov.uk/government/publications/food-supplements-guidance-and-faqs/guidance-notes-on-legislation-implementing-directive-200246ec-on-food-supplements",
+      "source_authority": "DHSC",
+      "retrieval_date": "2026-11-05"
+    }
+  ],
+  "related_terms": [],
+  "related_ingredients": [],
+  "status": "draft",
+  "notes": "Sources, both from the Department of Health and Social Care (DHSC) and read live on 5 Nov 2026. TG: 'Technical guidance on nutrition labelling' (DHSC, Version 2, September 2016; GOV.UK publication updated 3 Mar 2017), PDF on assets.publishing.service.gov.uk. FS: 'Guidance notes on legislation implementing Directive 2002/46/EC on food supplements' (DHSC, GOV.UK HTML page, part of 'Food supplements: guidance and FAQs'). what_it_means: NRV definition (TG chapter VII, 'Nutrient reference values (\"Reference intakes\")', 'Definition of nutrient reference values'); mandatory % NRV alongside amounts (TG chapter VII, 'Mandatory information on percentages of NRVs'); Annex XIII Part A point 1 (TG chapter VII, 'Definition of nutrient reference values'; the regulation's full name from TG's introduction, where it is abbreviated EU FIC); 'reference intakes' term (TG chapter III, 'Provision of % reference intakes for vitamins and/or minerals', and the note in chapter VII). what_it_doesnt_tell_you: rules do not apply to food supplements (TG chapter 1, 'Scope of nutrition labelling provisions'); supplements use % of the RDA (FS section 5.7, 'Regulation 6(2)(f) and Regulation 6(3)(a to e)', question on regulation 6(3)(e)). what_the_evidence_says: significant amounts (TG chapter III, 'Declaration of vitamins and minerals: Significant amounts'); per 100g or 100ml, optionally per portion (TG chapter VII, 'Mandatory information on percentages of NRVs'); total daily intake (FS section 5.7, question on flexibility in expressing regulation 6(3)(c)). Not claimed: neither source says that a supplement's RDA percentages equal food NRV percentages, so the entry doesn't link the two. TG is a 2016 to 2017 guide written before the UK left the EU and still refers to EU law and the European Commission."
+}

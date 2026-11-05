@@ -50,7 +50,8 @@ def check(*entries):
 def test_real_entries_have_no_errors():
     entries = load_entries()
     assert entries, "dictionary/ should hold at least the liposomal entry"
-    errors, _ = check_dictionary.check_entries(entries, today=TODAY)
+    # Real entries are checked against the real date, as check_dictionary.py does.
+    errors, _ = check_dictionary.check_entries(entries)
     assert errors == []
 
 
@@ -171,6 +172,18 @@ def test_bnf_and_nice_hosts_carry_their_own_labels():
     assert check(ok)[0] == []
 
 
+def test_dhsc_is_allowed_on_gov_uk_hosts_only():
+    ok = entry(
+        what_it_means=[statement(url="https://www.gov.uk/government/publications/technical-guidance-on-nutrition-labelling", authority="DHSC")],
+        what_the_evidence_says=[statement(url="https://assets.publishing.service.gov.uk/media/x/Nutrition_Technical_Guidance.pdf", authority="DHSC")],
+    )
+    assert check(ok)[0] == []
+    errors, _ = check(entry(what_it_means=[statement(url="https://www.nhs.uk/conditions/vitamins-and-minerals/", authority="DHSC")]))
+    assert any("labelled NHS, not 'DHSC'" in e for e in errors), errors
+    errors, _ = check(entry(what_it_means=[statement(url="https://cot.food.gov.uk/x", authority="DHSC")]))
+    assert any("labelled COT, not 'DHSC'" in e for e in errors), errors
+
+
 def test_future_retrieval_date():
     errors, _ = check(entry(what_it_means=[statement(when="2026-12-01")]))
     assert any("in the future" in e for e in errors), errors
@@ -243,3 +256,14 @@ def test_cli(capsys):
     assert check_dictionary.main([]) == 0
     entries = len(load_entries())
     assert f"Dictionary check: {entries} {'entry' if entries == 1 else 'entries'}, 0 errors" in capsys.readouterr().out
+
+
+def test_nrv_entry():
+    nrv = DictionaryEntry.model_validate(load_entries()[DICTIONARY_DIR / "nrv.json"])
+    assert nrv.question == "What does % NRV mean?"
+    assert nrv.category == "measurement"
+    assert nrv.status == "draft"  # until Chantal reviews it
+    assert "% NRV" in nrv.synonyms
+    for _, statement in nrv.statements():
+        assert statement.source_authority == "DHSC"
+        assert "Department of Health and Social Care (DHSC)" in statement.text, statement.text

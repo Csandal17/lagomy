@@ -34,8 +34,8 @@ AUTHORITIES_BY_HOST = {
     "www.nice.org.uk": {"NICE"},
     "cks.nice.org.uk": {"NICE"},
     "bnf.nice.org.uk": {"BNF"},
-    "www.gov.uk": {"COT", "FSA"},
-    "assets.publishing.service.gov.uk": {"COT", "FSA"},
+    "www.gov.uk": {"COT", "FSA", "DHSC"},
+    "assets.publishing.service.gov.uk": {"COT", "FSA", "DHSC"},
     "cot.food.gov.uk": {"COT"},
     "www.food.gov.uk": {"FSA"},
 }
